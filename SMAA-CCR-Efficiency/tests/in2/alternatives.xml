@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="xmcdaKappalab.xsl"?>
+<xmcda:XMCDA xmlns:xmcda="http://www.decision-deck.org/2009/XMCDA-2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.decision-deck.org/2009/XMCDA-2.0.0 file:/home/pat/Documents/currentResearch/DecisionDeck/svn-DecisionDeck/XMCDA/XMCDA-2.0.0.xsd">
+
+  <alternatives>
+	 <description>
+		<title>
+			Physicians
+		</title>
+		<comment>
+			Example of Fiallos et al. (2013, p.92).
+		</comment>
+	</description>
+  
+    <alternative id="h1">
+      <active>true</active>
+    </alternative>
+    <alternative id="h2">
+      <active>true</active>
+    </alternative>
+    <alternative id="h3">
+      <active>true</active>
+    </alternative>
+	<alternative id="h4">
+      <active>true</active>
+    </alternative>
+	<alternative id="h5">
+      <active>true</active>
+    </alternative>
+    <alternative id="h6">
+      <active>true</active>
+    </alternative>
+    <alternative id="h7">
+      <active>true</active>
+    </alternative>
+	<alternative id="h8">
+      <active>true</active>
+    </alternative>
+	<alternative id="h9">
+      <active>true</active>
+    </alternative>
+    <alternative id="h10">
+      <active>true</active>
+    </alternative>
+    <alternative id="h11">
+      <active>true</active>
+    </alternative>
+	<alternative id="h12">
+      <active>true</active>
+    </alternative>
+	<alternative id="h13">
+      <active>true</active>
+    </alternative>
+	<alternative id="h14">
+      <active>true</active>
+    </alternative>
+	<alternative id="h15">
+      <active>true</active>
+    </alternative>
+    <alternative id="h16">
+      <active>true</active>
+    </alternative>
+    <alternative id="h17">
+      <active>true</active>
+    </alternative>
+	<alternative id="h18">
+      <active>true</active>
+    </alternative>
+	<alternative id="h19">
+      <active>true</active>
+    </alternative>
+	<alternative id="h20">
+      <active>true</active>
+    </alternative>
+  </alternatives>
+  
+</xmcda:XMCDA>

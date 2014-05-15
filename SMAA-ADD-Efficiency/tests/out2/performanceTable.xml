@@ -1,0 +1,665 @@
+<?xml version="1.0"?>
+<xmcda:XMCDA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xmcda="http://www.decision-deck.org/2009/XMCDA-2.0.0" xsi:schemaLocation="http://www.decision-deck.org/2009/XMCDA-2.0.0 http://www.decision-deck.org/xmcda/_downloads/XMCDA-2.0.0.xsd">
+  <performanceTable>
+    <alternativePerformances>
+      <alternativeID>h1</alternativeID>
+      <performance>
+        <criterionID>Bucket 1</criterionID>
+        <value>
+          <real>278</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Bucket 2</criterionID>
+        <value>
+          <real>440</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Bucket 3</criterionID>
+        <value>
+          <real>228</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Bucket 4</criterionID>
+        <value>
+          <real>49</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Bucket 5</criterionID>
+        <value>
+          <real>5</real>
+        </value>
+      </performance>
+    </alternativePerformances>
+    <alternativePerformances>
+      <alternativeID>h2</alternativeID>
+      <performance>
+        <criterionID>Bucket 1</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Bucket 2</criterionID>
+        <value>
+          <real>676</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Bucket 3</criterionID>
+        <value>
+          <real>324</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Bucket 4</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Bucket 5</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+    </alternativePerformances>
+    <alternativePerformances>
+      <alternativeID>h3</alternativeID>
+      <performance>
+        <criterionID>Bucket 1</criterionID>
+        <value>
+          <real>303</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Bucket 2</criterionID>
+        <value>
+          <real>620</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Bucket 3</criterionID>
+        <value>
+          <real>77</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Bucket 4</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Bucket 5</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+    </alternativePerformances>
+    <alternativePerformances>
+      <alternativeID>h4</alternativeID>
+      <performance>
+        <criterionID>Bucket 1</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Bucket 2</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Bucket 3</criterionID>
+        <value>
+          <real>1000</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Bucket 4</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Bucket 5</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+    </alternativePerformances>
+    <alternativePerformances>
+      <alternativeID>h5</alternativeID>
+      <performance>
+        <criterionID>Bucket 1</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Bucket 2</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Bucket 3</criterionID>
+        <value>
+          <real>14</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Bucket 4</criterionID>
+        <value>
+          <real>311</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Bucket 5</criterionID>
+        <value>
+          <real>675</real>
+        </value>
+      </performance>
+    </alternativePerformances>
+    <alternativePerformances>
+      <alternativeID>h6</alternativeID>
+      <performance>
+        <criterionID>Bucket 1</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Bucket 2</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Bucket 3</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Bucket 4</criterionID>
+        <value>
+          <real>779</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Bucket 5</criterionID>
+        <value>
+          <real>221</real>
+        </value>
+      </performance>
+    </alternativePerformances>
+    <alternativePerformances>
+      <alternativeID>h7</alternativeID>
+      <performance>
+        <criterionID>Bucket 1</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Bucket 2</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Bucket 3</criterionID>
+        <value>
+          <real>910</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Bucket 4</criterionID>
+        <value>
+          <real>90</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Bucket 5</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+    </alternativePerformances>
+    <alternativePerformances>
+      <alternativeID>h8</alternativeID>
+      <performance>
+        <criterionID>Bucket 1</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Bucket 2</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Bucket 3</criterionID>
+        <value>
+          <real>915</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Bucket 4</criterionID>
+        <value>
+          <real>85</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Bucket 5</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+    </alternativePerformances>
+    <alternativePerformances>
+      <alternativeID>h9</alternativeID>
+      <performance>
+        <criterionID>Bucket 1</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Bucket 2</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Bucket 3</criterionID>
+        <value>
+          <real>650</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Bucket 4</criterionID>
+        <value>
+          <real>350</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Bucket 5</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+    </alternativePerformances>
+    <alternativePerformances>
+      <alternativeID>h10</alternativeID>
+      <performance>
+        <criterionID>Bucket 1</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Bucket 2</criterionID>
+        <value>
+          <real>629</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Bucket 3</criterionID>
+        <value>
+          <real>367</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Bucket 4</criterionID>
+        <value>
+          <real>4</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Bucket 5</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+    </alternativePerformances>
+    <alternativePerformances>
+      <alternativeID>h11</alternativeID>
+      <performance>
+        <criterionID>Bucket 1</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Bucket 2</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Bucket 3</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Bucket 4</criterionID>
+        <value>
+          <real>1000</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Bucket 5</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+    </alternativePerformances>
+    <alternativePerformances>
+      <alternativeID>h12</alternativeID>
+      <performance>
+        <criterionID>Bucket 1</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Bucket 2</criterionID>
+        <value>
+          <real>195</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Bucket 3</criterionID>
+        <value>
+          <real>775</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Bucket 4</criterionID>
+        <value>
+          <real>30</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Bucket 5</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+    </alternativePerformances>
+    <alternativePerformances>
+      <alternativeID>h13</alternativeID>
+      <performance>
+        <criterionID>Bucket 1</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Bucket 2</criterionID>
+        <value>
+          <real>7</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Bucket 3</criterionID>
+        <value>
+          <real>397</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Bucket 4</criterionID>
+        <value>
+          <real>596</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Bucket 5</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+    </alternativePerformances>
+    <alternativePerformances>
+      <alternativeID>h14</alternativeID>
+      <performance>
+        <criterionID>Bucket 1</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Bucket 2</criterionID>
+        <value>
+          <real>184</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Bucket 3</criterionID>
+        <value>
+          <real>812</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Bucket 4</criterionID>
+        <value>
+          <real>4</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Bucket 5</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+    </alternativePerformances>
+    <alternativePerformances>
+      <alternativeID>h15</alternativeID>
+      <performance>
+        <criterionID>Bucket 1</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Bucket 2</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Bucket 3</criterionID>
+        <value>
+          <real>55</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Bucket 4</criterionID>
+        <value>
+          <real>945</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Bucket 5</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+    </alternativePerformances>
+    <alternativePerformances>
+      <alternativeID>h16</alternativeID>
+      <performance>
+        <criterionID>Bucket 1</criterionID>
+        <value>
+          <real>15</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Bucket 2</criterionID>
+        <value>
+          <real>124</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Bucket 3</criterionID>
+        <value>
+          <real>362</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Bucket 4</criterionID>
+        <value>
+          <real>448</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Bucket 5</criterionID>
+        <value>
+          <real>51</real>
+        </value>
+      </performance>
+    </alternativePerformances>
+    <alternativePerformances>
+      <alternativeID>h17</alternativeID>
+      <performance>
+        <criterionID>Bucket 1</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Bucket 2</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Bucket 3</criterionID>
+        <value>
+          <real>812</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Bucket 4</criterionID>
+        <value>
+          <real>188</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Bucket 5</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+    </alternativePerformances>
+    <alternativePerformances>
+      <alternativeID>h18</alternativeID>
+      <performance>
+        <criterionID>Bucket 1</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Bucket 2</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Bucket 3</criterionID>
+        <value>
+          <real>650</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Bucket 4</criterionID>
+        <value>
+          <real>350</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Bucket 5</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+    </alternativePerformances>
+    <alternativePerformances>
+      <alternativeID>h19</alternativeID>
+      <performance>
+        <criterionID>Bucket 1</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Bucket 2</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Bucket 3</criterionID>
+        <value>
+          <real>270</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Bucket 4</criterionID>
+        <value>
+          <real>722</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Bucket 5</criterionID>
+        <value>
+          <real>8</real>
+        </value>
+      </performance>
+    </alternativePerformances>
+    <alternativePerformances>
+      <alternativeID>h20</alternativeID>
+      <performance>
+        <criterionID>Bucket 1</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Bucket 2</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Bucket 3</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Bucket 4</criterionID>
+        <value>
+          <real>507</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Bucket 5</criterionID>
+        <value>
+          <real>493</real>
+        </value>
+      </performance>
+    </alternativePerformances>
+  </performanceTable>
+</xmcda:XMCDA>

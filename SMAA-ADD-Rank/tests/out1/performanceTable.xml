@@ -1,0 +1,1223 @@
+<?xml version="1.0"?>
+<xmcda:XMCDA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xmcda="http://www.decision-deck.org/2009/XMCDA-2.0.0" xsi:schemaLocation="http://www.decision-deck.org/2009/XMCDA-2.0.0 http://www.decision-deck.org/xmcda/_downloads/XMCDA-2.0.0.xsd">
+  <performanceTable>
+    <alternativePerformances>
+      <alternativeID>h1</alternativeID>
+      <performance>
+        <criterionID>Rank h1</criterionID>
+        <value>
+          <real>303</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h2</criterionID>
+        <value>
+          <real>60</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h3</criterionID>
+        <value>
+          <real>19</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h4</criterionID>
+        <value>
+          <real>17</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h5</criterionID>
+        <value>
+          <real>22</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h6</criterionID>
+        <value>
+          <real>53</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h7</criterionID>
+        <value>
+          <real>19</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h8</criterionID>
+        <value>
+          <real>19</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h9</criterionID>
+        <value>
+          <real>47</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h10</criterionID>
+        <value>
+          <real>30</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h11</criterionID>
+        <value>
+          <real>64</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h12</criterionID>
+        <value>
+          <real>80</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h13</criterionID>
+        <value>
+          <real>267</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h14</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+    </alternativePerformances>
+    <alternativePerformances>
+      <alternativeID>h2</alternativeID>
+      <performance>
+        <criterionID>Rank h1</criterionID>
+        <value>
+          <real>33</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h2</criterionID>
+        <value>
+          <real>214</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h3</criterionID>
+        <value>
+          <real>155</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h4</criterionID>
+        <value>
+          <real>55</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h5</criterionID>
+        <value>
+          <real>58</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h6</criterionID>
+        <value>
+          <real>33</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h7</criterionID>
+        <value>
+          <real>46</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h8</criterionID>
+        <value>
+          <real>61</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h9</criterionID>
+        <value>
+          <real>56</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h10</criterionID>
+        <value>
+          <real>31</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h11</criterionID>
+        <value>
+          <real>160</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h12</criterionID>
+        <value>
+          <real>98</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h13</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h14</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+    </alternativePerformances>
+    <alternativePerformances>
+      <alternativeID>h3</alternativeID>
+      <performance>
+        <criterionID>Rank h1</criterionID>
+        <value>
+          <real>70</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h2</criterionID>
+        <value>
+          <real>115</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h3</criterionID>
+        <value>
+          <real>218</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h4</criterionID>
+        <value>
+          <real>91</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h5</criterionID>
+        <value>
+          <real>67</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h6</criterionID>
+        <value>
+          <real>74</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h7</criterionID>
+        <value>
+          <real>51</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h8</criterionID>
+        <value>
+          <real>57</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h9</criterionID>
+        <value>
+          <real>103</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h10</criterionID>
+        <value>
+          <real>152</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h11</criterionID>
+        <value>
+          <real>2</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h12</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h13</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h14</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+    </alternativePerformances>
+    <alternativePerformances>
+      <alternativeID>h4</alternativeID>
+      <performance>
+        <criterionID>Rank h1</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h2</criterionID>
+        <value>
+          <real>22</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h3</criterionID>
+        <value>
+          <real>25</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h4</criterionID>
+        <value>
+          <real>161</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h5</criterionID>
+        <value>
+          <real>51</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h6</criterionID>
+        <value>
+          <real>28</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h7</criterionID>
+        <value>
+          <real>23</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h8</criterionID>
+        <value>
+          <real>21</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h9</criterionID>
+        <value>
+          <real>25</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h10</criterionID>
+        <value>
+          <real>17</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h11</criterionID>
+        <value>
+          <real>63</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h12</criterionID>
+        <value>
+          <real>62</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h13</criterionID>
+        <value>
+          <real>68</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h14</criterionID>
+        <value>
+          <real>434</real>
+        </value>
+      </performance>
+    </alternativePerformances>
+    <alternativePerformances>
+      <alternativeID>h5</alternativeID>
+      <performance>
+        <criterionID>Rank h1</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h2</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h3</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h4</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h5</criterionID>
+        <value>
+          <real>2</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h6</criterionID>
+        <value>
+          <real>75</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h7</criterionID>
+        <value>
+          <real>158</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h8</criterionID>
+        <value>
+          <real>194</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h9</criterionID>
+        <value>
+          <real>117</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h10</criterionID>
+        <value>
+          <real>168</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h11</criterionID>
+        <value>
+          <real>123</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h12</criterionID>
+        <value>
+          <real>161</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h13</criterionID>
+        <value>
+          <real>2</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h14</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+    </alternativePerformances>
+    <alternativePerformances>
+      <alternativeID>h6</alternativeID>
+      <performance>
+        <criterionID>Rank h1</criterionID>
+        <value>
+          <real>18</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h2</criterionID>
+        <value>
+          <real>63</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h3</criterionID>
+        <value>
+          <real>112</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h4</criterionID>
+        <value>
+          <real>229</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h5</criterionID>
+        <value>
+          <real>300</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h6</criterionID>
+        <value>
+          <real>244</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h7</criterionID>
+        <value>
+          <real>34</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h8</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h9</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h10</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h11</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h12</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h13</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h14</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+    </alternativePerformances>
+    <alternativePerformances>
+      <alternativeID>h7</alternativeID>
+      <performance>
+        <criterionID>Rank h1</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h2</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h3</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h4</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h5</criterionID>
+        <value>
+          <real>100</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h6</criterionID>
+        <value>
+          <real>97</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h7</criterionID>
+        <value>
+          <real>88</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h8</criterionID>
+        <value>
+          <real>60</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h9</criterionID>
+        <value>
+          <real>79</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h10</criterionID>
+        <value>
+          <real>73</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h11</criterionID>
+        <value>
+          <real>149</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h12</criterionID>
+        <value>
+          <real>261</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h13</criterionID>
+        <value>
+          <real>93</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h14</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+    </alternativePerformances>
+    <alternativePerformances>
+      <alternativeID>h8</alternativeID>
+      <performance>
+        <criterionID>Rank h1</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h2</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h3</criterionID>
+        <value>
+          <real>5</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h4</criterionID>
+        <value>
+          <real>9</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h5</criterionID>
+        <value>
+          <real>57</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h6</criterionID>
+        <value>
+          <real>82</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h7</criterionID>
+        <value>
+          <real>227</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h8</criterionID>
+        <value>
+          <real>146</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h9</criterionID>
+        <value>
+          <real>204</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h10</criterionID>
+        <value>
+          <real>193</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h11</criterionID>
+        <value>
+          <real>76</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h12</criterionID>
+        <value>
+          <real>1</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h13</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h14</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+    </alternativePerformances>
+    <alternativePerformances>
+      <alternativeID>h9</alternativeID>
+      <performance>
+        <criterionID>Rank h1</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h2</criterionID>
+        <value>
+          <real>111</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h3</criterionID>
+        <value>
+          <real>193</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h4</criterionID>
+        <value>
+          <real>166</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h5</criterionID>
+        <value>
+          <real>133</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h6</criterionID>
+        <value>
+          <real>82</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h7</criterionID>
+        <value>
+          <real>62</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h8</criterionID>
+        <value>
+          <real>106</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h9</criterionID>
+        <value>
+          <real>104</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h10</criterionID>
+        <value>
+          <real>33</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h11</criterionID>
+        <value>
+          <real>10</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h12</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h13</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h14</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+    </alternativePerformances>
+    <alternativePerformances>
+      <alternativeID>h10</alternativeID>
+      <performance>
+        <criterionID>Rank h1</criterionID>
+        <value>
+          <real>271</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h2</criterionID>
+        <value>
+          <real>299</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h3</criterionID>
+        <value>
+          <real>34</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h4</criterionID>
+        <value>
+          <real>17</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h5</criterionID>
+        <value>
+          <real>56</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h6</criterionID>
+        <value>
+          <real>38</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h7</criterionID>
+        <value>
+          <real>9</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h8</criterionID>
+        <value>
+          <real>23</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h9</criterionID>
+        <value>
+          <real>78</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h10</criterionID>
+        <value>
+          <real>93</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h11</criterionID>
+        <value>
+          <real>82</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h12</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h13</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h14</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+    </alternativePerformances>
+    <alternativePerformances>
+      <alternativeID>h11</alternativeID>
+      <performance>
+        <criterionID>Rank h1</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h2</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h3</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h4</criterionID>
+        <value>
+          <real>5</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h5</criterionID>
+        <value>
+          <real>17</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h6</criterionID>
+        <value>
+          <real>105</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h7</criterionID>
+        <value>
+          <real>217</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h8</criterionID>
+        <value>
+          <real>234</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h9</criterionID>
+        <value>
+          <real>126</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h10</criterionID>
+        <value>
+          <real>160</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h11</criterionID>
+        <value>
+          <real>116</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h12</criterionID>
+        <value>
+          <real>17</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h13</criterionID>
+        <value>
+          <real>3</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h14</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+    </alternativePerformances>
+    <alternativePerformances>
+      <alternativeID>h12</alternativeID>
+      <performance>
+        <criterionID>Rank h1</criterionID>
+        <value>
+          <real>9</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h2</criterionID>
+        <value>
+          <real>48</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h3</criterionID>
+        <value>
+          <real>197</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h4</criterionID>
+        <value>
+          <real>167</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h5</criterionID>
+        <value>
+          <real>53</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h6</criterionID>
+        <value>
+          <real>30</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h7</criterionID>
+        <value>
+          <real>31</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h8</criterionID>
+        <value>
+          <real>33</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h9</criterionID>
+        <value>
+          <real>34</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h10</criterionID>
+        <value>
+          <real>33</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h11</criterionID>
+        <value>
+          <real>89</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h12</criterionID>
+        <value>
+          <real>276</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h13</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h14</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+    </alternativePerformances>
+    <alternativePerformances>
+      <alternativeID>h13</alternativeID>
+      <performance>
+        <criterionID>Rank h1</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h2</criterionID>
+        <value>
+          <real>6</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h3</criterionID>
+        <value>
+          <real>3</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h4</criterionID>
+        <value>
+          <real>71</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h5</criterionID>
+        <value>
+          <real>68</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h6</criterionID>
+        <value>
+          <real>45</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h7</criterionID>
+        <value>
+          <real>28</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h8</criterionID>
+        <value>
+          <real>39</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h9</criterionID>
+        <value>
+          <real>20</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h10</criterionID>
+        <value>
+          <real>12</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h11</criterionID>
+        <value>
+          <real>50</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h12</criterionID>
+        <value>
+          <real>20</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h13</criterionID>
+        <value>
+          <real>455</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h14</criterionID>
+        <value>
+          <real>183</real>
+        </value>
+      </performance>
+    </alternativePerformances>
+    <alternativePerformances>
+      <alternativeID>h14</alternativeID>
+      <performance>
+        <criterionID>Rank h1</criterionID>
+        <value>
+          <real>296</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h2</criterionID>
+        <value>
+          <real>62</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h3</criterionID>
+        <value>
+          <real>39</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h4</criterionID>
+        <value>
+          <real>12</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h5</criterionID>
+        <value>
+          <real>16</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h6</criterionID>
+        <value>
+          <real>14</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h7</criterionID>
+        <value>
+          <real>7</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h8</criterionID>
+        <value>
+          <real>7</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h9</criterionID>
+        <value>
+          <real>7</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h10</criterionID>
+        <value>
+          <real>5</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h11</criterionID>
+        <value>
+          <real>16</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h12</criterionID>
+        <value>
+          <real>24</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h13</criterionID>
+        <value>
+          <real>112</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Rank h14</criterionID>
+        <value>
+          <real>383</real>
+        </value>
+      </performance>
+    </alternativePerformances>
+  </performanceTable>
+</xmcda:XMCDA>

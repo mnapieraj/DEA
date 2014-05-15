@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="xmcdaKappalab.xsl"?>
+<xmcda:XMCDA xmlns:xmcda="http://www.decision-deck.org/2009/XMCDA-2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.decision-deck.org/2009/XMCDA-2.0.0 file:/home/pat/Documents/currentResearch/DecisionDeck/svn-DecisionDeck/XMCDA/XMCDA-2.0.0.xsd">
+<criteria>
+		<criterion name="avg_mdtime_pat" id="i1">
+			<scale>
+				<quantitative>
+					<preferenceDirection>min</preferenceDirection>
+					<minimum><real>1.4</real></minimum>
+					<maximum><real>2.4</real></maximum>
+				</quantitative>
+			</scale>
+		</criterion>
+		<criterion name="avg_lab_pat" id="i2">
+			<scale>
+				<quantitative>
+					<preferenceDirection>min</preferenceDirection>
+					<minimum><real>0.8</real></minimum>
+					<maximum><real>2.8</real></maximum>
+				</quantitative>
+			</scale>
+		</criterion>
+		<criterion name="avg_rad_pat" id="i3">
+			<scale>
+				<quantitative>
+					<preferenceDirection>min</preferenceDirection>
+					<minimum><real>0.4</real></minimum>
+					<maximum><real>1.0</real></maximum>
+				</quantitative>
+			</scale>
+		</criterion>
+		<criterion name="rate_nr72" id="o1">
+			<scale>
+				<quantitative>
+					<preferenceDirection>max</preferenceDirection>
+					<minimum><real>0.9</real></minimum>
+					<maximum><real>1.0</real></maximum>
+				</quantitative>
+			</scale>
+		</criterion>
+</criteria>
+</xmcda:XMCDA>
