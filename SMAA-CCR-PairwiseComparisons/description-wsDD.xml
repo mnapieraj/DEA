@@ -121,9 +121,6 @@
             </xmcda>
 			<gui status="preferFile">
 			   <entry id="%1" type="int" displayName="withConstraints">
-				  <constraint>
-					 <description>The value should be an integer.</description>
-				  </constraint>
 				  <defaultValue>0</defaultValue>
 				  <items>
 					<item id="0">
