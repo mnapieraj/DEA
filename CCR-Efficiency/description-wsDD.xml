@@ -1,5 +1,5 @@
 <program_description>
-	<program provider="RXMCDA" name="ccrEfficiency" displayName="ccrEfficiency" version="1.0" />
+	<program provider="PUT" name="ccrEfficiency" displayName="ccrEfficiency" version="1.0" />
 	
 	<documentation>
 		<description>
@@ -117,9 +117,6 @@
             </xmcda>
 			<gui status="preferFile">
 			   <entry id="%1" type="int" displayName="withConstraints">
-				  <constraint>
-					 <description>The value should be an integer.</description>
-				  </constraint>
 				  <defaultValue>0</defaultValue>
 				  <items>
 					<item id="0">
