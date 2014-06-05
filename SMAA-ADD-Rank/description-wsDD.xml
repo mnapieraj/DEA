@@ -173,7 +173,7 @@
             <xmcda tag="methodMessages"/>
         </output>
         
-        <output id="performanceTable" name="performanceTable" displayName="performanceTable">
+        <output id="performanceTable-out" name="performanceTable" displayName="performanceTable">
             <documentation>
 				<description>
 					A performance table for given alternatives. Single performance consists of attribute criterionID representing certain ranking, and a value representing how many samples attain this ranking.
