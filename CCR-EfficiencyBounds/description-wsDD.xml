@@ -1,5 +1,5 @@
 <program_description>
-	<program provider="RXMCDA" name="ccrEfficiencyBounds" displayName="ccrEfficiencyBounds" version="1.0" />
+	<program provider="PUT" name="ccrEfficiencyBounds" displayName="ccrEfficiencyBounds" version="1.0" />
 	
 	<documentation>
 		<description>

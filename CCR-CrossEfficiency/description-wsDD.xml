@@ -1,5 +1,5 @@
 <program_description>
-	<program provider="RXMCDA" name="ccrCrossEfficiency" displayName="ccrCrossEfficiency" version="1.0" />
+	<program provider="PUT" name="ccrCrossEfficiency" displayName="ccrCrossEfficiency" version="1.0" />
 	
 	<documentation>
 		<description>
