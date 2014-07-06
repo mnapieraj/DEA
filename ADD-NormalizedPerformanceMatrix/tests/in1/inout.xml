@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="xmcdaKappalab.xsl"?>
+<xmcda:XMCDA xmlns:xmcda="http://www.decision-deck.org/2009/XMCDA-2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.decision-deck.org/2009/XMCDA-2.0.0 file:/home/pat/Documents/currentResearch/DecisionDeck/svn-DecisionDeck/XMCDA/XMCDA-2.0.0.xsd">
+<criteria>
+		<criterion name="cost($)" id="i1">
+			<scale>
+				<quantitative>
+					<preferenceDirection>min</preferenceDirection>
+				</quantitative>
+			</scale>
+				<function>
+				<points>
+					<point>
+						<abscissa><real>1</real></abscissa>
+						<ordinate><real>0.5</real></ordinate>
+					</point>
+					<point>
+						<abscissa><real>5</real></abscissa>
+						<ordinate><real>0</real></ordinate>
+					</point>
+				</points>
+			</function>
+		</criterion>
+		<criterion name="gain($)" id="o1">
+			<scale>
+				<quantitative>
+					<preferenceDirection>max</preferenceDirection>
+				</quantitative>
+			</scale>
+			<function>
+				<points>
+					<point>
+						<abscissa><real>2</real></abscissa>
+						<ordinate><real>0.5</real></ordinate>
+					</point>
+					<point>
+						<abscissa><real>5</real></abscissa>
+						<ordinate><real>0.5</real></ordinate>
+					</point>
+				</points>
+			</function>
+		</criterion>
+</criteria>
+</xmcda:XMCDA>
