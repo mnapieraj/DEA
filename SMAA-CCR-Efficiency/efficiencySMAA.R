@@ -29,6 +29,11 @@ calculateEfficiencySMAA <- function (dmuData, subjectDmuIdx, samples) {
 createIntervals <- function (efficiencyResults, intervalsNo) {
   dmuCount <- NROW(efficiencyResults)
   samplesNo <- ncol(efficiencyResults)
+  
+  avgRes  <- array(0, dim=dmuCount)
+  minRes <- array(1, dim=dmuCount)
+  maxRes <- array(0, dim=dmuCount)
+  
   intervals  <- array(0, dim=c(dmuCount,intervalsNo))
   intervalLenght <- 1/intervalsNo
   for(i in 1:samplesNo) {
@@ -41,9 +46,15 @@ createIntervals <- function (efficiencyResults, intervalsNo) {
         intervalIdx <- ceiling(efficiencyResults[j,i]/intervalLenght)
       }
       intervals[j,intervalIdx] = intervals[j,intervalIdx] + 1
+	  avgRes[j] <- avgRes[j] + efficiencyResults[j,i]
+	  maxRes[j] <- max(maxRes[j], efficiencyResults[j,i])
+	  minRes[j] <- min(minRes[j], efficiencyResults[j,i])
     }
   }
-  return (intervals)
+  avgRes <- avgRes / samplesNo
+  intervals <- intervals / samplesNo
+  result <- list(intervals = intervals, avgEff = avgRes, minEff = minRes, maxEff = maxRes)
+  return (result)
 }
 
 calculateEfficiencyForWeights = function (dmuData, subjectDmuIdx, weights) {

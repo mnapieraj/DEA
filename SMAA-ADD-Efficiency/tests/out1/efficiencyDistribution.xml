@@ -4,313 +4,313 @@
     <alternativePerformances>
       <alternativeID>h1</alternativeID>
       <performance>
-        <criterionID>Bucket 1</criterionID>
+        <criterionID>[0.0 - 0.1]</criterionID>
         <value>
-          <real>4</real>
+          <real>0.002</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 2</criterionID>
+        <criterionID>(0.1 - 0.2]</criterionID>
         <value>
-          <real>39</real>
+          <real>0.037</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 3</criterionID>
+        <criterionID>(0.2 - 0.3]</criterionID>
         <value>
-          <real>99</real>
+          <real>0.106</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 4</criterionID>
+        <criterionID>(0.3 - 0.4]</criterionID>
         <value>
-          <real>136</real>
+          <real>0.138</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 5</criterionID>
+        <criterionID>(0.4 - 0.5]</criterionID>
         <value>
-          <real>167</real>
+          <real>0.167</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 6</criterionID>
+        <criterionID>(0.5 - 0.6]</criterionID>
         <value>
-          <real>155</real>
+          <real>0.164</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 7</criterionID>
+        <criterionID>(0.6 - 0.7]</criterionID>
         <value>
-          <real>153</real>
+          <real>0.159</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 8</criterionID>
+        <criterionID>(0.7 - 0.8]</criterionID>
         <value>
-          <real>129</real>
+          <real>0.126</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 9</criterionID>
+        <criterionID>(0.8 - 0.9]</criterionID>
         <value>
-          <real>78</real>
+          <real>0.07</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 10</criterionID>
+        <criterionID>(0.9 - 1]</criterionID>
         <value>
-          <real>40</real>
+          <real>0.031</real>
         </value>
       </performance>
     </alternativePerformances>
     <alternativePerformances>
       <alternativeID>h2</alternativeID>
       <performance>
-        <criterionID>Bucket 1</criterionID>
+        <criterionID>[0.0 - 0.1]</criterionID>
         <value>
           <real>0</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 2</criterionID>
+        <criterionID>(0.1 - 0.2]</criterionID>
         <value>
-          <real>8</real>
+          <real>0.009</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 3</criterionID>
+        <criterionID>(0.2 - 0.3]</criterionID>
         <value>
-          <real>56</real>
+          <real>0.049</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 4</criterionID>
+        <criterionID>(0.3 - 0.4]</criterionID>
         <value>
-          <real>133</real>
+          <real>0.144</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 5</criterionID>
+        <criterionID>(0.4 - 0.5]</criterionID>
         <value>
-          <real>181</real>
+          <real>0.181</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 6</criterionID>
+        <criterionID>(0.5 - 0.6]</criterionID>
         <value>
-          <real>196</real>
+          <real>0.204</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 7</criterionID>
+        <criterionID>(0.6 - 0.7]</criterionID>
         <value>
-          <real>193</real>
+          <real>0.198</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 8</criterionID>
+        <criterionID>(0.7 - 0.8]</criterionID>
         <value>
-          <real>146</real>
+          <real>0.148</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 9</criterionID>
+        <criterionID>(0.8 - 0.9]</criterionID>
         <value>
-          <real>81</real>
+          <real>0.062</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 10</criterionID>
+        <criterionID>(0.9 - 1]</criterionID>
         <value>
-          <real>6</real>
+          <real>0.005</real>
         </value>
       </performance>
     </alternativePerformances>
     <alternativePerformances>
       <alternativeID>h3</alternativeID>
       <performance>
-        <criterionID>Bucket 1</criterionID>
+        <criterionID>[0.0 - 0.1]</criterionID>
         <value>
           <real>0</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 2</criterionID>
+        <criterionID>(0.1 - 0.2]</criterionID>
         <value>
           <real>0</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 3</criterionID>
+        <criterionID>(0.2 - 0.3]</criterionID>
         <value>
-          <real>26</real>
+          <real>0.027</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 4</criterionID>
+        <criterionID>(0.3 - 0.4]</criterionID>
         <value>
-          <real>121</real>
+          <real>0.123</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 5</criterionID>
+        <criterionID>(0.4 - 0.5]</criterionID>
         <value>
-          <real>186</real>
+          <real>0.194</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 6</criterionID>
+        <criterionID>(0.5 - 0.6]</criterionID>
         <value>
-          <real>231</real>
+          <real>0.23</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 7</criterionID>
+        <criterionID>(0.6 - 0.7]</criterionID>
         <value>
-          <real>208</real>
+          <real>0.211</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 8</criterionID>
+        <criterionID>(0.7 - 0.8]</criterionID>
         <value>
-          <real>151</real>
+          <real>0.157</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 9</criterionID>
+        <criterionID>(0.8 - 0.9]</criterionID>
         <value>
-          <real>76</real>
+          <real>0.057</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 10</criterionID>
+        <criterionID>(0.9 - 1]</criterionID>
         <value>
-          <real>1</real>
+          <real>0.001</real>
         </value>
       </performance>
     </alternativePerformances>
     <alternativePerformances>
       <alternativeID>h4</alternativeID>
       <performance>
-        <criterionID>Bucket 1</criterionID>
+        <criterionID>[0.0 - 0.1]</criterionID>
         <value>
-          <real>33</real>
+          <real>0.026</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 2</criterionID>
+        <criterionID>(0.1 - 0.2]</criterionID>
         <value>
-          <real>100</real>
+          <real>0.087</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 3</criterionID>
+        <criterionID>(0.2 - 0.3]</criterionID>
         <value>
-          <real>120</real>
+          <real>0.136</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 4</criterionID>
+        <criterionID>(0.3 - 0.4]</criterionID>
         <value>
-          <real>160</real>
+          <real>0.159</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 5</criterionID>
+        <criterionID>(0.4 - 0.5]</criterionID>
         <value>
-          <real>155</real>
+          <real>0.174</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 6</criterionID>
+        <criterionID>(0.5 - 0.6]</criterionID>
         <value>
-          <real>139</real>
+          <real>0.149</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 7</criterionID>
+        <criterionID>(0.6 - 0.7]</criterionID>
         <value>
-          <real>131</real>
+          <real>0.122</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 8</criterionID>
+        <criterionID>(0.7 - 0.8]</criterionID>
         <value>
-          <real>94</real>
+          <real>0.096</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 9</criterionID>
+        <criterionID>(0.8 - 0.9]</criterionID>
         <value>
-          <real>62</real>
+          <real>0.044</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 10</criterionID>
+        <criterionID>(0.9 - 1]</criterionID>
         <value>
-          <real>6</real>
+          <real>0.007</real>
         </value>
       </performance>
     </alternativePerformances>
     <alternativePerformances>
       <alternativeID>h5</alternativeID>
       <performance>
-        <criterionID>Bucket 1</criterionID>
+        <criterionID>[0.0 - 0.1]</criterionID>
         <value>
           <real>0</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 2</criterionID>
+        <criterionID>(0.1 - 0.2]</criterionID>
         <value>
           <real>0</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 3</criterionID>
+        <criterionID>(0.2 - 0.3]</criterionID>
         <value>
           <real>0</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 4</criterionID>
+        <criterionID>(0.3 - 0.4]</criterionID>
         <value>
-          <real>48</real>
+          <real>0.05</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 5</criterionID>
+        <criterionID>(0.4 - 0.5]</criterionID>
         <value>
-          <real>303</real>
+          <real>0.31</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 6</criterionID>
+        <criterionID>(0.5 - 0.6]</criterionID>
         <value>
-          <real>489</real>
+          <real>0.493</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 7</criterionID>
+        <criterionID>(0.6 - 0.7]</criterionID>
         <value>
-          <real>160</real>
+          <real>0.147</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 8</criterionID>
-        <value>
-          <real>0</real>
-        </value>
-      </performance>
-      <performance>
-        <criterionID>Bucket 9</criterionID>
+        <criterionID>(0.7 - 0.8]</criterionID>
         <value>
           <real>0</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 10</criterionID>
+        <criterionID>(0.8 - 0.9]</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.9 - 1]</criterionID>
         <value>
           <real>0</real>
         </value>
@@ -319,61 +319,61 @@
     <alternativePerformances>
       <alternativeID>h6</alternativeID>
       <performance>
-        <criterionID>Bucket 1</criterionID>
+        <criterionID>[0.0 - 0.1]</criterionID>
         <value>
           <real>0</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 2</criterionID>
+        <criterionID>(0.1 - 0.2]</criterionID>
         <value>
           <real>0</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 3</criterionID>
+        <criterionID>(0.2 - 0.3]</criterionID>
         <value>
           <real>0</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 4</criterionID>
+        <criterionID>(0.3 - 0.4]</criterionID>
         <value>
-          <real>20</real>
+          <real>0.024</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 5</criterionID>
+        <criterionID>(0.4 - 0.5]</criterionID>
         <value>
-          <real>165</real>
+          <real>0.175</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 6</criterionID>
+        <criterionID>(0.5 - 0.6]</criterionID>
         <value>
-          <real>350</real>
+          <real>0.336</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 7</criterionID>
+        <criterionID>(0.6 - 0.7]</criterionID>
         <value>
-          <real>324</real>
+          <real>0.331</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 8</criterionID>
+        <criterionID>(0.7 - 0.8]</criterionID>
         <value>
-          <real>130</real>
+          <real>0.129</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 9</criterionID>
+        <criterionID>(0.8 - 0.9]</criterionID>
         <value>
-          <real>11</real>
+          <real>0.005</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 10</criterionID>
+        <criterionID>(0.9 - 1]</criterionID>
         <value>
           <real>0</real>
         </value>
@@ -382,61 +382,61 @@
     <alternativePerformances>
       <alternativeID>h7</alternativeID>
       <performance>
-        <criterionID>Bucket 1</criterionID>
+        <criterionID>[0.0 - 0.1]</criterionID>
         <value>
           <real>0</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 2</criterionID>
+        <criterionID>(0.1 - 0.2]</criterionID>
         <value>
-          <real>5</real>
+          <real>0.002</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 3</criterionID>
+        <criterionID>(0.2 - 0.3]</criterionID>
         <value>
-          <real>99</real>
+          <real>0.087</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 4</criterionID>
+        <criterionID>(0.3 - 0.4]</criterionID>
         <value>
-          <real>160</real>
+          <real>0.18</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 5</criterionID>
+        <criterionID>(0.4 - 0.5]</criterionID>
         <value>
-          <real>245</real>
+          <real>0.232</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 6</criterionID>
+        <criterionID>(0.5 - 0.6]</criterionID>
         <value>
-          <real>199</real>
+          <real>0.234</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 7</criterionID>
+        <criterionID>(0.6 - 0.7]</criterionID>
         <value>
-          <real>178</real>
+          <real>0.167</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 8</criterionID>
+        <criterionID>(0.7 - 0.8]</criterionID>
         <value>
-          <real>99</real>
+          <real>0.088</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 9</criterionID>
+        <criterionID>(0.8 - 0.9]</criterionID>
         <value>
-          <real>15</real>
+          <real>0.01</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 10</criterionID>
+        <criterionID>(0.9 - 1]</criterionID>
         <value>
           <real>0</real>
         </value>
@@ -445,61 +445,61 @@
     <alternativePerformances>
       <alternativeID>h8</alternativeID>
       <performance>
-        <criterionID>Bucket 1</criterionID>
+        <criterionID>[0.0 - 0.1]</criterionID>
         <value>
           <real>0</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 2</criterionID>
+        <criterionID>(0.1 - 0.2]</criterionID>
         <value>
           <real>0</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 3</criterionID>
+        <criterionID>(0.2 - 0.3]</criterionID>
         <value>
-          <real>5</real>
+          <real>0.007</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 4</criterionID>
+        <criterionID>(0.3 - 0.4]</criterionID>
         <value>
-          <real>153</real>
+          <real>0.144</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 5</criterionID>
+        <criterionID>(0.4 - 0.5]</criterionID>
         <value>
-          <real>265</real>
+          <real>0.274</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 6</criterionID>
+        <criterionID>(0.5 - 0.6]</criterionID>
         <value>
-          <real>269</real>
+          <real>0.278</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 7</criterionID>
+        <criterionID>(0.6 - 0.7]</criterionID>
         <value>
-          <real>216</real>
+          <real>0.219</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 8</criterionID>
+        <criterionID>(0.7 - 0.8]</criterionID>
         <value>
-          <real>78</real>
+          <real>0.073</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 9</criterionID>
+        <criterionID>(0.8 - 0.9]</criterionID>
         <value>
-          <real>14</real>
+          <real>0.005</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 10</criterionID>
+        <criterionID>(0.9 - 1]</criterionID>
         <value>
           <real>0</real>
         </value>
@@ -508,61 +508,61 @@
     <alternativePerformances>
       <alternativeID>h9</alternativeID>
       <performance>
-        <criterionID>Bucket 1</criterionID>
+        <criterionID>[0.0 - 0.1]</criterionID>
         <value>
           <real>0</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 2</criterionID>
+        <criterionID>(0.1 - 0.2]</criterionID>
         <value>
           <real>0</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 3</criterionID>
+        <criterionID>(0.2 - 0.3]</criterionID>
         <value>
           <real>0</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 4</criterionID>
+        <criterionID>(0.3 - 0.4]</criterionID>
         <value>
           <real>0</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 5</criterionID>
+        <criterionID>(0.4 - 0.5]</criterionID>
         <value>
-          <real>58</real>
+          <real>0.058</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 6</criterionID>
+        <criterionID>(0.5 - 0.6]</criterionID>
         <value>
-          <real>390</real>
+          <real>0.41</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 7</criterionID>
+        <criterionID>(0.6 - 0.7]</criterionID>
         <value>
-          <real>546</real>
+          <real>0.529</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 8</criterionID>
+        <criterionID>(0.7 - 0.8]</criterionID>
         <value>
-          <real>6</real>
+          <real>0.003</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 9</criterionID>
+        <criterionID>(0.8 - 0.9]</criterionID>
         <value>
           <real>0</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 10</criterionID>
+        <criterionID>(0.9 - 1]</criterionID>
         <value>
           <real>0</real>
         </value>
@@ -571,61 +571,61 @@
     <alternativePerformances>
       <alternativeID>h10</alternativeID>
       <performance>
-        <criterionID>Bucket 1</criterionID>
+        <criterionID>[0.0 - 0.1]</criterionID>
         <value>
           <real>0</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 2</criterionID>
+        <criterionID>(0.1 - 0.2]</criterionID>
         <value>
           <real>0</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 3</criterionID>
+        <criterionID>(0.2 - 0.3]</criterionID>
         <value>
           <real>0</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 4</criterionID>
+        <criterionID>(0.3 - 0.4]</criterionID>
         <value>
           <real>0</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 5</criterionID>
+        <criterionID>(0.4 - 0.5]</criterionID>
         <value>
           <real>0</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 6</criterionID>
+        <criterionID>(0.5 - 0.6]</criterionID>
         <value>
-          <real>262</real>
+          <real>0.269</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 7</criterionID>
+        <criterionID>(0.6 - 0.7]</criterionID>
         <value>
-          <real>653</real>
+          <real>0.653</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 8</criterionID>
+        <criterionID>(0.7 - 0.8]</criterionID>
         <value>
-          <real>85</real>
+          <real>0.078</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 9</criterionID>
+        <criterionID>(0.8 - 0.9]</criterionID>
         <value>
           <real>0</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 10</criterionID>
+        <criterionID>(0.9 - 1]</criterionID>
         <value>
           <real>0</real>
         </value>
@@ -634,61 +634,61 @@
     <alternativePerformances>
       <alternativeID>h11</alternativeID>
       <performance>
-        <criterionID>Bucket 1</criterionID>
+        <criterionID>[0.0 - 0.1]</criterionID>
         <value>
           <real>0</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 2</criterionID>
+        <criterionID>(0.1 - 0.2]</criterionID>
         <value>
           <real>0</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 3</criterionID>
+        <criterionID>(0.2 - 0.3]</criterionID>
         <value>
           <real>0</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 4</criterionID>
+        <criterionID>(0.3 - 0.4]</criterionID>
         <value>
-          <real>26</real>
+          <real>0.034</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 5</criterionID>
+        <criterionID>(0.4 - 0.5]</criterionID>
         <value>
-          <real>333</real>
+          <real>0.33</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 6</criterionID>
+        <criterionID>(0.5 - 0.6]</criterionID>
         <value>
-          <real>412</real>
+          <real>0.411</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 7</criterionID>
+        <criterionID>(0.6 - 0.7]</criterionID>
         <value>
-          <real>190</real>
+          <real>0.197</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 8</criterionID>
+        <criterionID>(0.7 - 0.8]</criterionID>
         <value>
-          <real>39</real>
+          <real>0.028</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 9</criterionID>
+        <criterionID>(0.8 - 0.9]</criterionID>
         <value>
           <real>0</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 10</criterionID>
+        <criterionID>(0.9 - 1]</criterionID>
         <value>
           <real>0</real>
         </value>
@@ -697,61 +697,61 @@
     <alternativePerformances>
       <alternativeID>h12</alternativeID>
       <performance>
-        <criterionID>Bucket 1</criterionID>
+        <criterionID>[0.0 - 0.1]</criterionID>
         <value>
           <real>0</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 2</criterionID>
+        <criterionID>(0.1 - 0.2]</criterionID>
         <value>
           <real>0</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 3</criterionID>
+        <criterionID>(0.2 - 0.3]</criterionID>
         <value>
           <real>0</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 4</criterionID>
+        <criterionID>(0.3 - 0.4]</criterionID>
         <value>
           <real>0</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 5</criterionID>
+        <criterionID>(0.4 - 0.5]</criterionID>
         <value>
-          <real>89</real>
+          <real>0.09</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 6</criterionID>
+        <criterionID>(0.5 - 0.6]</criterionID>
         <value>
-          <real>677</real>
+          <real>0.669</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 7</criterionID>
+        <criterionID>(0.6 - 0.7]</criterionID>
         <value>
-          <real>234</real>
+          <real>0.241</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 8</criterionID>
-        <value>
-          <real>0</real>
-        </value>
-      </performance>
-      <performance>
-        <criterionID>Bucket 9</criterionID>
+        <criterionID>(0.7 - 0.8]</criterionID>
         <value>
           <real>0</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 10</criterionID>
+        <criterionID>(0.8 - 0.9]</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.9 - 1]</criterionID>
         <value>
           <real>0</real>
         </value>
@@ -760,61 +760,61 @@
     <alternativePerformances>
       <alternativeID>h13</alternativeID>
       <performance>
-        <criterionID>Bucket 1</criterionID>
+        <criterionID>[0.0 - 0.1]</criterionID>
         <value>
           <real>0</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 2</criterionID>
+        <criterionID>(0.1 - 0.2]</criterionID>
         <value>
           <real>0</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 3</criterionID>
+        <criterionID>(0.2 - 0.3]</criterionID>
         <value>
-          <real>57</real>
+          <real>0.05</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 4</criterionID>
+        <criterionID>(0.3 - 0.4]</criterionID>
         <value>
-          <real>251</real>
+          <real>0.254</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 5</criterionID>
+        <criterionID>(0.4 - 0.5]</criterionID>
         <value>
-          <real>537</real>
+          <real>0.531</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 6</criterionID>
+        <criterionID>(0.5 - 0.6]</criterionID>
         <value>
-          <real>155</real>
+          <real>0.165</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 7</criterionID>
-        <value>
-          <real>0</real>
-        </value>
-      </performance>
-      <performance>
-        <criterionID>Bucket 8</criterionID>
+        <criterionID>(0.6 - 0.7]</criterionID>
         <value>
           <real>0</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 9</criterionID>
+        <criterionID>(0.7 - 0.8]</criterionID>
         <value>
           <real>0</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 10</criterionID>
+        <criterionID>(0.8 - 0.9]</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.9 - 1]</criterionID>
         <value>
           <real>0</real>
         </value>
@@ -823,63 +823,63 @@
     <alternativePerformances>
       <alternativeID>h14</alternativeID>
       <performance>
-        <criterionID>Bucket 1</criterionID>
+        <criterionID>[0.0 - 0.1]</criterionID>
         <value>
-          <real>31</real>
+          <real>0.024</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 2</criterionID>
+        <criterionID>(0.1 - 0.2]</criterionID>
         <value>
-          <real>69</real>
+          <real>0.061</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 3</criterionID>
+        <criterionID>(0.2 - 0.3]</criterionID>
         <value>
-          <real>101</real>
+          <real>0.101</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 4</criterionID>
+        <criterionID>(0.3 - 0.4]</criterionID>
         <value>
-          <real>128</real>
+          <real>0.127</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 5</criterionID>
+        <criterionID>(0.4 - 0.5]</criterionID>
         <value>
-          <real>143</real>
+          <real>0.153</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 6</criterionID>
+        <criterionID>(0.5 - 0.6]</criterionID>
         <value>
-          <real>154</real>
+          <real>0.158</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 7</criterionID>
+        <criterionID>(0.6 - 0.7]</criterionID>
         <value>
-          <real>136</real>
+          <real>0.148</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 8</criterionID>
+        <criterionID>(0.7 - 0.8]</criterionID>
         <value>
-          <real>115</real>
+          <real>0.127</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 9</criterionID>
+        <criterionID>(0.8 - 0.9]</criterionID>
         <value>
-          <real>91</real>
+          <real>0.076</real>
         </value>
       </performance>
       <performance>
-        <criterionID>Bucket 10</criterionID>
+        <criterionID>(0.9 - 1]</criterionID>
         <value>
-          <real>32</real>
+          <real>0.025</real>
         </value>
       </performance>
     </alternativePerformances>

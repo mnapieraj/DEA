@@ -211,7 +211,7 @@ saveMessages <- function(msg, name, fileName) {
  saveXML(msgTree, file=paste(fileName,'.xml', sep=""))
 }
 
-saveResult <- function (altIDs, res, fileName) {
+saveRankResult <- function (altIDs, res, fileName) {
   cols <- ncol(res)
   colnames(res) <- c(paste("Rank", 1:cols))
   rownames(res) <- (altIDs)
@@ -223,6 +223,24 @@ saveResult <- function (altIDs, res, fileName) {
              namespace = c("xsi" = "http://www.w3.org/2001/XMLSchema-instance", "xmcda" = "http://www.decision-deck.org/2009/XMCDA-2.0.0"), 
              parent=resultTree)
   putPerformanceTable(resultTree, res)
+  saveXML(resultTree, file=paste(fileName,'.xml', sep=""))
+}
+
+saveResult <- function (altIDs, res, fileName) {
+  resultSize <- length(altIDs)
+  result <- c()
+  for(i in 1:(resultSize)) {
+    result <- rbind(result, c(i, res[i]))
+  }
+  
+  setwd(outDirectory)
+  resultTree <- newXMLDoc()
+  newXMLNode("xmcda:XMCDA", 
+             attrs=c("xsi:schemaLocation" = "http://www.decision-deck.org/2009/XMCDA-2.0.0 http://www.decision-deck.org/xmcda/_downloads/XMCDA-2.0.0.xsd"),
+             suppressNamespaceWarning=TRUE, 
+             namespace = c("xsi" = "http://www.w3.org/2001/XMLSchema-instance", "xmcda" = "http://www.decision-deck.org/2009/XMCDA-2.0.0"), 
+             parent=resultTree)
+  putAlternativesValues(resultTree, result, altIDs, fileName)
   saveXML(resultTree, file=paste(fileName,'.xml', sep=""))
 }
 
@@ -250,9 +268,10 @@ if(dataTree$errMsg == "") {
     dmuData <- parseTrees(dataTree)
     setwd(workingDirectory)
     source("rankSMAA.R")
-	rankSMAA <- calculateRankSMAAForAll(dmuData, dmuData$samplesNo)
+	result <- calculateRankSMAAForAll(dmuData, dmuData$samplesNo)
 	#print(rankSMAA)
-    saveResult(dmuData$altIDs, rankSMAA, "performanceTable")
+    saveRankResult(dmuData$altIDs, result$ranks, "rankAcceptabilityIndices")
+	saveResult(dmuData$altIDs, result$avgRank, "avgRank")
     saveMessages("OK", "executionStatus", "messages")
   
   } else {

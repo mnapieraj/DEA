@@ -90,7 +90,9 @@ createOtherConstraints = function(problemName, model, subjectDmuIdx, dmuData, re
   varCount <- dmuData$inputCount + dmuData$outputCount
   constrCount <- dmuCount
   result <- array(0, dim = c(constrCount,varCount))
-  
+  if(!is.null(dmuData$includeSubject) && dmuData$includeSubject == TRUE) {
+	subjectDmuIdx <- -1
+  }
   for (i in relativeDmus) {
     if(i != subjectDmuIdx) {
       for(j in 1 : varCount) {

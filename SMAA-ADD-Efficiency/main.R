@@ -240,9 +240,16 @@ saveMessages <- function(msg, name, fileName) {
  saveXML(msgTree, file=paste(fileName,'.xml', sep=""))
 }
 
-saveResult <- function (altIDs, res, fileName) {
+saveBucketResult <- function (altIDs, res, fileName) {
   cols <- ncol(res)
-  colnames(res) <- c(paste("Bucket", 1:cols))
+  interval <- 1/cols
+  colsNames <- c()
+  colsNames <- rbind(colsNames, paste("[0.0 - ", interval, "]", sep=""))
+  for(i in 1:(cols-1)) {
+	colsNames <- rbind(colsNames, paste("(", i * interval, " - ", (i+1) * interval,"]", sep=""))    
+  }
+
+  colnames(res) <- colsNames
   rownames(res) <- (altIDs)
   setwd(outDirectory)
   resultTree <- newXMLDoc()
@@ -252,6 +259,24 @@ saveResult <- function (altIDs, res, fileName) {
              namespace = c("xsi" = "http://www.w3.org/2001/XMLSchema-instance", "xmcda" = "http://www.decision-deck.org/2009/XMCDA-2.0.0"), 
              parent=resultTree)
   putPerformanceTable(resultTree, res)
+  saveXML(resultTree, file=paste(fileName,'.xml', sep=""))
+}
+
+saveResult <- function (altIDs, res, fileName) {
+  resultSize <- length(altIDs)
+  result <- c()
+  for(i in 1:(resultSize)) {
+    result <- rbind(result, c(i, res[i]))
+  }
+  
+  setwd(outDirectory)
+  resultTree <- newXMLDoc()
+  newXMLNode("xmcda:XMCDA", 
+             attrs=c("xsi:schemaLocation" = "http://www.decision-deck.org/2009/XMCDA-2.0.0 http://www.decision-deck.org/xmcda/_downloads/XMCDA-2.0.0.xsd"),
+             suppressNamespaceWarning=TRUE, 
+             namespace = c("xsi" = "http://www.w3.org/2001/XMLSchema-instance", "xmcda" = "http://www.decision-deck.org/2009/XMCDA-2.0.0"), 
+             parent=resultTree)
+  putAlternativesValues(resultTree, result, altIDs, fileName)
   saveXML(resultTree, file=paste(fileName,'.xml', sep=""))
 }
 
@@ -291,9 +316,11 @@ if(dataTree$errMsg == "") {
     setwd(workingDirectory)
     source("efficiencySMAA-VDEA.R")
 	effSMAA <- calculateEfficiencyIntervals(dmuData, dmuData$samplesNo, dmuData$intervalsNo)
-	#print(effSMAA)
-    saveResult(dmuData$altIDs, effSMAA, "performanceTable")
-    saveMessages("OK", "executionStatus", "messages")
+    saveBucketResult(dmuData$altIDs, effSMAA$intervals, "efficiencyDistribution")
+	saveResult(dmuData$altIDs, effSMAA$avgEff, "avgEfficiency")
+	saveResult(dmuData$altIDs, effSMAA$minEff, "minEfficiency")
+	saveResult(dmuData$altIDs, effSMAA$maxEff, "maxEfficiency")
+    #saveMessages("OK", "executionStatus", "messages")
   
   } else {
     setwd(outDirectory)

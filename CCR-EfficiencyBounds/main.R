@@ -174,6 +174,14 @@ parseTrees <- function (dataTree) {
     }
   }
   
+  includeSubject <- FALSE
+  if(!is.null(dataTree$methodParametersTree)) {
+    includeSubNode <- getParameters(dataTree$methodParametersTree, "includeSubject")
+    if (includeSubNode$status == "OK" && includeSubNode$includeSubject != 0) {
+      includeSubject <- TRUE
+    }
+  }
+  
   type <- "aggressive"
   if(!is.null(dataTree$methodParametersTree)) {
     typeNode <- getParameters(dataTree$methodParametersTree, "type")
@@ -188,7 +196,8 @@ parseTrees <- function (dataTree) {
                  weightConstraints = weightConstraints,
                  withWeightConstraints = withWeightConstraints,
                  type = type,
-                 altIDs = altIDs)
+                 altIDs = altIDs,
+				 includeSubject = includeSubject)
   return (result)
 
 }
@@ -252,12 +261,12 @@ if(dataTree$errMsg == "") {
     setwd(workingDirectory)
     source("efficiencyBounds.R")
     effBounds <- calculateEfficiencyBoundsForAll(dmuData, array(1:nrow(dmuData$data)))
-	#print(effBounds)
+	print(effBounds)
     saveResult(dmuData$altIDs, effBounds[,1], "minEfficiencyOverMostEfficient")
     saveResult(dmuData$altIDs, effBounds[,2], "maxEfficiencyOverMostEfficient")
     saveResult(dmuData$altIDs, effBounds[,3], "minEfficiencyOverLeastEfficient")
     saveResult(dmuData$altIDs, effBounds[,4], "maxEfficiencyOverLeastEfficient")
-    saveResult(dmuData$altIDs, effBounds[,5], "superEfficiency")
+    #saveResult(dmuData$altIDs, effBounds[,5], "superEfficiency")
     saveMessages("OK", "executionStatus", "messages")
   
   } else {

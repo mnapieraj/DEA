@@ -252,7 +252,6 @@ if(dataTree$errMsg == "") {
     setwd(workingDirectory)
      source("rank.R")
      rank <- calculateRank(dmuData)
-	 #print(rank)
      saveResult(dmuData$altIDs, rank[,1], "bestRank")
      saveResult(dmuData$altIDs, rank[,2], "worstRank")
      saveMessages("OK", "executionStatus", "messages")

@@ -28,7 +28,7 @@
     <alternativeValue>
       <alternativeID>h5</alternativeID>
       <value>
-        <real>1.37337509467952</real>
+        <real>1</real>
       </value>
     </alternativeValue>
     <alternativeValue>
@@ -94,7 +94,7 @@
     <alternativeValue>
       <alternativeID>h16</alternativeID>
       <value>
-        <real>1.07847229801011</real>
+        <real>1</real>
       </value>
     </alternativeValue>
     <alternativeValue>
@@ -118,7 +118,7 @@
     <alternativeValue>
       <alternativeID>h20</alternativeID>
       <value>
-        <real>1.03094187999116</real>
+        <real>1</real>
       </value>
     </alternativeValue>
   </alternativesValues>

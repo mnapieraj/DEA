@@ -5,7 +5,7 @@ calculateRankSMAAForAll <- function(dmuData, samplesNo=10) {
   source("efficiencySMAA-VDEA.R")
   effResults <- calculateEfficiencySMAAForAll(dmuData, samplesNo)
   result <- calculateRankSMAA(effResults)
-  intervals <- createSummary(result, dmuCount)
+  intervals <- createSummary(result, dmuCount, samplesNo)
   
   return (intervals)
 }
@@ -13,20 +13,27 @@ calculateRankSMAAForAll <- function(dmuData, samplesNo=10) {
 calculateRankSMAA <- function (effResults) {
   maxRank <- NROW(effResults) + 1
   dmuCount <- ncol(effResults)
-  for(i in 1:ncol(effResults)) {
-    effResults[,i] <- maxRank - rank(effResults[,i], ties.method="min")
+  for(i in 1:dmuCount) {
+    effResults[,i] <- maxRank - rank(effResults[,i], ties.method="min") 
   }
   return (effResults)
 }
 
-createSummary <- function (ranks, intervalsNo) {
+createSummary <- function (ranks, intervalsNo, samplesNo) {
   dmuCount <- NROW(ranks)
   intervals  <- array(0, dim=c(dmuCount,intervalsNo))
+  avgRank <- array(0, dim=dmuCount)
   for(i in 1:dmuCount) {
     for(j in 1:length(ranks[i,])){
-      intervals[i, ranks[i,j]] = intervals[i,ranks[i,j]] + 1
+      intervals[i, ranks[i,j]] = intervals[i,ranks[i,j]] + 1 
     }
+	for(j in 1:dmuCount){
+		avgRank[i] <- avgRank[i] + j * (intervals[i,j])
+	}
   }
-  return (intervals)
+  avgRank <- avgRank / samplesNo
+  intervals <- intervals / samplesNo
+  result <- list(ranks = intervals, avgRank = avgRank)
+  return (result)
 }
 

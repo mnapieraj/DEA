@@ -211,12 +211,12 @@ saveMessages <- function(msg, name, fileName) {
  saveXML(msgTree, file=paste(fileName,'.xml', sep=""))
 }
 
-saveResult <- function (altIDs, res, fileName, value) {
+saveResult <- function (altIDs, res, fileName, values) {
   resultSize <- length(altIDs)
   result <- c()
   for(i in 1:(resultSize)) {
     for(j in 1:(resultSize)) {
-      if(res[i,j] == value) {
+      if(res[i,j] %in% values) {
         result <- rbind(result, c(altIDs[i], altIDs[j], 1))
       }
     }
@@ -257,8 +257,8 @@ if(dataTree$errMsg == "") {
     source("efficiencyDominance.R")
     dominance <- calculateDominanceForAll(dmuData)
    # print(dominance)
-    saveResult(dmuData$altIDs, dominance$dominanceMatrix, "necessaryDominance", 'N')
-    saveResult(dmuData$altIDs, dominance$dominanceMatrix, "possibleDominance", 'P')
+    saveResult(dmuData$altIDs, dominance$dominanceMatrix, "necessaryDominance", c('N'))
+    saveResult(dmuData$altIDs, dominance$dominanceMatrix, "possibleDominance", c('N','P'))
 	saveMessages("OK", "executionStatus", "messages")
   
   } else {

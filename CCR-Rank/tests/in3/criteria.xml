@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="xmcdaKappalab.xsl"?>
+<xmcda:XMCDA xmlns:xmcda="http://www.decision-deck.org/2009/XMCDA-2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.decision-deck.org/2009/XMCDA-2.0.0 file:/home/pat/Documents/currentResearch/DecisionDeck/svn-DecisionDeck/XMCDA/XMCDA-2.0.0.xsd">
+<criteria>
+<criterion name="terminal" id="i1">
+<scale>
+<quantitative>
+<preferenceDirection>min</preferenceDirection>
+</quantitative>
+</scale>
+</criterion>
+<criterion name="line" id="i2">
+<scale>
+<quantitative>
+<preferenceDirection>min</preferenceDirection>
+</quantitative>
+</scale>
+</criterion>
+<criterion name="field" id="i3">
+<scale>
+<quantitative>
+<preferenceDirection>min</preferenceDirection>
+</quantitative>
+</scale>
+</criterion>
+<criterion name="are" id="i4">
+<scale>
+<quantitative>
+<preferenceDirection>min</preferenceDirection>
+</quantitative>
+</scale>
+</criterion>
+<criterion name="pasengers" id="o1">
+<scale>
+<quantitative>
+<preferenceDirection>max</preferenceDirection>
+</quantitative>
+</scale>
+</criterion>
+<criterion name="flights" id="o2">
+<scale>
+<quantitative>
+<preferenceDirection>max</preferenceDirection>
+</quantitative>
+</scale>
+</criterion>
+</criteria>
+</xmcda:XMCDA>

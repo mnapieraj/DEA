@@ -3,7 +3,7 @@
 	
 	<documentation>
 		<description>
-			Computes efficiency bounds and super-efficiency scores for the given DMUs (alternatives) using CCR Data Envelopment Analysis Model.
+			Computes efficiency bounds scores for the given DMUs (alternatives) using CCR Data Envelopment Analysis Model.
 		</description>
 		<contact>
 			Malgorzata Napieraj (napieraj.malgorzata@gmail.com) 
@@ -211,28 +211,6 @@
             <documentation>
 				<description>
 					A list of alternatives with computed maximum efficiency scores relative to the most efficient alternative in the group.
-				</description>
-			</documentation>
-            
-            <xmcda tag="alternativesValues">
-                <![CDATA[
-					<alternativesValues>
-						<alternativeValue>
-						  <alternativeID> [...] </alternativeID>
-						  <value>
-							[...]
-						  </value>
-						</alternativeValue>
-						[...]
-					</alternativesValues>
-                    ]]>
-            </xmcda>
-        </output>
-		
-		<output id="superEfficiency" name="superEfficiency" displayName="superEfficiency">
-            <documentation>
-				<description>
-					A list of alternatives with computed super-efficiency scores..
 				</description>
 			</documentation>
             

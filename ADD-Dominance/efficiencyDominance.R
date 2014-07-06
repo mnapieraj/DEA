@@ -9,7 +9,9 @@ calculateEfficiencyDominanceForAll = function(dmuData, transformToUtilities=TRUE
     for(j in 1:dmuCount) {
       if(i != j) {
         result[i,j] = calculateEfficiencyDominance(dmuData, i, j, transformToUtilities)
-      }
+      } else {
+		result[i,j] = 'N'
+	  }
     }
   }
   return (result)
@@ -24,7 +26,7 @@ calculateEfficiencyDominance = function(dmuData, subjectDmu, relativeDmu, transf
   necessary = get.objective(modelNecessary)
   possible = -get.objective(modelPossible)
   result = 0
-  
+
   if(necessary >= 0) {
     result = "N"
   } else if (possible >= 0) {

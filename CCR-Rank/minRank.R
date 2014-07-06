@@ -1,6 +1,6 @@
 #other DMU's constraints - bestRank
 createOtherConstraints = function(model, subjectDmuIdx, dmuData) {
-  CONST <- 100
+  CONST <- 1000
   dmuCount <- nrow(dmuData$data)
   varCount <- dmuCount + dmuData$inputCount + dmuData$outputCount
   constrCount <- dmuCount
