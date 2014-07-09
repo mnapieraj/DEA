@@ -75,12 +75,23 @@ getValues <- function(tree, nodeName) {
 getFunctions <- function (tree ) {
 	nodes <- getNodeSet(tree, paste("//", "function"))
 	count <- length(nodes)
-	result <- NULL
+	result <- list()
 	for(i in 1:count) {
-		critID <- xmlAttrs(xmlParent(nodes[[i]])["id"])
-		
-		print()
+		critID <- xmlGetAttr(xmlParent(nodes[[i]]), "id")
+		print(critID)
+			x <-  xmlElementsByTagName(nodes[[i]],"abscissa", recursive=TRUE)
+			y <-  xmlElementsByTagName(nodes[[i]], "ordinate", recursive=TRUE)
+			points <- c()
+			for(j in 1:length(x)) {
+				xVal <- xmlValue(x[[j]])
+				yVal <- xmlValue(y[[j]])
+				points <- rbind(points, c(xVal, yVal))
+			
+			}
+			result[[critID]] = points
 	}
+	print(result)
+	return (result)
 }
 
 orderCriteriaByPreference <- function(criteriaIDs, preferenceDirs) {
