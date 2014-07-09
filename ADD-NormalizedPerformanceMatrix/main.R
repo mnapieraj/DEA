@@ -22,7 +22,8 @@ readFiles <- function() {
   altData <- readFile("dmus.xml")
   criteriaData <- readFile("inout.xml")
   performanceData <- readFile("performanceTable.xml")
-  
+    #optional files
+  methodParametersData <- readFile("methodParameters.xml")
   errMsg <- ""
   
   if(!is.null(altData$errMsg)) {
@@ -34,10 +35,10 @@ readFiles <- function() {
   if(!is.null(performanceData$errMsg)) {
     errMsg <- paste(errMsg,performanceData$errMsg)
   }
- 
   result <- list(altTree = altData$data, 
                  criteriaTree = criteriaData$data, 
                  performanceTree = performanceData$data,
+				 methodParametersTree = methodParametersData$data,
                  errMsg = errMsg)
   
   return(result)
@@ -78,19 +79,16 @@ getFunctions <- function (tree ) {
 	result <- list()
 	for(i in 1:count) {
 		critID <- xmlGetAttr(xmlParent(nodes[[i]]), "id")
-		print(critID)
 			x <-  xmlElementsByTagName(nodes[[i]],"abscissa", recursive=TRUE)
 			y <-  xmlElementsByTagName(nodes[[i]], "ordinate", recursive=TRUE)
 			points <- c()
 			for(j in 1:length(x)) {
 				xVal <- xmlValue(x[[j]])
 				yVal <- xmlValue(y[[j]])
-				points <- rbind(points, c(xVal, yVal))
-			
+				points <- rbind(points, c(as.numeric(xVal), as.numeric(yVal)))
 			}
 			result[[critID]] = points
 	}
-	print(result)
 	return (result)
 }
 
@@ -128,8 +126,6 @@ parseTrees <- function (dataTree) {
   critIDs <- getCriteriaIDs(dataTree$criteriaTree)[[1]]
   preferenceDirs <- getValues(dataTree$criteriaTree, "preferenceDirection") 
   functions <- getFunctions(dataTree$criteriaTree)
-  print(functions)
-  
   
   #inputs have to be first, then oputputs
   orderedCriteria <- orderCriteriaByPreference(critIDs, preferenceDirs)
@@ -147,7 +143,9 @@ parseTrees <- function (dataTree) {
   result <- list(data=performance, 
                  inputCount=orderedCriteria$inputCount,
                  outputCount=orderedCriteria$outputCount,
-                 altIDs = altIDs)
+                 altIDs = altIDs,
+				 critIDs = orderedCriteria$critIDs,
+				 functions = functions)
 
 	if(boundariesProvided == TRUE) {
 		low <- getValues(dataTree$criteriaTree, "minimum")
@@ -205,7 +203,7 @@ saveResult <- function (altIDs, res, fileName) {
 
 
 createBoundaries <- function (dmuData) {
-  eps <- 0.01
+  eps <- 0.001
   varCount <- dmuData$inputCount + dmuData$outputCount
   up <- c()
   low <- c()
@@ -239,6 +237,8 @@ if(dataTree$errMsg == "") {
   if(errMsg == "") {
     dmuData <- parseTrees(dataTree)
     setwd(workingDirectory)
+	source("normalizedPerformanceMatrix.R")
+	normalized <- normalizePerformanceMatrix(dmuData)
     #efficiency <- calculateEfficiencyForAll(dmuData)
 	#distances <- efficiency[,2]
 	#print(efficiency)
