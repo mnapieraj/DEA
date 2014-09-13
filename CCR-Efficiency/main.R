@@ -242,9 +242,13 @@ if(dataTree$errMsg == "") {
     dmuData <- parseTrees(dataTree)
     setwd(workingDirectory)
     source("efficiency.R")
-    efficiency <- calculateEfficiencyForAll(dmuData)
-	#print(efficiency)
-    saveResult(dmuData$altIDs, efficiency, "efficiency")
+	efficiency <- calculateEfficiencyForAll(dmuData)
+	print(efficiency)
+	source("minEff.R")
+    minEfficiency <- calculateEfficiencyForAll(dmuData)
+	print(minEfficiency)
+    saveResult(dmuData$altIDs, efficiency, "maxEfficiency")
+	saveResult(dmuData$altIDs, minEfficiency, "minEfficiency")
     saveMessages("OK", "executionStatus", "messages")    
   
   } else {
