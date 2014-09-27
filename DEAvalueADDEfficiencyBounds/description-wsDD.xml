@@ -1,42 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <program_description>
-	<program provider="PUT" name="DEAvalueADDEfficiencyBounds" displayName="DEAvalueADDEfficiencyBounds" version="1.0" />
-	
-	<documentation>
-		<description>
-			Computes efficiency bounds for the given DMUs (alternatives) using additive Data Envelopment Analysis Model.
-		</description>
-		<contact>
-			Malgorzata Napieraj (napieraj.malgorzata@gmail.com) 
-		</contact>
-		<reference>
-			Gouveia M. C., Dias L. C., Antunes C. H., Super-efficiency and stability intervals in additive DEA (2012). 
-		</reference>
-	</documentation>
-	
-	<parameters>
-		<input id="units" name="units" displayName="units" isoptional="0">
-            <documentation>
-                <description>A list of alternatives (DMUs).</description>
-            </documentation>
-            <xmcda tag="alternatives">
-                <![CDATA[
-                    <alternatives>
+   <program provider="PUT" name="DEAvalueADDEfficiencyBounds" displayName="DEAvalueADDEfficiencyBounds" version="1.0" />
+   <documentation>
+      <description>Computes efficiency bounds for the given DMUs (alternatives) using additive Data Envelopment Analysis Model.</description>
+      <contact>Malgorzata Napieraj (napieraj.malgorzata@gmail.com)</contact>
+      <reference>Gouveia M. C., Dias L. C., Antunes C. H., Super-efficiency and stability intervals in additive DEA (2012).</reference>
+   </documentation>
+   <parameters>
+      <input id="units" name="units" displayName="units" isoptional="0">
+         <documentation>
+            <description>A list of alternatives (DMUs).</description>
+         </documentation>
+         <xmcda tag="alternatives"><![CDATA[<alternatives>
                         <alternative>
                             [...]
                         </alternative>
                         [...]
-                    </alternatives>
-                    ]]>
-            </xmcda>
-        </input>
-		
-		<input id="inputsOutputs" name="inputsOutputs" displayName="inputsOutputs" isoptional="0">
-            <documentation>
-                <description>A list of criteria with specified preference direction. List has to contains at least one criterion that will be minimized (input) and at least one criterion that will be maximized (output). In addition, minimum and maximum possible value for each critetion can be defined. If not defined, they will be computed from alternatives performances on given criteria. </description>
-            </documentation>
-            <xmcda tag="criteria">
-                <![CDATA[
-                    <criteria>
+                    </alternatives>]]></xmcda>
+      </input>
+      <input id="inputsOutputs" name="inputsOutputs" displayName="inputsOutputs" isoptional="0">
+         <documentation>
+            <description>A list of criteria with specified preference direction. List has to contains at least one criterion that will be minimized (input) and at least one criterion that will be maximized (output). In addition, minimum and maximum possible value for each critetion can be defined. If not defined, they will be computed from alternatives performances on given criteria.</description>
+         </documentation>
+         <xmcda tag="criteria"><![CDATA[<criteria>
                         <criterion>
 							<scale>
 								<quantitative>
@@ -50,18 +36,13 @@
                             [...]
                         </criterion>
                         [...]
-                    </criteria>
-                    ]]>
-            </xmcda>
-        </input>	
-
-		<input id="performanceTable" name="performanceTable" displayName="performanceTable" isoptional="0">
-            <documentation>
-                <description>A list of alternatives (DMUs) performances. </description>
-            </documentation>
-            <xmcda tag="performanceTable">
-                <![CDATA[
-					<performanceTable>
+                    </criteria>]]></xmcda>
+      </input>
+      <input id="performanceTable" name="performanceTable" displayName="performanceTable" isoptional="0">
+         <documentation>
+            <description>A list of alternatives (DMUs) performances.</description>
+         </documentation>
+         <xmcda tag="performanceTable"><![CDATA[<performanceTable>
 						<alternativePerformances>
 							<alternativeID> [...] </alternativeID>
 							<performance>
@@ -73,18 +54,13 @@
 							[...]
 						</alternativePerformances>
 						[...]
-					</performanceTable>
-                    ]]>
-            </xmcda>
-        </input>		
-		
-		<input id="weightsLinearConstraints" name="weightsLinearConstraints" displayName="weightsLinearConstraints" isoptional="defaultFalse">
-            <documentation>
-                <description>A list of criteria linear constraints. </description>
-            </documentation>
-            <xmcda tag="criteriaLinearConstraints">
-                <![CDATA[
-					<criteriaLinearConstraints>
+					</performanceTable>]]></xmcda>
+      </input>
+      <input id="weightsLinearConstraints" name="weightsLinearConstraints" displayName="weightsLinearConstraints" isoptional="defaultFalse">
+         <documentation>
+            <description>A list of criteria linear constraints.</description>
+         </documentation>
+         <xmcda tag="criteriaLinearConstraints"><![CDATA[<criteriaLinearConstraints>
 						<constraint>
 							<element>
 								<criterionID> [...] </criterionID>
@@ -99,19 +75,14 @@
 							</rhs>
 						</constraint>
 						[...]
-					</criteriaLinearConstraints>
-                    ]]>
-            </xmcda>
-        </input>
-		
-		<input id="methodParameters" name="methodParameters" displayName="methodParameters" isoptional="defaultFalse">
-            <documentation>
-                <description>There are two possible method parameters -- "boundariesProvided" and "withConstraints". First one indicates if criteria values boundaries are given in criteria input or they have to be computed based on alternatives performances.   
+					</criteriaLinearConstraints>]]></xmcda>
+      </input>
+      <input id="methodParameters" name="methodParameters" displayName="methodParameters" isoptional="defaultFalse">
+         <documentation>
+            <description>There are two possible method parameters -- "boundariesProvided" and "withConstraints". First one indicates if criteria values boundaries are given in criteria input or they have to be computed based on alternatives performances.   
 				Second paramterer determines if criteria linear constraints will be taken under consideration.</description>
-            </documentation>
-            <xmcda tag="methodParameters">
-                <![CDATA[
-					<methodParameters>
+         </documentation>
+         <xmcda tag="methodParameters"><![CDATA[<methodParameters>
 							<parameter name="withConstraints">
 								<value><integer>%1</integer></value>
 							</parameter>
@@ -121,71 +92,60 @@
 							<parameter name="transformToUtilities">
 								<value><integer>%3</integer></value>
 							</parameter>
-					</methodParameters>
-                    ]]>
-            </xmcda>
-			<gui status="preferGUI">
-			   <entry id="%1" type="int" displayName="withConstraints">
-				  <defaultValue>0</defaultValue>
-				  <items>
-					<item id="0">
-						<description> Disactivated </description>
-						<value>0</value>
-					</item>
-					<item id="not0">
-						<description> Activated </description>
-						<value>other than 0</value>
-					</item>
-				  </items>
-			   </entry>
-			   
-			   <entry id="%2" type="int" displayName="boundariesProvided">
-				  <defaultValue>0</defaultValue>
-				  <items>
-					<item id="0">
-						<description> Boundaries will be computed from alternatives performances. </description>
-						<value>0</value>
-					</item>
-					<item id="not0">
-						<description> Boundaries are given in criteria input </description>
-						<value>other than 0</value>
-					</item>
-				  </items>
-			   </entry>
-			   <entry id="%3" type="int" displayName="transformToUtilities">
-				  <defaultValue>1</defaultValue>
-				  <items>
-					<item id="0">
-						<description> Utilities will be computed from alternatives performances. </description>
-						<value>0</value>
-					</item>
-					<item id="not0">
-						<description> Alternatives performances are given as utility values. </description>
-						<value>other than 0</value>
-					</item>
-				  </items>
-			   </entry>
-			</gui>		
-        </input>
-		
-		<output id="messages" name="messages" displayName="messages">
-            
-            <documentation>
-                <description>A list of messages generated by the algorithm.</description>
-            </documentation>
-            <xmcda tag="methodMessages"/>
-        </output>
-        
-        <output id="minEfficiency" name="minEfficiency" displayName="minEfficiency">
-            <documentation>
-				<description>
-					A list of alternatives with computed minimum efficiency scores.
-				</description>
-			</documentation>
-            
-            <xmcda tag="alternativesValues">
-                <![CDATA[
-					<alternativesValues mcdaConcept="minEfficiency">
+					</methodParameters>]]></xmcda>
+         <gui status="preferGUI">
+            <entry id="%1" type="int" displayName="withConstraints">
+               <defaultValue>0</defaultValue>
+               <items>
+                  <item id="0">
+                     <description>Disactivated</description>
+                     <value>0</value>
+                  </item>
+                  <item id="not0">
+                     <description>Activated</description>
+                     <value>other than 0</value>
+                  </item>
+               </items>
+            </entry>
+            <entry id="%2" type="int" displayName="boundariesProvided">
+               <defaultValue>0</defaultValue>
+               <items>
+                  <item id="0">
+                     <description>Boundaries will be computed from alternatives performances.</description>
+                     <value>0</value>
+                  </item>
+                  <item id="not0">
+                     <description>Boundaries are given in criteria input</description>
+                     <value>other than 0</value>
+                  </item>
+               </items>
+            </entry>
+            <entry id="%3" type="int" displayName="transformToUtilities">
+               <defaultValue>1</defaultValue>
+               <items>
+                  <item id="0">
+                     <description>Utilities will be computed from alternatives performances.</description>
+                     <value>0</value>
+                  </item>
+                  <item id="not0">
+                     <description>Alternatives performances are given as utility values.</description>
+                     <value>other than 0</value>
+                  </item>
+               </items>
+            </entry>
+         </gui>
+      </input>
+      <output id="messages" name="messages" displayName="messages">
+         <documentation>
+            <description>A list of messages generated by the algorithm.</description>
+         </documentation>
+         <xmcda tag="methodMessages" />
+      </output>
+      <output id="minEfficiency" name="minEfficiency" displayName="minEfficiency">
+         <documentation>
+            <description>A list of alternatives with computed minimum efficiency scores.</description>
+         </documentation>
+         <xmcda tag="alternativesValues"><![CDATA[<alternativesValues mcdaConcept="minEfficiency">
 						<alternativeValue>
 						  <alternativeID> [...] </alternativeID>
 						  <value>
@@ -193,21 +153,13 @@
 						  </value>
 						</alternativeValue>
 						[...]
-					</alternativesValues>
-                    ]]>
-            </xmcda>
-        </output>
-
-        <output id="minDistance" name="minDistance" displayName="minDistance">
-            <documentation>
-				<description>
-					A list of alternatives with computed minimum distances from efficient DMUs.
-				</description>
-			</documentation>
-            
-            <xmcda tag="alternativesValues">
-                <![CDATA[
-					<alternativesValues mcdaConcept="minDistance">
+					</alternativesValues>]]></xmcda>
+      </output>
+      <output id="minDistance" name="minDistance" displayName="minDistance">
+         <documentation>
+            <description>A list of alternatives with computed minimum distances from efficient DMUs.</description>
+         </documentation>
+         <xmcda tag="alternativesValues"><![CDATA[<alternativesValues mcdaConcept="minDistance">
 						<alternativeValue>
 						  <alternativeID> [...] </alternativeID>
 						  <value>
@@ -215,20 +167,13 @@
 						  </value>
 						</alternativeValue>
 						[...]
-					</alternativesValues>
-                    ]]>
-            </xmcda>
-        </output>
-		<output id="maxEfficiency" name="maxEfficiency" displayName="maxEfficiency">
-            <documentation>
-				<description>
-					A list of alternatives with computed maximum efficiency scores.
-				</description>
-			</documentation>
-            
-            <xmcda tag="alternativesValues">
-                <![CDATA[
-					<alternativesValues mcdaConcept="maxEfficiency">
+					</alternativesValues>]]></xmcda>
+      </output>
+      <output id="maxEfficiency" name="maxEfficiency" displayName="maxEfficiency">
+         <documentation>
+            <description>A list of alternatives with computed maximum efficiency scores.</description>
+         </documentation>
+         <xmcda tag="alternativesValues"><![CDATA[<alternativesValues mcdaConcept="maxEfficiency">
 						<alternativeValue>
 						  <alternativeID> [...] </alternativeID>
 						  <value>
@@ -236,21 +181,13 @@
 						  </value>
 						</alternativeValue>
 						[...]
-					</alternativesValues>
-                    ]]>
-            </xmcda>
-        </output>
-
-        <output id="maxDistance" name="maxDistance" displayName="maxDistance">
-            <documentation>
-				<description>
-					A list of alternatives with computed maximum distances from efficient DMUs.
-				</description>
-			</documentation>
-            
-            <xmcda tag="alternativesValues">
-                <![CDATA[
-					<alternativesValues mcdaConcept="maxDistance">
+					</alternativesValues>]]></xmcda>
+      </output>
+      <output id="maxDistance" name="maxDistance" displayName="maxDistance">
+         <documentation>
+            <description>A list of alternatives with computed maximum distances from efficient DMUs.</description>
+         </documentation>
+         <xmcda tag="alternativesValues"><![CDATA[<alternativesValues mcdaConcept="maxDistance">
 						<alternativeValue>
 						  <alternativeID> [...] </alternativeID>
 						  <value>
@@ -258,11 +195,7 @@
 						  </value>
 						</alternativeValue>
 						[...]
-					</alternativesValues>
-                    ]]>
-            </xmcda>
-        </output>
-		
-	</parameters>
-	
+					</alternativesValues>]]></xmcda>
+      </output>
+   </parameters>
 </program_description>
