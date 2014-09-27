@@ -1,42 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <program_description>
-	<program provider="PUT" name="DEACCRCrossEfficiency" displayName="DEACCRCrossEfficiency" version="1.0" />
-	
-	<documentation>
-		<description>
-			Computes cross efficiency scores for the given DMUs (alternatives) using CCR Data Envelopment Analysis Model.
-		</description>
-		<contact>
-			Malgorzata Napieraj (napieraj.malgorzata@gmail.com) 
-		</contact>
-		<reference>
-			Gavgani S., Zohrehbandian M., Khorram E., Secondary Goal in DEA Cross Efficiency Evaluation (2013). 
-		</reference>
-	</documentation>
-	
-	<parameters>
-		<input id="units" name="units" displayName="units" isoptional="0">
-            <documentation>
-                <description>A list of alternatives (DMUs).</description>
-            </documentation>
-            <xmcda tag="alternatives">
-                <![CDATA[
-                    <alternatives>
+   <program provider="PUT" name="DEACCRCrossEfficiency" displayName="DEACCRCrossEfficiency" version="1.0" />
+   <documentation>
+      <description>Computes cross efficiency scores for the given DMUs (alternatives) using CCR Data Envelopment Analysis Model.</description>
+      <contact>Malgorzata Napieraj (napieraj.malgorzata@gmail.com)</contact>
+      <reference>Gavgani S., Zohrehbandian M., Khorram E., Secondary Goal in DEA Cross Efficiency Evaluation (2013).</reference>
+   </documentation>
+   <parameters>
+      <input id="units" name="units" displayName="units" isoptional="0">
+         <documentation>
+            <description>A list of alternatives (DMUs).</description>
+         </documentation>
+         <xmcda tag="alternatives"><![CDATA[<alternatives>
                         <alternative>
                             [...]
                         </alternative>
                         [...]
-                    </alternatives>
-                    ]]>
-            </xmcda>
-        </input>
-		
-		<input id="inputsOutputs" name="inputsOutputs" displayName="inputsOutputs" isoptional="0">
-            <documentation>
-                <description>A list of criteria with specified preference direction. List has to contains at least one criterion that will be minimized (input) and at least one criterion that will be maximized (output). </description>
-            </documentation>
-            <xmcda tag="criteria">
-                <![CDATA[
-                    <criteria>
+                    </alternatives>]]></xmcda>
+      </input>
+      <input id="inputsOutputs" name="inputsOutputs" displayName="inputsOutputs" isoptional="0">
+         <documentation>
+            <description>A list of criteria with specified preference direction. List has to contains at least one criterion that will be minimized (input) and at least one criterion that will be maximized (output).</description>
+         </documentation>
+         <xmcda tag="criteria"><![CDATA[<criteria>
                         <criterion>
 							<scale>
 								<quantitative>
@@ -48,18 +34,13 @@
                             [...]
                         </criterion>
                         [...]
-                    </criteria>
-                    ]]>
-            </xmcda>
-        </input>	
-
-		<input id="performanceTable" name="performanceTable" displayName="performanceTable" isoptional="0">
-            <documentation>
-                <description>A list of alternatives (DMUs) performances. </description>
-            </documentation>
-            <xmcda tag="performanceTable">
-                <![CDATA[
-					<performanceTable>
+                    </criteria>]]></xmcda>
+      </input>
+      <input id="performanceTable" name="performanceTable" displayName="performanceTable" isoptional="0">
+         <documentation>
+            <description>A list of alternatives (DMUs) performances.</description>
+         </documentation>
+         <xmcda tag="performanceTable"><![CDATA[<performanceTable>
 						<alternativePerformances>
 							<alternativeID> [...] </alternativeID>
 							<performance>
@@ -71,18 +52,13 @@
 							[...]
 						</alternativePerformances>
 						[...]
-					</performanceTable>
-                    ]]>
-            </xmcda>
-        </input>		
-		
-		<input id="weightsLinearConstraints" name="weightsLinearConstraints" displayName="weightsLinearConstraints" isoptional="defaultFalse">
-            <documentation>
-                <description>A list of criteria linear constraints. </description>
-            </documentation>
-            <xmcda tag="criteriaLinearConstraints">
-                <![CDATA[
-					<criteriaLinearConstraints>
+					</performanceTable>]]></xmcda>
+      </input>
+      <input id="weightsLinearConstraints" name="weightsLinearConstraints" displayName="weightsLinearConstraints" isoptional="defaultFalse">
+         <documentation>
+            <description>A list of criteria linear constraints.</description>
+         </documentation>
+         <xmcda tag="criteriaLinearConstraints"><![CDATA[<criteriaLinearConstraints>
 						<constraint>
 							<element>
 								<criterionID> [...] </criterionID>
@@ -97,80 +73,61 @@
 							</rhs>
 						</constraint>
 						[...]
-					</criteriaLinearConstraints>
-                    ]]>
-            </xmcda>
-        </input>
-		
-		<input id="methodParameters" name="methodParameters" displayName="methodParameters" isoptional="defaultFalse">
-            <documentation>
-                <description>There are two possible method parameters -- "type" and "withConstraints". First one indicates model formulation for cross efficiency evaluation -- aggressive or benevolent.   
+					</criteriaLinearConstraints>]]></xmcda>
+      </input>
+      <input id="methodParameters" name="methodParameters" displayName="methodParameters" isoptional="defaultFalse">
+         <documentation>
+            <description>There are two possible method parameters -- "type" and "withConstraints". First one indicates model formulation for cross efficiency evaluation -- aggressive or benevolent.   
 				Second paramterer determines if criteria linear constraints will be taken under consideration.</description>
-            </documentation>
-            <xmcda tag="methodParameters">
-                <![CDATA[
-					<methodParameters>
+         </documentation>
+         <xmcda tag="methodParameters"><![CDATA[<methodParameters>
 						<parameter name="type">
 							<value><integer>%1</integer></value>
 						</parameter>
 							<parameter name="withConstraints">
 								<value><integer>%2</integer></value>
 							</parameter>
-					</methodParameters>
-                    ]]>
-            </xmcda>
-			<gui status="preferGUI">
-				<entry id="%1" type="int" displayName="type">
-				  <defaultValue>0</defaultValue>
-				  <items>
-					<item id="aggressive">
-						<description> Aggressive </description>
-						<value>0</value>
-					</item>
-					<item id="benevolent">
-						<description> Benevolent </description>
-						<value>other than 0</value>
-					</item>
-				  </items>
-				</entry>
-						
-			
-			   <entry id="%2" type="int" displayName="withConstraints">
-				  <defaultValue>0</defaultValue>
-				  <items>
-					<item id="0">
-						<description> Disactivated </description>
-						<value>0</value>
-					</item>
-					<item id="not0">
-						<description> Activated </description>
-						<value>other than 0</value>
-					</item>
-				  </items>
-			   </entry>
-		
-			</gui>
-			
-        </input>
-		
-		<output id="messages" name="messages" displayName="messages">
-            
-            <documentation>
-                <description>A list of messages generated by the algorithm.</description>
-            </documentation>
-            <xmcda tag="methodMessages"/>
-        </output>
-        
-        <output id="crossEfficiency" name="crossEfficiency" displayName="crossEfficiency">
-            <documentation>
-				<description>
-					A list of alternatives with computed cross efficiency scores.
-				</description>
-			</documentation>
-            
-            <xmcda tag="alternativesValues">
-                <![CDATA[
-					<alternativesValues mcdaConcept="crossEfficiency">
+					</methodParameters>]]></xmcda>
+         <gui status="preferGUI">
+            <entry id="%1" type="int" displayName="type">
+               <defaultValue>0</defaultValue>
+               <items>
+                  <item id="aggressive">
+                     <description>Aggressive</description>
+                     <value>0</value>
+                  </item>
+                  <item id="benevolent">
+                     <description>Benevolent</description>
+                     <value>other than 0</value>
+                  </item>
+               </items>
+            </entry>
+            <entry id="%2" type="int" displayName="withConstraints">
+               <defaultValue>0</defaultValue>
+               <items>
+                  <item id="0">
+                     <description>Disactivated</description>
+                     <value>0</value>
+                  </item>
+                  <item id="not0">
+                     <description>Activated</description>
+                     <value>other than 0</value>
+                  </item>
+               </items>
+            </entry>
+         </gui>
+      </input>
+      <output id="messages" name="messages" displayName="messages">
+         <documentation>
+            <description>A list of messages generated by the algorithm.</description>
+         </documentation>
+         <xmcda tag="methodMessages" />
+      </output>
+      <output id="crossEfficiency" name="crossEfficiency" displayName="crossEfficiency">
+         <documentation>
+            <description>A list of alternatives with computed cross efficiency scores.</description>
+         </documentation>
+         <xmcda tag="alternativesValues"><![CDATA[<alternativesValues mcdaConcept="crossEfficiency">
 						<alternativeValue>
 						  <alternativeID> [...] </alternativeID>
 						  <value>
@@ -178,11 +135,7 @@
 						  </value>
 						</alternativeValue>
 						[...]
-					</alternativesValues>
-                    ]]>
-            </xmcda>
-        </output>
-		
-	</parameters>
-	
+					</alternativesValues>]]></xmcda>
+      </output>
+   </parameters>
 </program_description>
