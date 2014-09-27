@@ -4,13 +4,13 @@ calculateComparisonsSMAAForAll <- function(dmuData, samplesNo=10) {
   source("smaa.R")
   source("efficiencySMAA.R")
   effResults <- calculateEfficiencySMAAForAll(dmuData, samplesNo)
-  result <- calculateComparisonsSMAA(effResults)
+  result <- calculateComparisonsSMAA(effResults, samplesNo)
  # summary <- createSummary(result, dmuCount)
   
   return (result)
 }
 
-calculateComparisonsSMAA <- function (effResults) {
+calculateComparisonsSMAA <- function (effResults, samplesNo) {
   dmuCount <- NROW(effResults)
   result <- array(0, dim=c(dmuCount, dmuCount))
   for(i in 1:ncol(effResults)) {
@@ -23,6 +23,7 @@ calculateComparisonsSMAA <- function (effResults) {
       }
     }
   }
+  result <- result/samplesNo
   return (result)
 }
 

@@ -106,9 +106,23 @@
          </documentation>
          <xmcda tag="methodMessages" />
       </output>
-      <output id="efficiency" name="efficiency" displayName="efficiency">
+      <output id="minEfficiency" name="minEfficiency" displayName="minEfficiency">
          <documentation>
-            <description>A list of alternatives with computed efficiency scores.</description>
+            <description>A list of alternatives with computed minimum efficiency scores.</description>
+         </documentation>
+         <xmcda tag="alternativesValues"><![CDATA[<alternativesValues mcdaConcept="efficiency">
+						<alternativeValue>
+						  <alternativeID> [...] </alternativeID>
+						  <value>
+							[...]
+						  </value>
+						</alternativeValue>
+						[...]
+					</alternativesValues>]]></xmcda>
+      </output>
+	  <output id="maxEfficiency" name="maxEfficiency" displayName="maxEfficiency">
+         <documentation>
+            <description>A list of alternatives with computed maximum efficiency scores.</description>
          </documentation>
          <xmcda tag="alternativesValues"><![CDATA[<alternativesValues mcdaConcept="efficiency">
 						<alternativeValue>

@@ -1,0 +1,1223 @@
+<?xml version="1.0"?>
+<xmcda:XMCDA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xmcda="http://www.decision-deck.org/2009/XMCDA-2.0.0" xsi:schemaLocation="http://www.decision-deck.org/2009/XMCDA-2.0.0 http://www.decision-deck.org/xmcda/_downloads/XMCDA-2.0.0.xsd">
+  <performanceTable>
+    <alternativePerformances>
+      <alternativeID>h1</alternativeID>
+      <performance>
+        <criterionID>geq h1</criterionID>
+        <value>
+          <real>1</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h2</criterionID>
+        <value>
+          <real>0.335</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h3</criterionID>
+        <value>
+          <real>0.309</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h4</criterionID>
+        <value>
+          <real>1</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h5</criterionID>
+        <value>
+          <real>0.527</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h6</criterionID>
+        <value>
+          <real>0.356</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h7</criterionID>
+        <value>
+          <real>0.707</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h8</criterionID>
+        <value>
+          <real>0.509</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h9</criterionID>
+        <value>
+          <real>0.396</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h10</criterionID>
+        <value>
+          <real>0.374</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h11</criterionID>
+        <value>
+          <real>0.5</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h12</criterionID>
+        <value>
+          <real>0.469</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h13</criterionID>
+        <value>
+          <real>0.649</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h14</criterionID>
+        <value>
+          <real>0.52</real>
+        </value>
+      </performance>
+    </alternativePerformances>
+    <alternativePerformances>
+      <alternativeID>h2</alternativeID>
+      <performance>
+        <criterionID>geq h1</criterionID>
+        <value>
+          <real>0.665</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h2</criterionID>
+        <value>
+          <real>1</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h3</criterionID>
+        <value>
+          <real>0.378</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h4</criterionID>
+        <value>
+          <real>0.979</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h5</criterionID>
+        <value>
+          <real>0.626</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h6</criterionID>
+        <value>
+          <real>0.367</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h7</criterionID>
+        <value>
+          <real>0.878</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h8</criterionID>
+        <value>
+          <real>0.665</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h9</criterionID>
+        <value>
+          <real>0.423</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h10</criterionID>
+        <value>
+          <real>0.386</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h11</criterionID>
+        <value>
+          <real>0.582</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h12</criterionID>
+        <value>
+          <real>0.507</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h13</criterionID>
+        <value>
+          <real>0.701</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h14</criterionID>
+        <value>
+          <real>0.537</real>
+        </value>
+      </performance>
+    </alternativePerformances>
+    <alternativePerformances>
+      <alternativeID>h3</alternativeID>
+      <performance>
+        <criterionID>geq h1</criterionID>
+        <value>
+          <real>0.691</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h2</criterionID>
+        <value>
+          <real>0.622</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h3</criterionID>
+        <value>
+          <real>1</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h4</criterionID>
+        <value>
+          <real>0.952</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h5</criterionID>
+        <value>
+          <real>0.687</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h6</criterionID>
+        <value>
+          <real>0.391</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h7</criterionID>
+        <value>
+          <real>1</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h8</criterionID>
+        <value>
+          <real>0.782</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h9</criterionID>
+        <value>
+          <real>0.439</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h10</criterionID>
+        <value>
+          <real>0.392</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h11</criterionID>
+        <value>
+          <real>0.626</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h12</criterionID>
+        <value>
+          <real>0.525</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h13</criterionID>
+        <value>
+          <real>0.732</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h14</criterionID>
+        <value>
+          <real>0.553</real>
+        </value>
+      </performance>
+    </alternativePerformances>
+    <alternativePerformances>
+      <alternativeID>h4</alternativeID>
+      <performance>
+        <criterionID>geq h1</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h2</criterionID>
+        <value>
+          <real>0.021</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h3</criterionID>
+        <value>
+          <real>0.048</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h4</criterionID>
+        <value>
+          <real>1</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h5</criterionID>
+        <value>
+          <real>0.382</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h6</criterionID>
+        <value>
+          <real>0.211</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h7</criterionID>
+        <value>
+          <real>0.303</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h8</criterionID>
+        <value>
+          <real>0.275</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h9</criterionID>
+        <value>
+          <real>0.283</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h10</criterionID>
+        <value>
+          <real>0.28</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h11</criterionID>
+        <value>
+          <real>0.337</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h12</criterionID>
+        <value>
+          <real>0.36</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h13</criterionID>
+        <value>
+          <real>0.538</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h14</criterionID>
+        <value>
+          <real>0.483</real>
+        </value>
+      </performance>
+    </alternativePerformances>
+    <alternativePerformances>
+      <alternativeID>h5</alternativeID>
+      <performance>
+        <criterionID>geq h1</criterionID>
+        <value>
+          <real>0.473</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h2</criterionID>
+        <value>
+          <real>0.374</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h3</criterionID>
+        <value>
+          <real>0.313</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h4</criterionID>
+        <value>
+          <real>0.618</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h5</criterionID>
+        <value>
+          <real>1</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h6</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h7</criterionID>
+        <value>
+          <real>0.56</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h8</criterionID>
+        <value>
+          <real>0.452</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h9</criterionID>
+        <value>
+          <real>0.023</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h10</criterionID>
+        <value>
+          <real>0.116</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h11</criterionID>
+        <value>
+          <real>0.378</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h12</criterionID>
+        <value>
+          <real>0.32</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h13</criterionID>
+        <value>
+          <real>0.768</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h14</criterionID>
+        <value>
+          <real>0.521</real>
+        </value>
+      </performance>
+    </alternativePerformances>
+    <alternativePerformances>
+      <alternativeID>h6</alternativeID>
+      <performance>
+        <criterionID>geq h1</criterionID>
+        <value>
+          <real>0.644</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h2</criterionID>
+        <value>
+          <real>0.633</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h3</criterionID>
+        <value>
+          <real>0.609</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h4</criterionID>
+        <value>
+          <real>0.789</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h5</criterionID>
+        <value>
+          <real>1</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h6</criterionID>
+        <value>
+          <real>1</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h7</criterionID>
+        <value>
+          <real>0.893</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h8</criterionID>
+        <value>
+          <real>0.964</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h9</criterionID>
+        <value>
+          <real>0.469</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h10</criterionID>
+        <value>
+          <real>0.386</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h11</criterionID>
+        <value>
+          <real>0.977</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h12</criterionID>
+        <value>
+          <real>0.602</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h13</criterionID>
+        <value>
+          <real>0.837</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h14</criterionID>
+        <value>
+          <real>0.585</real>
+        </value>
+      </performance>
+    </alternativePerformances>
+    <alternativePerformances>
+      <alternativeID>h7</alternativeID>
+      <performance>
+        <criterionID>geq h1</criterionID>
+        <value>
+          <real>0.293</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h2</criterionID>
+        <value>
+          <real>0.122</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h3</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h4</criterionID>
+        <value>
+          <real>0.697</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h5</criterionID>
+        <value>
+          <real>0.44</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h6</criterionID>
+        <value>
+          <real>0.107</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h7</criterionID>
+        <value>
+          <real>1</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h8</criterionID>
+        <value>
+          <real>0.243</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h9</criterionID>
+        <value>
+          <real>0.268</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h10</criterionID>
+        <value>
+          <real>0.265</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h11</criterionID>
+        <value>
+          <real>0.365</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h12</criterionID>
+        <value>
+          <real>0.38</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h13</criterionID>
+        <value>
+          <real>0.637</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h14</criterionID>
+        <value>
+          <real>0.504</real>
+        </value>
+      </performance>
+    </alternativePerformances>
+    <alternativePerformances>
+      <alternativeID>h8</alternativeID>
+      <performance>
+        <criterionID>geq h1</criterionID>
+        <value>
+          <real>0.491</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h2</criterionID>
+        <value>
+          <real>0.335</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h3</criterionID>
+        <value>
+          <real>0.218</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h4</criterionID>
+        <value>
+          <real>0.725</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h5</criterionID>
+        <value>
+          <real>0.548</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h6</criterionID>
+        <value>
+          <real>0.036</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h7</criterionID>
+        <value>
+          <real>0.757</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h8</criterionID>
+        <value>
+          <real>1</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h9</criterionID>
+        <value>
+          <real>0.282</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h10</criterionID>
+        <value>
+          <real>0.276</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h11</criterionID>
+        <value>
+          <real>0.479</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h12</criterionID>
+        <value>
+          <real>0.429</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h13</criterionID>
+        <value>
+          <real>0.714</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h14</criterionID>
+        <value>
+          <real>0.53</real>
+        </value>
+      </performance>
+    </alternativePerformances>
+    <alternativePerformances>
+      <alternativeID>h9</alternativeID>
+      <performance>
+        <criterionID>geq h1</criterionID>
+        <value>
+          <real>0.604</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h2</criterionID>
+        <value>
+          <real>0.577</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h3</criterionID>
+        <value>
+          <real>0.561</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h4</criterionID>
+        <value>
+          <real>0.717</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h5</criterionID>
+        <value>
+          <real>0.977</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h6</criterionID>
+        <value>
+          <real>0.531</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h7</criterionID>
+        <value>
+          <real>0.732</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h8</criterionID>
+        <value>
+          <real>0.718</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h9</criterionID>
+        <value>
+          <real>1</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h10</criterionID>
+        <value>
+          <real>0.264</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h11</criterionID>
+        <value>
+          <real>0.873</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h12</criterionID>
+        <value>
+          <real>0.722</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h13</criterionID>
+        <value>
+          <real>0.904</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h14</criterionID>
+        <value>
+          <real>0.622</real>
+        </value>
+      </performance>
+    </alternativePerformances>
+    <alternativePerformances>
+      <alternativeID>h10</alternativeID>
+      <performance>
+        <criterionID>geq h1</criterionID>
+        <value>
+          <real>0.626</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h2</criterionID>
+        <value>
+          <real>0.614</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h3</criterionID>
+        <value>
+          <real>0.608</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h4</criterionID>
+        <value>
+          <real>0.72</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h5</criterionID>
+        <value>
+          <real>0.884</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h6</criterionID>
+        <value>
+          <real>0.614</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h7</criterionID>
+        <value>
+          <real>0.735</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h8</criterionID>
+        <value>
+          <real>0.724</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h9</criterionID>
+        <value>
+          <real>0.736</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h10</criterionID>
+        <value>
+          <real>1</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h11</criterionID>
+        <value>
+          <real>0.834</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h12</criterionID>
+        <value>
+          <real>0.96</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h13</criterionID>
+        <value>
+          <real>0.986</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h14</criterionID>
+        <value>
+          <real>0.699</real>
+        </value>
+      </performance>
+    </alternativePerformances>
+    <alternativePerformances>
+      <alternativeID>h11</alternativeID>
+      <performance>
+        <criterionID>geq h1</criterionID>
+        <value>
+          <real>0.5</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h2</criterionID>
+        <value>
+          <real>0.418</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h3</criterionID>
+        <value>
+          <real>0.374</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h4</criterionID>
+        <value>
+          <real>0.663</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h5</criterionID>
+        <value>
+          <real>0.622</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h6</criterionID>
+        <value>
+          <real>0.023</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h7</criterionID>
+        <value>
+          <real>0.635</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h8</criterionID>
+        <value>
+          <real>0.521</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h9</criterionID>
+        <value>
+          <real>0.127</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h10</criterionID>
+        <value>
+          <real>0.166</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h11</criterionID>
+        <value>
+          <real>1</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h12</criterionID>
+        <value>
+          <real>0.398</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h13</criterionID>
+        <value>
+          <real>0.781</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h14</criterionID>
+        <value>
+          <real>0.539</real>
+        </value>
+      </performance>
+    </alternativePerformances>
+    <alternativePerformances>
+      <alternativeID>h12</alternativeID>
+      <performance>
+        <criterionID>geq h1</criterionID>
+        <value>
+          <real>0.531</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h2</criterionID>
+        <value>
+          <real>0.493</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h3</criterionID>
+        <value>
+          <real>0.475</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h4</criterionID>
+        <value>
+          <real>0.64</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h5</criterionID>
+        <value>
+          <real>0.68</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h6</criterionID>
+        <value>
+          <real>0.398</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h7</criterionID>
+        <value>
+          <real>0.62</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h8</criterionID>
+        <value>
+          <real>0.571</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h9</criterionID>
+        <value>
+          <real>0.278</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h10</criterionID>
+        <value>
+          <real>0.04</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h11</criterionID>
+        <value>
+          <real>0.602</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h12</criterionID>
+        <value>
+          <real>1</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h13</criterionID>
+        <value>
+          <real>0.985</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h14</criterionID>
+        <value>
+          <real>0.585</real>
+        </value>
+      </performance>
+    </alternativePerformances>
+    <alternativePerformances>
+      <alternativeID>h13</alternativeID>
+      <performance>
+        <criterionID>geq h1</criterionID>
+        <value>
+          <real>0.351</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h2</criterionID>
+        <value>
+          <real>0.299</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h3</criterionID>
+        <value>
+          <real>0.268</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h4</criterionID>
+        <value>
+          <real>0.462</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h5</criterionID>
+        <value>
+          <real>0.232</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h6</criterionID>
+        <value>
+          <real>0.163</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h7</criterionID>
+        <value>
+          <real>0.363</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h8</criterionID>
+        <value>
+          <real>0.286</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h9</criterionID>
+        <value>
+          <real>0.096</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h10</criterionID>
+        <value>
+          <real>0.014</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h11</criterionID>
+        <value>
+          <real>0.219</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h12</criterionID>
+        <value>
+          <real>0.015</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h13</criterionID>
+        <value>
+          <real>1</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h14</criterionID>
+        <value>
+          <real>0.358</real>
+        </value>
+      </performance>
+    </alternativePerformances>
+    <alternativePerformances>
+      <alternativeID>h14</alternativeID>
+      <performance>
+        <criterionID>geq h1</criterionID>
+        <value>
+          <real>0.48</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h2</criterionID>
+        <value>
+          <real>0.463</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h3</criterionID>
+        <value>
+          <real>0.447</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h4</criterionID>
+        <value>
+          <real>0.517</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h5</criterionID>
+        <value>
+          <real>0.479</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h6</criterionID>
+        <value>
+          <real>0.415</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h7</criterionID>
+        <value>
+          <real>0.496</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h8</criterionID>
+        <value>
+          <real>0.47</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h9</criterionID>
+        <value>
+          <real>0.378</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h10</criterionID>
+        <value>
+          <real>0.301</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h11</criterionID>
+        <value>
+          <real>0.461</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h12</criterionID>
+        <value>
+          <real>0.415</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h13</criterionID>
+        <value>
+          <real>0.642</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>geq h14</criterionID>
+        <value>
+          <real>1</real>
+        </value>
+      </performance>
+    </alternativePerformances>
+  </performanceTable>
+</xmcda:XMCDA>

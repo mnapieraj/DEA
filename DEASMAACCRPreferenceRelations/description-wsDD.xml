@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <program_description>
-   <program provider="PUT" name="SMAACCRPreferenceRelations" displayName="SMAACCRPreferenceRelations" version="1.0" />
+   <program provider="PUT" name="DEASMAACCRPreferenceRelations" displayName="DEASMAACCRPreferenceRelations" version="1.0" />
    <documentation>
       <description>Determines dominance relations for the given DMUs (alternatives) using SMAA-D method and CCR Data Envelopment Analysis Model. For given number of samples  returns a matrix with alternatives in each row and column. Single cell indicates how many samples of alternative in a row dominates alternative in a column.</description>
       <contact>Malgorzata Napieraj (napieraj.malgorzata@gmail.com)</contact>
@@ -119,7 +119,7 @@
       </output>
       <output id="pairwiseOutrankingIndices" name="pairwiseOutrankingIndices" displayName="pairwiseOutrankingIndices">
          <documentation>
-            <description>A performance table for given alternatives. Single performance consists of attribute criterionID representing dominated alternative, and a value representing how many samples dominate this alternative.</description>
+            <description>A performance table for given alternatives. Single performance consists of attribute criterionID representing dominated alternative, and a value representing ratio of samples dominating this alternative.</description>
          </documentation>
          <xmcda tag="performanceTable"><![CDATA[<performanceTable>
 						<alternativePerformances>

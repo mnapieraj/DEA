@@ -1,0 +1,212 @@
+<program_description>
+	<program provider="PUT" name="DEASMAAvalueADDPreferenceRelations" displayName="DEASMAAvalueADDPreferenceRelations" version="1.0" />
+	
+	<documentation>
+		<description>
+			Determines dominance relations for the given DMUs (alternatives) using SMAA-D method and additive Data Envelopment Analysis Model. For given number of samples  returns a matrix with alternatives in each row and column. Single cell indicates how many samples of alternative in a row dominates alternative in a column.
+		</description>
+		<contact>
+			Malgorzata Napieraj (napieraj.malgorzata@gmail.com) 
+		</contact>
+		<reference>
+			Gouveia M. C., Dias L. C., Antunes C. H., Additive DEA based on MCDA with imprecise information (2008).  
+			Lahdelma R., Salminen P., Stochastic multicriteria acceptability analysis using the data envelopment model (2004).
+		</reference>
+	</documentation>
+	
+	<parameters>
+		<input id="units" name="units" displayName="units" isoptional="0">
+            <documentation>
+                <description>A list of alternatives (DMUs).</description>
+            </documentation>
+            <xmcda tag="alternatives">
+                <![CDATA[
+                    <alternatives>
+                        <alternative>
+                            [...]
+                        </alternative>
+                        [...]
+                    </alternatives>
+                    ]]>
+            </xmcda>
+        </input>
+		
+		<input id="inputsOutputs" name="inputsOutputs" displayName="inputsOutputs" isoptional="0">
+            <documentation>
+                <description>A list of criteria with specified preference direction. List has to contains at least one criterion that will be minimized (input) and at least one criterion that will be maximized (output). </description>
+            </documentation>
+            <xmcda tag="criteria">
+                <![CDATA[
+                    <criteria>
+                        <criterion>
+							<scale>
+								<quantitative>
+									<preferenceDirection>
+										[...]
+									</preferenceDirection>
+								</quantitative>
+							</scale>
+                            [...]
+                        </criterion>
+                        [...]
+                    </criteria>
+                    ]]>
+            </xmcda>
+        </input>	
+
+		<input id="performanceTable" name="performanceTable" displayName="performanceTable" isoptional="0">
+            <documentation>
+                <description>A list of alternatives (DMUs) performances. </description>
+            </documentation>
+            <xmcda tag="performanceTable">
+                <![CDATA[
+					<performanceTable>
+						<alternativePerformances>
+							<alternativeID> [...] </alternativeID>
+							<performance>
+								<criterionID>
+									[...]
+								</criterionID>
+								<value>[...]</value>
+							</performance>
+							[...]
+						</alternativePerformances>
+						[...]
+					</performanceTable>
+                    ]]>
+            </xmcda>
+        </input>		
+		
+		<input id="weightsLinearConstraints" name="weightsLinearConstraints" displayName="weightsLinearConstraints" isoptional="defaultFalse">
+            <documentation>
+                <description>A list of criteria linear constraints. </description>
+            </documentation>
+            <xmcda tag="criteriaLinearConstraints">
+                <![CDATA[
+					<criteriaLinearConstraints>
+						<constraint>
+							<element>
+								<criterionID> [...] </criterionID>
+								<coefficient>
+									[...]
+								</coefficient>
+							</element>
+							[...]
+							<operator>[...]</operator>
+							<rhs>
+								[...]
+							</rhs>
+						</constraint>
+						[...]
+					</criteriaLinearConstraints>
+                    ]]>
+            </xmcda>
+        </input>
+		
+		<input id="methodParameters" name="methodParameters" displayName="methodParameters" isoptional="defaultFalse">
+            <documentation>
+                <description>First parameter, "withConstraints", determines if criteria linear constraints will be taken under consideration. Second one indicates if criteria values boundaries are given in criteria input or they have to be computed based on alternatives performances. "samplesNo" represents the number of samples to generate.</description>
+            </documentation>
+            <xmcda tag="methodParameters">
+                <![CDATA[
+					<methodParameters>
+							<parameter name="withConstraints">
+								<value><integer>%1</integer></value>
+							</parameter>
+							<parameter name="boundariesProvided">
+								<value><integer>%2</integer></value>
+							</parameter>
+							<parameter name="samplesNo">
+								<value><integer>%3</integer></value>
+							</parameter>
+							<parameter name="transformToUtilities">
+								<value><integer>%4</integer></value>
+							</parameter>
+					</methodParameters>
+                    ]]>
+            </xmcda>
+			<gui status="preferGUI">
+			   <entry id="%1" type="int" displayName="withConstraints">
+				  <defaultValue>0</defaultValue>
+				  <items>
+					<item id="0">
+						<description> Disactivated </description>
+						<value>0</value>
+					</item>
+					<item id="not0">
+						<description> Activated </description>
+						<value>other than 0</value>
+					</item>
+				  </items>
+			   </entry>
+			   <entry id="%2" type="int" displayName="boundariesProvided">
+				  <defaultValue>0</defaultValue>
+				  <items>
+					<item id="0">
+						<description> Boundaries will be computed from alternatives performances. </description>
+						<value>0</value>
+					</item>
+					<item id="not0">
+						<description> Boundaries are given in criteria input </description>
+						<value>other than 0</value>
+					</item>
+				  </items>
+			   </entry>
+			   
+			   	<entry id="%3" type="int" displayName="samplesNo">
+				  <constraint>
+					 <description>The value should be a positive integer.</description>
+					 <code>
+						<![CDATA[
+						   %3 > 0
+						]]>
+					 </code>
+				  </constraint>
+				  <defaultValue>100</defaultValue>
+			   </entry>
+			   <entry id="%4" type="int" displayName="transformToUtilities">
+				  <defaultValue>1</defaultValue>
+				  <items>
+					<item id="0">
+						<description> Utilities will be computed from alternatives performances. </description>
+						<value>0</value>
+					</item>
+					<item id="not0">
+						<description> Alternatives performances are given as utility values. </description>
+						<value>other than 0</value>
+					</item>
+				  </items>
+			   </entry>
+			</gui>
+			
+        </input>
+		
+		<output id="messages" name="messages" displayName="messages">
+            
+            <documentation>
+                <description>A list of messages generated by the algorithm.</description>
+            </documentation>
+            <xmcda tag="methodMessages"/>
+        </output>
+        
+        <output id="pairwiseOutrankingIndices" name="pairwiseOutrankingIndices" displayName="pairwiseOutrankingIndices">
+         <documentation>
+            <description>A performance table for given alternatives. Single performance consists of attribute criterionID representing dominated alternative, and a value representing ratio of samples dominating this alternative.</description>
+         </documentation>
+         <xmcda tag="performanceTable"><![CDATA[<performanceTable>
+						<alternativePerformances>
+							<alternativeID> [...] </alternativeID>
+							<performance>
+								<criterionID> geq [...]</criterionID>
+									<value>
+									[...]
+									</value>
+							</performance>
+							[...]
+						</alternativePerformances>
+					</performanceTable>]]></xmcda>
+      </output>
+		
+	</parameters>
+	
+</program_description>

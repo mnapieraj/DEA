@@ -29,6 +29,7 @@ calculateEfficiencySMAA <- function (dmuData, subjectDmuIdx, samples) {
 createIntervals <- function (efficiencyResults, intervalsNo) {
   dmuCount <- NROW(efficiencyResults)
   samplesNo <- ncol(efficiencyResults)
+  
   intervals  <- array(0, dim=c(dmuCount,intervalsNo))
   intervalLenght <- 1/intervalsNo
   for(i in 1:samplesNo) {
@@ -43,6 +44,8 @@ createIntervals <- function (efficiencyResults, intervalsNo) {
       intervals[j,intervalIdx] = intervals[j,intervalIdx] + 1
     }
   }
+  intervals <- intervals / samplesNo
+  print(intervals)
   return (intervals)
 }
 

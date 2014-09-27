@@ -1,0 +1,887 @@
+<?xml version="1.0"?>
+<xmcda:XMCDA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xmcda="http://www.decision-deck.org/2009/XMCDA-2.0.0" xsi:schemaLocation="http://www.decision-deck.org/2009/XMCDA-2.0.0 http://www.decision-deck.org/xmcda/_downloads/XMCDA-2.0.0.xsd">
+  <performanceTable>
+    <alternativePerformances>
+      <alternativeID>h1</alternativeID>
+      <performance>
+        <criterionID>[0.0 - 0.1]</criterionID>
+        <value>
+          <real>0.008</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.1 - 0.2]</criterionID>
+        <value>
+          <real>0.04</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.2 - 0.3]</criterionID>
+        <value>
+          <real>0.094</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.3 - 0.4]</criterionID>
+        <value>
+          <real>0.121</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.4 - 0.5]</criterionID>
+        <value>
+          <real>0.148</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.5 - 0.6]</criterionID>
+        <value>
+          <real>0.161</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.6 - 0.7]</criterionID>
+        <value>
+          <real>0.169</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.7 - 0.8]</criterionID>
+        <value>
+          <real>0.135</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.8 - 0.9]</criterionID>
+        <value>
+          <real>0.089</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.9 - 1]</criterionID>
+        <value>
+          <real>0.035</real>
+        </value>
+      </performance>
+    </alternativePerformances>
+    <alternativePerformances>
+      <alternativeID>h2</alternativeID>
+      <performance>
+        <criterionID>[0.0 - 0.1]</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.1 - 0.2]</criterionID>
+        <value>
+          <real>0.01</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.2 - 0.3]</criterionID>
+        <value>
+          <real>0.061</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.3 - 0.4]</criterionID>
+        <value>
+          <real>0.121</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.4 - 0.5]</criterionID>
+        <value>
+          <real>0.158</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.5 - 0.6]</criterionID>
+        <value>
+          <real>0.198</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.6 - 0.7]</criterionID>
+        <value>
+          <real>0.206</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.7 - 0.8]</criterionID>
+        <value>
+          <real>0.16</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.8 - 0.9]</criterionID>
+        <value>
+          <real>0.08</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.9 - 1]</criterionID>
+        <value>
+          <real>0.006</real>
+        </value>
+      </performance>
+    </alternativePerformances>
+    <alternativePerformances>
+      <alternativeID>h3</alternativeID>
+      <performance>
+        <criterionID>[0.0 - 0.1]</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.1 - 0.2]</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.2 - 0.3]</criterionID>
+        <value>
+          <real>0.03</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.3 - 0.4]</criterionID>
+        <value>
+          <real>0.118</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.4 - 0.5]</criterionID>
+        <value>
+          <real>0.173</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.5 - 0.6]</criterionID>
+        <value>
+          <real>0.21</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.6 - 0.7]</criterionID>
+        <value>
+          <real>0.223</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.7 - 0.8]</criterionID>
+        <value>
+          <real>0.173</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.8 - 0.9]</criterionID>
+        <value>
+          <real>0.07</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.9 - 1]</criterionID>
+        <value>
+          <real>0.003</real>
+        </value>
+      </performance>
+    </alternativePerformances>
+    <alternativePerformances>
+      <alternativeID>h4</alternativeID>
+      <performance>
+        <criterionID>[0.0 - 0.1]</criterionID>
+        <value>
+          <real>0.033</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.1 - 0.2]</criterionID>
+        <value>
+          <real>0.077</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.2 - 0.3]</criterionID>
+        <value>
+          <real>0.121</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.3 - 0.4]</criterionID>
+        <value>
+          <real>0.145</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.4 - 0.5]</criterionID>
+        <value>
+          <real>0.155</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.5 - 0.6]</criterionID>
+        <value>
+          <real>0.168</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.6 - 0.7]</criterionID>
+        <value>
+          <real>0.127</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.7 - 0.8]</criterionID>
+        <value>
+          <real>0.114</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.8 - 0.9]</criterionID>
+        <value>
+          <real>0.054</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.9 - 1]</criterionID>
+        <value>
+          <real>0.006</real>
+        </value>
+      </performance>
+    </alternativePerformances>
+    <alternativePerformances>
+      <alternativeID>h5</alternativeID>
+      <performance>
+        <criterionID>[0.0 - 0.1]</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.1 - 0.2]</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.2 - 0.3]</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.3 - 0.4]</criterionID>
+        <value>
+          <real>0.057</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.4 - 0.5]</criterionID>
+        <value>
+          <real>0.281</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.5 - 0.6]</criterionID>
+        <value>
+          <real>0.499</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.6 - 0.7]</criterionID>
+        <value>
+          <real>0.163</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.7 - 0.8]</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.8 - 0.9]</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.9 - 1]</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+    </alternativePerformances>
+    <alternativePerformances>
+      <alternativeID>h6</alternativeID>
+      <performance>
+        <criterionID>[0.0 - 0.1]</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.1 - 0.2]</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.2 - 0.3]</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.3 - 0.4]</criterionID>
+        <value>
+          <real>0.026</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.4 - 0.5]</criterionID>
+        <value>
+          <real>0.153</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.5 - 0.6]</criterionID>
+        <value>
+          <real>0.337</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.6 - 0.7]</criterionID>
+        <value>
+          <real>0.338</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.7 - 0.8]</criterionID>
+        <value>
+          <real>0.134</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.8 - 0.9]</criterionID>
+        <value>
+          <real>0.012</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.9 - 1]</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+    </alternativePerformances>
+    <alternativePerformances>
+      <alternativeID>h7</alternativeID>
+      <performance>
+        <criterionID>[0.0 - 0.1]</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.1 - 0.2]</criterionID>
+        <value>
+          <real>0.004</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.2 - 0.3]</criterionID>
+        <value>
+          <real>0.084</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.3 - 0.4]</criterionID>
+        <value>
+          <real>0.164</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.4 - 0.5]</criterionID>
+        <value>
+          <real>0.212</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.5 - 0.6]</criterionID>
+        <value>
+          <real>0.233</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.6 - 0.7]</criterionID>
+        <value>
+          <real>0.186</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.7 - 0.8]</criterionID>
+        <value>
+          <real>0.104</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.8 - 0.9]</criterionID>
+        <value>
+          <real>0.013</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.9 - 1]</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+    </alternativePerformances>
+    <alternativePerformances>
+      <alternativeID>h8</alternativeID>
+      <performance>
+        <criterionID>[0.0 - 0.1]</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.1 - 0.2]</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.2 - 0.3]</criterionID>
+        <value>
+          <real>0.011</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.3 - 0.4]</criterionID>
+        <value>
+          <real>0.142</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.4 - 0.5]</criterionID>
+        <value>
+          <real>0.235</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.5 - 0.6]</criterionID>
+        <value>
+          <real>0.298</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.6 - 0.7]</criterionID>
+        <value>
+          <real>0.209</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.7 - 0.8]</criterionID>
+        <value>
+          <real>0.092</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.8 - 0.9]</criterionID>
+        <value>
+          <real>0.013</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.9 - 1]</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+    </alternativePerformances>
+    <alternativePerformances>
+      <alternativeID>h9</alternativeID>
+      <performance>
+        <criterionID>[0.0 - 0.1]</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.1 - 0.2]</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.2 - 0.3]</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.3 - 0.4]</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.4 - 0.5]</criterionID>
+        <value>
+          <real>0.078</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.5 - 0.6]</criterionID>
+        <value>
+          <real>0.363</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.6 - 0.7]</criterionID>
+        <value>
+          <real>0.547</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.7 - 0.8]</criterionID>
+        <value>
+          <real>0.012</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.8 - 0.9]</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.9 - 1]</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+    </alternativePerformances>
+    <alternativePerformances>
+      <alternativeID>h10</alternativeID>
+      <performance>
+        <criterionID>[0.0 - 0.1]</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.1 - 0.2]</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.2 - 0.3]</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.3 - 0.4]</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.4 - 0.5]</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.5 - 0.6]</criterionID>
+        <value>
+          <real>0.306</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.6 - 0.7]</criterionID>
+        <value>
+          <real>0.624</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.7 - 0.8]</criterionID>
+        <value>
+          <real>0.07</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.8 - 0.9]</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.9 - 1]</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+    </alternativePerformances>
+    <alternativePerformances>
+      <alternativeID>h11</alternativeID>
+      <performance>
+        <criterionID>[0.0 - 0.1]</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.1 - 0.2]</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.2 - 0.3]</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.3 - 0.4]</criterionID>
+        <value>
+          <real>0.039</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.4 - 0.5]</criterionID>
+        <value>
+          <real>0.316</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.5 - 0.6]</criterionID>
+        <value>
+          <real>0.401</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.6 - 0.7]</criterionID>
+        <value>
+          <real>0.206</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.7 - 0.8]</criterionID>
+        <value>
+          <real>0.036</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.8 - 0.9]</criterionID>
+        <value>
+          <real>0.002</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.9 - 1]</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+    </alternativePerformances>
+    <alternativePerformances>
+      <alternativeID>h12</alternativeID>
+      <performance>
+        <criterionID>[0.0 - 0.1]</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.1 - 0.2]</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.2 - 0.3]</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.3 - 0.4]</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.4 - 0.5]</criterionID>
+        <value>
+          <real>0.105</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.5 - 0.6]</criterionID>
+        <value>
+          <real>0.663</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.6 - 0.7]</criterionID>
+        <value>
+          <real>0.231</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.7 - 0.8]</criterionID>
+        <value>
+          <real>0.001</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.8 - 0.9]</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.9 - 1]</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+    </alternativePerformances>
+    <alternativePerformances>
+      <alternativeID>h13</alternativeID>
+      <performance>
+        <criterionID>[0.0 - 0.1]</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.1 - 0.2]</criterionID>
+        <value>
+          <real>0.001</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.2 - 0.3]</criterionID>
+        <value>
+          <real>0.045</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.3 - 0.4]</criterionID>
+        <value>
+          <real>0.285</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.4 - 0.5]</criterionID>
+        <value>
+          <real>0.523</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.5 - 0.6]</criterionID>
+        <value>
+          <real>0.145</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.6 - 0.7]</criterionID>
+        <value>
+          <real>0.001</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.7 - 0.8]</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.8 - 0.9]</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.9 - 1]</criterionID>
+        <value>
+          <real>0</real>
+        </value>
+      </performance>
+    </alternativePerformances>
+    <alternativePerformances>
+      <alternativeID>h14</alternativeID>
+      <performance>
+        <criterionID>[0.0 - 0.1]</criterionID>
+        <value>
+          <real>0.031</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.1 - 0.2]</criterionID>
+        <value>
+          <real>0.067</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.2 - 0.3]</criterionID>
+        <value>
+          <real>0.13</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.3 - 0.4]</criterionID>
+        <value>
+          <real>0.128</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.4 - 0.5]</criterionID>
+        <value>
+          <real>0.166</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.5 - 0.6]</criterionID>
+        <value>
+          <real>0.134</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.6 - 0.7]</criterionID>
+        <value>
+          <real>0.125</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.7 - 0.8]</criterionID>
+        <value>
+          <real>0.109</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.8 - 0.9]</criterionID>
+        <value>
+          <real>0.078</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>(0.9 - 1]</criterionID>
+        <value>
+          <real>0.032</real>
+        </value>
+      </performance>
+    </alternativePerformances>
+  </performanceTable>
+</xmcda:XMCDA>

@@ -129,7 +129,7 @@
       </output>
       <output id="efficiencyDistribution" name="efficiencyDistribution" displayName="efficiencyDistribution">
          <documentation>
-            <description>A performance table for given alternatives. Single performance consists of attribute criterionID representing certain bucket, and a value representing how many efficiency scores are in this bucket.</description>
+            <description>A performance table for given alternatives. Single performance consists of attribute criterionID representing certain bucket, and a value representing the ratio of efficiency scores in this bucket.</description>
          </documentation>
          <xmcda tag="performanceTable"><![CDATA[<performanceTable>
 						<alternativePerformances>
