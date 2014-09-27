@@ -1,8 +1,8 @@
 normalizePerformanceMatrix <- function(dmuData) {
 	dmuData <- updateFunctions(dmuData)
-	print(dmuData$functions)
 	dmuData <- transformToUtilityValues(dmuData)
-	print(dmuData$data)
+	print(dmuData)
+	return(dmuData$data)
 }
 
 updateFunctions <- function(dmuData) {
@@ -43,7 +43,6 @@ transformToUtilityValues = function(dmuData) {
 
 computePerformance <- function(dmuData, fun, i, j) {
 	val <- dmuData$data[i,j]
-	print(paste("VAL",val))
 	idxs <- which(fun[,1] == val)
 	if(length(idxs) != 0) {
 		dmuData$data[i,j] <- (fun[idxs[1], 2])
@@ -51,14 +50,10 @@ computePerformance <- function(dmuData, fun, i, j) {
 		lowX <- max(fun[fun[,1] < val, 1])
 		listUp <- fun[fun[,1] > val, 1]
 		upX <- min(listUp) 
-		print(lowX)
-		print(upX)
 		yFromLowX <- which(fun[,1] == max(fun[fun[,1] < val,1]))[1]
 		yFromUpX <- which(fun[,1] == min(fun[fun[,1] > val,1]))[1]
 		yFromLowX <- fun[yFromLowX, 2]
 		yFromUpX <- fun[yFromUpX,2]
-		print(yFromLowX)
-		print(yFromUpX)
 		resultVal <- (val - lowX) / (upX - lowX) * (yFromUpX - yFromLowX) + yFromLowX
 		dmuData$data[i,j] <- resultVal 		
 	}

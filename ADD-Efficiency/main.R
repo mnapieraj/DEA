@@ -169,6 +169,8 @@ parseTrees <- function (dataTree) {
   
   withWeightConstraints <- FALSE
   boundariesProvided <- FALSE 
+  transformToUtilities <- TRUE
+  
   if(!is.null(dataTree$methodParametersTree)) {
     withConsNode <- getParameters(dataTree$methodParametersTree, "withConstraints")
     if (withConsNode$status == "OK" && withConsNode$withConstraints != 0) {
@@ -178,12 +180,17 @@ parseTrees <- function (dataTree) {
 	if (boundariesProvidedNode$status == "OK" && boundariesProvidedNode$boundariesProvided != 0) {
       boundariesProvided <- TRUE
     } 
+	transformToUtilitiesNode <- getParameters(dataTree$methodParametersTree, "transformToUtilities")
+	if (transformToUtilitiesNode$status == "OK" && transformToUtilitiesNode$transformToUtilities == 0) {
+      transformToUtilities <- FALSE
+    } 
   }
   result <- list(data=performance, 
                  inputCount=orderedCriteria$inputCount,
                  outputCount=orderedCriteria$outputCount,
                  weightConstraints = weightConstraints,
                  withWeightConstraints = withWeightConstraints,
+				 transformToUtilities = transformToUtilities,
                  altIDs = altIDs)
 
 	if(boundariesProvided == TRUE) {
@@ -277,9 +284,9 @@ if(dataTree$errMsg == "") {
     dmuData <- parseTrees(dataTree)
     setwd(workingDirectory)
     source("efficiency.R")
-    efficiency <- calculateEfficiencyForAll(dmuData)
+    efficiency <- calculateEfficiencyForAll(dmuData, dmuData$transformToUtilities)
 	distances <- efficiency[,2]
-	#print(efficiency)
+	print(efficiency)
     saveResult(dmuData$altIDs, efficiency, "efficiency")
 	saveResult(dmuData$altIDs, distances, "distance")
     saveMessages("OK", "executionStatus", "messages")

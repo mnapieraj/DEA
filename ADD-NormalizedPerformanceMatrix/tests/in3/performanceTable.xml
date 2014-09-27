@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="xmcdaKappalab.xsl"?>
+<xmcda:XMCDA xmlns:xmcda="http://www.decision-deck.org/2009/XMCDA-2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.decision-deck.org/2009/XMCDA-2.0.0 file:/home/pat/Documents/currentResearch/DecisionDeck/svn-DecisionDeck/XMCDA/XMCDA-2.0.0.xsd">
+<performanceTable>
+	<alternativePerformances>
+		<alternativeID>A</alternativeID>
+		<performance>
+			<criterionID>i1</criterionID>
+			<value><integer>2</integer></value>
+		</performance>
+		<performance>
+			<criterionID>o1</criterionID>
+			<value><integer>4</integer></value>
+		</performance>
+	</alternativePerformances>
+	
+		<alternativePerformances>
+		<alternativeID>B</alternativeID>
+		<performance>
+			<criterionID>i1</criterionID>
+			<value><integer>4</integer></value>
+		</performance>
+		<performance>
+			<criterionID>o1</criterionID>
+			<value><integer>6</integer></value>
+		</performance>
+	</alternativePerformances>
+	
+		<alternativePerformances>
+		<alternativeID>C</alternativeID>
+		<performance>
+			<criterionID>i1</criterionID>
+			<value><integer>6</integer></value>
+		</performance>
+		<performance>
+			<criterionID>o1</criterionID>
+			<value><integer>9</integer></value>
+		</performance>
+	</alternativePerformances>
+	
+		<alternativePerformances>
+		<alternativeID>D</alternativeID>
+		<performance>
+			<criterionID>i1</criterionID>
+			<value><integer>8</integer></value>
+		</performance>
+		<performance>
+			<criterionID>o1</criterionID>
+			<value><integer>10</integer></value>
+		</performance>
+	</alternativePerformances>
+	
+</performanceTable>
+</xmcda:XMCDA>

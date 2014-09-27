@@ -1,88 +1,88 @@
 <?xml version="1.0"?>
 <xmcda:XMCDA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xmcda="http://www.decision-deck.org/2009/XMCDA-2.0.0" xsi:schemaLocation="http://www.decision-deck.org/2009/XMCDA-2.0.0 http://www.decision-deck.org/xmcda/_downloads/XMCDA-2.0.0.xsd">
-  <alternativesValues mcdaConcept="efficiency">
+  <alternativesValues mcdaConcept="distance">
     <alternativeValue>
       <alternativeID>h1</alternativeID>
       <value>
-        <real>0.698323821642661</real>
+        <real>0</real>
       </value>
     </alternativeValue>
     <alternativeValue>
       <alternativeID>h2</alternativeID>
       <value>
-        <real>0.702706824382272</real>
+        <real>0</real>
       </value>
     </alternativeValue>
     <alternativeValue>
       <alternativeID>h3</alternativeID>
       <value>
-        <real>0.660300771004415</real>
+        <real>0</real>
       </value>
     </alternativeValue>
     <alternativeValue>
       <alternativeID>h4</alternativeID>
       <value>
-        <real>0.662296019862052</real>
+        <real>0.0350339206274247</real>
       </value>
     </alternativeValue>
     <alternativeValue>
       <alternativeID>h5</alternativeID>
       <value>
-        <real>0.49083740600244</real>
+        <real>0.0573078168705199</real>
       </value>
     </alternativeValue>
     <alternativeValue>
       <alternativeID>h6</alternativeID>
       <value>
-        <real>0.66030077100482</real>
+        <real>0</real>
       </value>
     </alternativeValue>
     <alternativeValue>
       <alternativeID>h7</alternativeID>
       <value>
-        <real>0.621892745501824</real>
+        <real>0.0384080438204828</real>
       </value>
     </alternativeValue>
     <alternativeValue>
       <alternativeID>h8</alternativeID>
       <value>
-        <real>0.645323517628767</real>
+        <real>0.0149772549517896</real>
       </value>
     </alternativeValue>
     <alternativeValue>
       <alternativeID>h9</alternativeID>
       <value>
-        <real>0.630933410382748</real>
+        <real>0.00169668491725277</real>
       </value>
     </alternativeValue>
     <alternativeValue>
       <alternativeID>h10</alternativeID>
       <value>
-        <real>0.636592416399742</real>
+        <real>0</real>
       </value>
     </alternativeValue>
     <alternativeValue>
       <alternativeID>h11</alternativeID>
       <value>
-        <real>0.606903790842222</real>
+        <real>0.0296886362420344</real>
       </value>
     </alternativeValue>
     <alternativeValue>
       <alternativeID>h12</alternativeID>
       <value>
-        <real>0.625436219617747</real>
+        <real>0.0111561966026141</real>
       </value>
     </alternativeValue>
     <alternativeValue>
       <alternativeID>h13</alternativeID>
       <value>
-        <real>0.521175026063598</real>
+        <real>0.0970506640045548</real>
       </value>
     </alternativeValue>
     <alternativeValue>
       <alternativeID>h14</alternativeID>
       <value>
-        <real>0.552010069823121</real>
+        <real>0</real>
       </value>
     </alternativeValue>
   </alternativesValues>

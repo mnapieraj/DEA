@@ -77,6 +77,9 @@ getFunctions <- function (tree ) {
 	nodes <- getNodeSet(tree, paste("//", "function"))
 	count <- length(nodes)
 	result <- list()
+	if(count == 0) {
+		return (result)
+	}
 	for(i in 1:count) {
 		critID <- xmlGetAttr(xmlParent(nodes[[i]]), "id")
 			x <-  xmlElementsByTagName(nodes[[i]],"abscissa", recursive=TRUE)
@@ -183,13 +186,14 @@ saveMessages <- function(msg, name, fileName) {
  saveXML(msgTree, file=paste(fileName,'.xml', sep=""))
 }
 
-saveResult <- function (altIDs, res, fileName) {
+saveResult <- function (altIDs, critIDs, res, fileName) {
   resultSize <- length(altIDs)
   result <- c()
-  for(i in 1:(resultSize)) {
-    result <- rbind(result, c(i, res[i]))
-  }
-  
+ # for(i in 1:(resultSize)) {
+ #   result <- rbind(result, c(i, res[i]))
+ # }
+  colnames(res) <- (critIDs)
+  rownames(res) <- (altIDs)
   setwd(outDirectory)
   resultTree <- newXMLDoc()
   newXMLNode("xmcda:XMCDA", 
@@ -197,7 +201,7 @@ saveResult <- function (altIDs, res, fileName) {
              suppressNamespaceWarning=TRUE, 
              namespace = c("xsi" = "http://www.w3.org/2001/XMLSchema-instance", "xmcda" = "http://www.decision-deck.org/2009/XMCDA-2.0.0"), 
              parent=resultTree)
-  putAlternativesValues(resultTree, result, altIDs, fileName)
+	putPerformanceTable(resultTree, res)
   saveXML(resultTree, file=paste(fileName,'.xml', sep=""))
 }
 
@@ -239,6 +243,7 @@ if(dataTree$errMsg == "") {
     setwd(workingDirectory)
 	source("normalizedPerformanceMatrix.R")
 	normalized <- normalizePerformanceMatrix(dmuData)
+	saveResult(dmuData$altIDs, dmuData$critIDs, normalized, "normalizedPerformanceTable")
     #efficiency <- calculateEfficiencyForAll(dmuData)
 	#distances <- efficiency[,2]
 	#print(efficiency)
