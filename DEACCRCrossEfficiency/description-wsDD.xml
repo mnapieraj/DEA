@@ -75,45 +75,38 @@
 						[...]
 					</criteriaLinearConstraints>]]></xmcda>
       </input>
-      <input id="methodParameters" name="methodParameters" displayName="methodParameters" isoptional="defaultFalse">
+      <input id="methodParameters" name="methodParameters" displayName="methodParameters">
          <documentation>
             <description>There are two possible method parameters -- "type" and "withConstraints". First one indicates model formulation for cross efficiency evaluation -- aggressive or benevolent.   
-				Second paramterer determines if criteria linear constraints will be taken under consideration.</description>
+Second parameter determines if criteria linear constraints will be taken under consideration.</description>
          </documentation>
          <xmcda tag="methodParameters"><![CDATA[<methodParameters>
 						<parameter name="type">
-							<value><integer>%1</integer></value>
+							<value><label>%1</label></value>
 						</parameter>
 							<parameter name="withConstraints">
-								<value><integer>%2</integer></value>
+								<value><boolean>%2</boolean></value>
 							</parameter>
 					</methodParameters>]]></xmcda>
          <gui status="preferGUI">
-            <entry id="%1" type="int" displayName="type">
-               <defaultValue>0</defaultValue>
+            <entry id="%1" type="enum" displayName="type">
                <items>
                   <item id="aggressive">
                      <description>Aggressive</description>
-                     <value>0</value>
+                     <value>aggressive</value>
                   </item>
                   <item id="benevolent">
                      <description>Benevolent</description>
-                     <value>other than 0</value>
+                     <value>benevolent</value>
                   </item>
+               <defaultValue>aggressive</defaultValue>
                </items>
             </entry>
-            <entry id="%2" type="int" displayName="withConstraints">
-               <defaultValue>0</defaultValue>
-               <items>
-                  <item id="0">
-                     <description>Disactivated</description>
-                     <value>0</value>
-                  </item>
-                  <item id="not0">
-                     <description>Activated</description>
-                     <value>other than 0</value>
-                  </item>
-               </items>
+            <entry id="%2" type="boolean" displayName="withConstraints">
+               <documentation>
+                   <description>Whether marginal value functions strictly monotonic or not.</description>
+               </documentation>
+               <defaultValue>false</defaultValue>
             </entry>
          </gui>
       </input>

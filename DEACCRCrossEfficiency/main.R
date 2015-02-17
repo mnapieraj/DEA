@@ -177,8 +177,9 @@ parseTrees <- function (dataTree) {
   type <- "aggressive"
   if(!is.null(dataTree$methodParametersTree)) {
     typeNode <- getParameters(dataTree$methodParametersTree, "type")
-    if (typeNode$status == "OK" && typeNode$type != 0  ) {
-      type <- "benevolent"
+    if (typeNode$status == "OK"  ) {
+      type <- typeNode$type
+      # ....and check that it is either "aggressive" or "benevolent"
     }
   }
 
