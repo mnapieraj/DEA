@@ -163,21 +163,19 @@ parseTrees <- function (dataTree) {
   performance <- orderPerformanceByCriteria(performance, orderedCriteria$critIDs)
   
   weightConstraints <- NULL
+  withWeightConstraints <- FALSE
   if(!is.null(dataTree$weightsConstraintsTree)) {
     weightConstraints <- getWeightConstraints(dataTree$weightsConstraintsTree,
                                                 orderedCriteria$critIDs)
+	withWeightConstraints <- TRUE
   }
   
-  withWeightConstraints <- FALSE
+  
   samplesNo <- 100
   intervalsNo <- 10
   boundariesProvided <- FALSE 
   transformToUtilities <- TRUE
   if(!is.null(dataTree$methodParametersTree)) {
-    withConsNode <- getParameters(dataTree$methodParametersTree, "withConstraints")
-    if (withConsNode$status == "OK" && withConsNode$withConstraints != 0) {
-      withWeightConstraints <- TRUE
-    }
 	
 	samplesNoNode <- getParameters(dataTree$methodParametersTree, "samplesNo")
     if (samplesNoNode$status == "OK" && samplesNoNode$samplesNo != 0) {
@@ -190,12 +188,12 @@ parseTrees <- function (dataTree) {
     }
 	
 	boundariesProvidedNode <- getParameters(dataTree$methodParametersTree, "boundariesProvided")
-	if (boundariesProvidedNode$status == "OK" && boundariesProvidedNode$boundariesProvided != 0) {
-      boundariesProvided <- TRUE
+	if (boundariesProvidedNode$status == "OK") {
+      boundariesProvided <- boundariesProvidedNode$boundariesProvided
     } 
 	transformToUtilitiesNode <- getParameters(dataTree$methodParametersTree, "transformToUtilities")
-	if (transformToUtilitiesNode$status == "OK" && transformToUtilitiesNode$transformToUtilities == 0) {
-      transformToUtilities <- FALSE
+	if (transformToUtilitiesNode$status == "OK") {
+      transformToUtilities <- transformToUtilitiesNode$transformToUtilities
     } 
   }
   

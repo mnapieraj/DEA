@@ -1,88 +1,88 @@
 <?xml version="1.0"?>
 <xmcda:XMCDA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xmcda="http://www.decision-deck.org/2009/XMCDA-2.0.0" xsi:schemaLocation="http://www.decision-deck.org/2009/XMCDA-2.0.0 http://www.decision-deck.org/xmcda/_downloads/XMCDA-2.0.0.xsd">
-  <alternativesValues mcdaConcept="avgEfficiency">
+  <alternativesValues mcdaConcept="maxEfficiency">
     <alternativeValue>
       <alternativeID>h1</alternativeID>
       <value>
-        <real>0.540932368524793</real>
+        <real>0.98789233917621</real>
       </value>
     </alternativeValue>
     <alternativeValue>
       <alternativeID>h2</alternativeID>
       <value>
-        <real>0.561966988649443</real>
+        <real>0.924746061202639</real>
       </value>
     </alternativeValue>
     <alternativeValue>
       <alternativeID>h3</alternativeID>
       <value>
-        <real>0.574656224091352</real>
+        <real>0.90640631021084</real>
       </value>
     </alternativeValue>
     <alternativeValue>
       <alternativeID>h4</alternativeID>
       <value>
-        <real>0.467608178853076</real>
+        <real>0.93729775900794</real>
       </value>
     </alternativeValue>
     <alternativeValue>
       <alternativeID>h5</alternativeID>
       <value>
-        <real>0.526115572005236</real>
+        <real>0.675821100315669</real>
       </value>
     </alternativeValue>
     <alternativeValue>
       <alternativeID>h6</alternativeID>
       <value>
-        <real>0.591879102351091</real>
+        <real>0.82793066226667</real>
       </value>
     </alternativeValue>
     <alternativeValue>
       <alternativeID>h7</alternativeID>
       <value>
-        <real>0.507119788667906</real>
+        <real>0.854239539122948</real>
       </value>
     </alternativeValue>
     <alternativeValue>
       <alternativeID>h8</alternativeID>
       <value>
-        <real>0.535229807937888</real>
+        <real>0.84266435206361</real>
       </value>
     </alternativeValue>
     <alternativeValue>
       <alternativeID>h9</alternativeID>
       <value>
-        <real>0.598082628257605</real>
+        <real>0.703400222797945</real>
       </value>
     </alternativeValue>
     <alternativeValue>
       <alternativeID>h10</alternativeID>
       <value>
-        <real>0.63180680133644</real>
+        <real>0.754326333527797</real>
       </value>
     </alternativeValue>
     <alternativeValue>
       <alternativeID>h11</alternativeID>
       <value>
-        <real>0.537808122191398</real>
+        <real>0.76558528057065</real>
       </value>
     </alternativeValue>
     <alternativeValue>
       <alternativeID>h12</alternativeID>
       <value>
-        <real>0.564547324059883</real>
+        <real>0.648072366778584</real>
       </value>
     </alternativeValue>
     <alternativeValue>
       <alternativeID>h13</alternativeID>
       <value>
-        <real>0.428194699770976</real>
+        <real>0.576641567286204</real>
       </value>
     </alternativeValue>
     <alternativeValue>
       <alternativeID>h14</alternativeID>
       <value>
-        <real>0.506529710691544</real>
+        <real>0.978002952393583</real>
       </value>
     </alternativeValue>
   </alternativesValues>
