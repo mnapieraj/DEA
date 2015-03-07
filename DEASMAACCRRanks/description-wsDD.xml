@@ -76,9 +76,9 @@
 						[...]
 					</criteriaLinearConstraints>]]></xmcda>
       </input>
-      <input id="methodParameters" name="methodParameters" displayName="methodParameters" isoptional="defaultFalse">
+      <input id="methodParameters" name="methodParameters" displayName="methodParameters">
          <documentation>
-            <description>First parameter, "withConstraints", determines if criteria linear constraints will be taken under consideration. "samplesNo" represents the number of samples to generate.</description>
+            <description>"samplesNo" represents the number of samples to generate.</description>
          </documentation>
          <xmcda tag="methodParameters"><![CDATA[<methodParameters>
 							<parameter name="samplesNo">
