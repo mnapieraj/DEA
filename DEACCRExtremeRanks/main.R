@@ -23,7 +23,6 @@ readFiles <- function() {
   criteriaData <- readFile("inputsOutputs.xml")
   performanceData <- readFile("performanceTable.xml")
   #optional files
-  methodParametersData <- readFile("methodParameters.xml")
   weightsConstraintsData <- readFile("weightsLinearConstraints.xml")
   
   errMsg <- ""
@@ -41,14 +40,11 @@ readFiles <- function() {
   if(!is.null(weightsConstraintsData$errMsg)){
     weightsConstraintsData$data <- NULL
   }
-  if(!is.null(methodParametersData$errMsg)){
-    methodParametersData$data <- NULL
-  }
+
   result <- list(altTree = altData$data, 
                  criteriaTree = criteriaData$data, 
                  performanceTree = performanceData$data,
                  weightsConstraintsTree = weightsConstraintsData$data,
-                 methodParametersTree = methodParametersData$data,
                  errMsg = errMsg)
   
   return(result)
@@ -161,33 +157,18 @@ parseTrees <- function (dataTree) {
   performance <- orderPerformanceByCriteria(performance, orderedCriteria$critIDs)
   
   weightConstraints <- NULL
+  withWeightConstraints <- FALSE
   if(!is.null(dataTree$weightsConstraintsTree)) {
     weightConstraints <- getWeightConstraints(dataTree$weightsConstraintsTree,
                                                 orderedCriteria$critIDs)
-  }
-  
-  withWeightConstraints <- FALSE
-  if(!is.null(dataTree$methodParametersTree)) {
-    withConsNode <- getParameters(dataTree$methodParametersTree, "withConstraints")
-    if (withConsNode$status == "OK" && withConsNode$withConstraints != 0) {
-      withWeightConstraints <- TRUE
-    }
-  }
-  
-  type <- "aggressive"
-  if(!is.null(dataTree$methodParametersTree)) {
-    typeNode <- getParameters(dataTree$methodParametersTree, "type")
-    if (typeNode$status == "OK" && typeNode$type == "benevolent") {
-      type <- typeNode$type
-    }
-  }
-  
+	withWeightConstraints <- TRUE
+  } 
+ 
   result <- list(data=performance, 
                  inputCount=orderedCriteria$inputCount,
                  outputCount=orderedCriteria$outputCount,
                  weightConstraints = weightConstraints,
                  withWeightConstraints = withWeightConstraints,
-                 type = type,
                  altIDs = altIDs)
   return (result)
 
