@@ -23,7 +23,6 @@ readFiles <- function() {
   criteriaData <- readFile("inputsOutputs.xml")
   performanceData <- readFile("performanceTable.xml")
   #optional files
-  methodParametersData <- readFile("methodParameters.xml")
   weightsConstraintsData <- readFile("weightsLinearConstraints.xml")
   
   errMsg <- ""
@@ -41,14 +40,10 @@ readFiles <- function() {
   if(!is.null(weightsConstraintsData$errMsg)){
     weightsConstraintsData$data <- NULL
   }
-  if(!is.null(methodParametersData$errMsg)){
-    methodParametersData$data <- NULL
-  }
   result <- list(altTree = altData$data, 
                  criteriaTree = criteriaData$data, 
                  performanceTree = performanceData$data,
                  weightsConstraintsTree = weightsConstraintsData$data,
-                 methodParametersTree = methodParametersData$data,
                  errMsg = errMsg)
   
   return(result)
@@ -64,11 +59,7 @@ checkXSDValid <- function(dataTree) {
   }
   if (checkXSD(dataTree$performanceTree)==0) {
     err <- paste(err,"PerformanceTable file is not XMCDA valid.")  
-  }  
-  #optional file
-  if (!is.null(dataTree$methodParametersTree) && checkXSD(dataTree$methodParametersTree)==0) {
-    err <- paste(err,"Method parameters file is not XMCDA valid.")  
-  }  
+  }   
   
   return (err)
 }
@@ -161,17 +152,11 @@ parseTrees <- function (dataTree) {
   performance <- orderPerformanceByCriteria(performance, orderedCriteria$critIDs)
   
   weightConstraints <- NULL
+  withWeightConstraints <- FALSE
   if(!is.null(dataTree$weightsConstraintsTree)) {
     weightConstraints <- getWeightConstraints(dataTree$weightsConstraintsTree,
                                                 orderedCriteria$critIDs)
-  }
-  
-  withWeightConstraints <- FALSE
-  if(!is.null(dataTree$methodParametersTree)) {
-    withConsNode <- getParameters(dataTree$methodParametersTree, "withConstraints")
-    if (withConsNode$status == "OK" && withConsNode$withConstraints != 0) {
-      withWeightConstraints <- TRUE
-    }
+	withWeightConstraints <- TRUE
   }
   
   result <- list(data=performance, 
