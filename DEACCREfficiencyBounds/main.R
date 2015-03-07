@@ -161,32 +161,19 @@ parseTrees <- function (dataTree) {
   performance <- orderPerformanceByCriteria(performance, orderedCriteria$critIDs)
   
   weightConstraints <- NULL
+  withWeightConstraints <- FALSE
   if(!is.null(dataTree$weightsConstraintsTree)) {
     weightConstraints <- getWeightConstraints(dataTree$weightsConstraintsTree,
                                                 orderedCriteria$critIDs)
+	withWeightConstraints <- TRUE
   }
-  
-  withWeightConstraints <- FALSE
-  if(!is.null(dataTree$methodParametersTree)) {
-    withConsNode <- getParameters(dataTree$methodParametersTree, "withConstraints")
-    if (withConsNode$status == "OK" && withConsNode$withConstraints != 0) {
-      withWeightConstraints <- TRUE
-    }
-  }
-  
+
   includeSubject <- FALSE
   if(!is.null(dataTree$methodParametersTree)) {
     includeSubNode <- getParameters(dataTree$methodParametersTree, "includeSubject")
-    if (includeSubNode$status == "OK" && includeSubNode$includeSubject != 0) {
-      includeSubject <- TRUE
-    }
-  }
-  
-  type <- "aggressive"
-  if(!is.null(dataTree$methodParametersTree)) {
-    typeNode <- getParameters(dataTree$methodParametersTree, "type")
-    if (typeNode$status == "OK" && typeNode$type == "benevolent") {
-      type <- typeNode$type
+    if (includeSubNode$status == "OK") {
+	print(includeSubNode$includeSubject)
+      includeSubject <- includeSubNode$includeSubject
     }
   }
   
@@ -195,9 +182,8 @@ parseTrees <- function (dataTree) {
                  outputCount=orderedCriteria$outputCount,
                  weightConstraints = weightConstraints,
                  withWeightConstraints = withWeightConstraints,
-                 type = type,
-                 altIDs = altIDs,
-				 includeSubject = includeSubject)
+				 includeSubject = includeSubject,
+                 altIDs = altIDs)
   return (result)
 
 }

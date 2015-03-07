@@ -77,26 +77,19 @@
       </input>
       <input id="methodParameters" name="methodParameters" displayName="methodParameters" isoptional="defaultFalse">
          <documentation>
-            <description>Determines if criteria linear constraints will be taken under consideration. Value other than 0 activates this parameter.</description>
+            <description>Determines if the subject alternative should be in the relative group.</description>
          </documentation>
          <xmcda tag="methodParameters"><![CDATA[<methodParameters>
-							<parameter name="withConstraints">
-								<value><integer>%1</integer></value>
+							<parameter name="includeSubject">
+								<value><boolean>%1</boolean></value>
 							</parameter>
 					</methodParameters>]]></xmcda>
          <gui status="preferGUI">
-            <entry id="%1" type="int" displayName="withConstraints">
-               <defaultValue>0</defaultValue>
-               <items>
-                  <item id="0">
-                     <description>Disactivated</description>
-                     <value>0</value>
-                  </item>
-                  <item id="not0">
-                     <description>Activated</description>
-                     <value>other than 0</value>
-                  </item>
-               </items>
+            <entry id="%1" type="boolean" displayName="includeSubject">
+               <documentation>
+                   <description>Determines if the subject alternative should be in the relative group.</description>
+               </documentation>
+               <defaultValue>false</defaultValue>
             </entry>
          </gui>
       </input>
