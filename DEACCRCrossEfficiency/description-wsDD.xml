@@ -77,16 +77,12 @@
       </input>
       <input id="methodParameters" name="methodParameters" displayName="methodParameters">
          <documentation>
-            <description>There are two possible method parameters -- "type" and "withConstraints". First one indicates model formulation for cross efficiency evaluation -- aggressive or benevolent.   
-Second parameter determines if criteria linear constraints will be taken under consideration.</description>
+            <description>There is one possible method parameter -- "type". It indicates model formulation for cross efficiency evaluation -- aggressive or benevolent.</description>
          </documentation>
          <xmcda tag="methodParameters"><![CDATA[<methodParameters>
 						<parameter name="type">
 							<value><label>%1</label></value>
 						</parameter>
-							<parameter name="withConstraints">
-								<value><boolean>%2</boolean></value>
-							</parameter>
 					</methodParameters>]]></xmcda>
          <gui status="preferGUI">
             <entry id="%1" type="enum" displayName="type">
@@ -101,12 +97,6 @@ Second parameter determines if criteria linear constraints will be taken under c
                   </item>
                <defaultValue>aggressive</defaultValue>
                </items>
-            </entry>
-            <entry id="%2" type="boolean" displayName="withConstraints">
-               <documentation>
-                   <description>Whether marginal value functions strictly monotonic or not.</description>
-               </documentation>
-               <defaultValue>false</defaultValue>
             </entry>
          </gui>
       </input>     

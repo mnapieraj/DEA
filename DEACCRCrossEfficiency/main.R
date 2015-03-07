@@ -161,17 +161,11 @@ parseTrees <- function (dataTree) {
   performance <- orderPerformanceByCriteria(performance, orderedCriteria$critIDs)
   
   weightConstraints <- NULL
+  withWeightConstraints <- FALSE
   if(!is.null(dataTree$weightsConstraintsTree)) {
     weightConstraints <- getWeightConstraints(dataTree$weightsConstraintsTree,
                                                 orderedCriteria$critIDs)
-  }
-  
-  withWeightConstraints <- FALSE
-  if(!is.null(dataTree$methodParametersTree)) {
-    withConsNode <- getParameters(dataTree$methodParametersTree, "withConstraints")
-    if (withConsNode$status == "OK") {
-      withWeightConstraints <- withConsNode$withConstraints
-    }
+	withWeightConstraints <- TRUE
   }
   
   type <- "aggressive"
