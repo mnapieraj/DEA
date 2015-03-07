@@ -12,13 +12,13 @@
       <performance>
         <criterionID>geq h2</criterionID>
         <value>
-          <real>0</real>
+          <real>0.011</real>
         </value>
       </performance>
       <performance>
         <criterionID>geq h3</criterionID>
         <value>
-          <real>0.487</real>
+          <real>0.488</real>
         </value>
       </performance>
       <performance>
@@ -60,7 +60,7 @@
       <performance>
         <criterionID>geq h10</criterionID>
         <value>
-          <real>0.077</real>
+          <real>0.091</real>
         </value>
       </performance>
       <performance>
@@ -72,7 +72,7 @@
       <performance>
         <criterionID>geq h12</criterionID>
         <value>
-          <real>0.103</real>
+          <real>0.111</real>
         </value>
       </performance>
       <performance>
@@ -96,13 +96,13 @@
       <performance>
         <criterionID>geq h16</criterionID>
         <value>
-          <real>0.104</real>
+          <real>0.111</real>
         </value>
       </performance>
       <performance>
         <criterionID>geq h17</criterionID>
         <value>
-          <real>0</real>
+          <real>0.012</real>
         </value>
       </performance>
       <performance>
@@ -129,7 +129,7 @@
       <performance>
         <criterionID>geq h1</criterionID>
         <value>
-          <real>1</real>
+          <real>0.989</real>
         </value>
       </performance>
       <performance>
@@ -141,7 +141,7 @@
       <performance>
         <criterionID>geq h3</criterionID>
         <value>
-          <real>0.913</real>
+          <real>0.908</real>
         </value>
       </performance>
       <performance>
@@ -183,7 +183,7 @@
       <performance>
         <criterionID>geq h10</criterionID>
         <value>
-          <real>0.18</real>
+          <real>0.217</real>
         </value>
       </performance>
       <performance>
@@ -195,7 +195,7 @@
       <performance>
         <criterionID>geq h12</criterionID>
         <value>
-          <real>0.166</real>
+          <real>0.177</real>
         </value>
       </performance>
       <performance>
@@ -219,13 +219,13 @@
       <performance>
         <criterionID>geq h16</criterionID>
         <value>
-          <real>0.139</real>
+          <real>0.148</real>
         </value>
       </performance>
       <performance>
         <criterionID>geq h17</criterionID>
         <value>
-          <real>0.001</real>
+          <real>0.013</real>
         </value>
       </performance>
       <performance>
@@ -252,13 +252,13 @@
       <performance>
         <criterionID>geq h1</criterionID>
         <value>
-          <real>0.513</real>
+          <real>0.512</real>
         </value>
       </performance>
       <performance>
         <criterionID>geq h2</criterionID>
         <value>
-          <real>0.087</real>
+          <real>0.092</real>
         </value>
       </performance>
       <performance>
@@ -306,7 +306,7 @@
       <performance>
         <criterionID>geq h10</criterionID>
         <value>
-          <real>0.053</real>
+          <real>0.071</real>
         </value>
       </performance>
       <performance>
@@ -324,13 +324,13 @@
       <performance>
         <criterionID>geq h13</criterionID>
         <value>
-          <real>0.003</real>
+          <real>0.006</real>
         </value>
       </performance>
       <performance>
         <criterionID>geq h14</criterionID>
         <value>
-          <real>0.013</real>
+          <real>0.023</real>
         </value>
       </performance>
       <performance>
@@ -354,7 +354,7 @@
       <performance>
         <criterionID>geq h18</criterionID>
         <value>
-          <real>0</real>
+          <real>0.002</real>
         </value>
       </performance>
       <performance>
@@ -411,25 +411,25 @@
       <performance>
         <criterionID>geq h7</criterionID>
         <value>
-          <real>0.517</real>
+          <real>0.493</real>
         </value>
       </performance>
       <performance>
         <criterionID>geq h8</criterionID>
         <value>
-          <real>0.034</real>
+          <real>0.044</real>
         </value>
       </performance>
       <performance>
         <criterionID>geq h9</criterionID>
         <value>
-          <real>0.234</real>
+          <real>0.196</real>
         </value>
       </performance>
       <performance>
         <criterionID>geq h10</criterionID>
         <value>
-          <real>0.606</real>
+          <real>0.646</real>
         </value>
       </performance>
       <performance>
@@ -441,19 +441,19 @@
       <performance>
         <criterionID>geq h12</criterionID>
         <value>
-          <real>0.876</real>
+          <real>0.878</real>
         </value>
       </performance>
       <performance>
         <criterionID>geq h13</criterionID>
         <value>
-          <real>0.054</real>
+          <real>0.071</real>
         </value>
       </performance>
       <performance>
         <criterionID>geq h14</criterionID>
         <value>
-          <real>0.833</real>
+          <real>0.821</real>
         </value>
       </performance>
       <performance>
@@ -465,19 +465,19 @@
       <performance>
         <criterionID>geq h16</criterionID>
         <value>
-          <real>0.342</real>
+          <real>0.352</real>
         </value>
       </performance>
       <performance>
         <criterionID>geq h17</criterionID>
         <value>
-          <real>0.264</real>
+          <real>0.265</real>
         </value>
       </performance>
       <performance>
         <criterionID>geq h18</criterionID>
         <value>
-          <real>0.029</real>
+          <real>0.041</real>
         </value>
       </performance>
       <performance>
@@ -528,7 +528,7 @@
       <performance>
         <criterionID>geq h6</criterionID>
         <value>
-          <real>0.931</real>
+          <real>0.912</real>
         </value>
       </performance>
       <performance>
@@ -588,7 +588,7 @@
       <performance>
         <criterionID>geq h16</criterionID>
         <value>
-          <real>0.999</real>
+          <real>0.998</real>
         </value>
       </performance>
       <performance>
@@ -612,7 +612,7 @@
       <performance>
         <criterionID>geq h20</criterionID>
         <value>
-          <real>0.854</real>
+          <real>0.844</real>
         </value>
       </performance>
     </alternativePerformances>
@@ -645,7 +645,7 @@
       <performance>
         <criterionID>geq h5</criterionID>
         <value>
-          <real>0.069</real>
+          <real>0.088</real>
         </value>
       </performance>
       <performance>
@@ -657,7 +657,7 @@
       <performance>
         <criterionID>geq h7</criterionID>
         <value>
-          <real>0.999</real>
+          <real>0.997</real>
         </value>
       </performance>
       <performance>
@@ -681,13 +681,13 @@
       <performance>
         <criterionID>geq h11</criterionID>
         <value>
-          <real>0.966</real>
+          <real>0.955</real>
         </value>
       </performance>
       <performance>
         <criterionID>geq h12</criterionID>
         <value>
-          <real>0.999</real>
+          <real>0.998</real>
         </value>
       </performance>
       <performance>
@@ -705,19 +705,19 @@
       <performance>
         <criterionID>geq h15</criterionID>
         <value>
-          <real>0.986</real>
+          <real>0.98</real>
         </value>
       </performance>
       <performance>
         <criterionID>geq h16</criterionID>
         <value>
-          <real>0.922</real>
+          <real>0.92</real>
         </value>
       </performance>
       <performance>
         <criterionID>geq h17</criterionID>
         <value>
-          <real>0.991</real>
+          <real>0.984</real>
         </value>
       </performance>
       <performance>
@@ -729,7 +729,7 @@
       <performance>
         <criterionID>geq h19</criterionID>
         <value>
-          <real>0.997</real>
+          <real>0.994</real>
         </value>
       </performance>
       <performance>
@@ -762,7 +762,7 @@
       <performance>
         <criterionID>geq h4</criterionID>
         <value>
-          <real>0.483</real>
+          <real>0.507</real>
         </value>
       </performance>
       <performance>
@@ -774,7 +774,7 @@
       <performance>
         <criterionID>geq h6</criterionID>
         <value>
-          <real>0.001</real>
+          <real>0.003</real>
         </value>
       </performance>
       <performance>
@@ -786,19 +786,19 @@
       <performance>
         <criterionID>geq h8</criterionID>
         <value>
-          <real>0.154</real>
+          <real>0.158</real>
         </value>
       </performance>
       <performance>
         <criterionID>geq h9</criterionID>
         <value>
-          <real>0.276</real>
+          <real>0.268</real>
         </value>
       </performance>
       <performance>
         <criterionID>geq h10</criterionID>
         <value>
-          <real>0.601</real>
+          <real>0.638</real>
         </value>
       </performance>
       <performance>
@@ -810,19 +810,19 @@
       <performance>
         <criterionID>geq h12</criterionID>
         <value>
-          <real>0.93</real>
+          <real>0.946</real>
         </value>
       </performance>
       <performance>
         <criterionID>geq h13</criterionID>
         <value>
-          <real>0.095</real>
+          <real>0.12</real>
         </value>
       </performance>
       <performance>
         <criterionID>geq h14</criterionID>
         <value>
-          <real>0.843</real>
+          <real>0.837</real>
         </value>
       </performance>
       <performance>
@@ -834,25 +834,25 @@
       <performance>
         <criterionID>geq h16</criterionID>
         <value>
-          <real>0.361</real>
+          <real>0.374</real>
         </value>
       </performance>
       <performance>
         <criterionID>geq h17</criterionID>
         <value>
-          <real>0.27</real>
+          <real>0.279</real>
         </value>
       </performance>
       <performance>
         <criterionID>geq h18</criterionID>
         <value>
-          <real>0.095</real>
+          <real>0.119</real>
         </value>
       </performance>
       <performance>
         <criterionID>geq h19</criterionID>
         <value>
-          <real>0.001</real>
+          <real>0.002</real>
         </value>
       </performance>
       <performance>
@@ -885,7 +885,7 @@
       <performance>
         <criterionID>geq h4</criterionID>
         <value>
-          <real>0.966</real>
+          <real>0.956</real>
         </value>
       </performance>
       <performance>
@@ -903,7 +903,7 @@
       <performance>
         <criterionID>geq h7</criterionID>
         <value>
-          <real>0.846</real>
+          <real>0.842</real>
         </value>
       </performance>
       <performance>
@@ -915,13 +915,13 @@
       <performance>
         <criterionID>geq h9</criterionID>
         <value>
-          <real>0.608</real>
+          <real>0.551</real>
         </value>
       </performance>
       <performance>
         <criterionID>geq h10</criterionID>
         <value>
-          <real>0.775</real>
+          <real>0.79</real>
         </value>
       </performance>
       <performance>
@@ -933,13 +933,13 @@
       <performance>
         <criterionID>geq h12</criterionID>
         <value>
-          <real>0.921</real>
+          <real>0.919</real>
         </value>
       </performance>
       <performance>
         <criterionID>geq h13</criterionID>
         <value>
-          <real>0.071</real>
+          <real>0.096</real>
         </value>
       </performance>
       <performance>
@@ -957,19 +957,19 @@
       <performance>
         <criterionID>geq h16</criterionID>
         <value>
-          <real>0.477</real>
+          <real>0.486</real>
         </value>
       </performance>
       <performance>
         <criterionID>geq h17</criterionID>
         <value>
-          <real>0.679</real>
+          <real>0.677</real>
         </value>
       </performance>
       <performance>
         <criterionID>geq h18</criterionID>
         <value>
-          <real>0.185</real>
+          <real>0.217</real>
         </value>
       </performance>
       <performance>
@@ -1008,7 +1008,7 @@
       <performance>
         <criterionID>geq h4</criterionID>
         <value>
-          <real>0.766</real>
+          <real>0.804</real>
         </value>
       </performance>
       <performance>
@@ -1026,13 +1026,13 @@
       <performance>
         <criterionID>geq h7</criterionID>
         <value>
-          <real>0.724</real>
+          <real>0.732</real>
         </value>
       </performance>
       <performance>
         <criterionID>geq h8</criterionID>
         <value>
-          <real>0.392</real>
+          <real>0.449</real>
         </value>
       </performance>
       <performance>
@@ -1044,7 +1044,7 @@
       <performance>
         <criterionID>geq h10</criterionID>
         <value>
-          <real>0.677</real>
+          <real>0.714</real>
         </value>
       </performance>
       <performance>
@@ -1056,13 +1056,13 @@
       <performance>
         <criterionID>geq h12</criterionID>
         <value>
-          <real>0.827</real>
+          <real>0.843</real>
         </value>
       </performance>
       <performance>
         <criterionID>geq h13</criterionID>
         <value>
-          <real>0.106</real>
+          <real>0.14</real>
         </value>
       </performance>
       <performance>
@@ -1080,19 +1080,19 @@
       <performance>
         <criterionID>geq h16</criterionID>
         <value>
-          <real>0.438</real>
+          <real>0.457</real>
         </value>
       </performance>
       <performance>
         <criterionID>geq h17</criterionID>
         <value>
-          <real>0.516</real>
+          <real>0.538</real>
         </value>
       </performance>
       <performance>
         <criterionID>geq h18</criterionID>
         <value>
-          <real>0.276</real>
+          <real>0.332</real>
         </value>
       </performance>
       <performance>
@@ -1113,25 +1113,25 @@
       <performance>
         <criterionID>geq h1</criterionID>
         <value>
-          <real>0.923</real>
+          <real>0.909</real>
         </value>
       </performance>
       <performance>
         <criterionID>geq h2</criterionID>
         <value>
-          <real>0.82</real>
+          <real>0.783</real>
         </value>
       </performance>
       <performance>
         <criterionID>geq h3</criterionID>
         <value>
-          <real>0.947</real>
+          <real>0.929</real>
         </value>
       </performance>
       <performance>
         <criterionID>geq h4</criterionID>
         <value>
-          <real>0.394</real>
+          <real>0.354</real>
         </value>
       </performance>
       <performance>
@@ -1149,19 +1149,19 @@
       <performance>
         <criterionID>geq h7</criterionID>
         <value>
-          <real>0.399</real>
+          <real>0.362</real>
         </value>
       </performance>
       <performance>
         <criterionID>geq h8</criterionID>
         <value>
-          <real>0.225</real>
+          <real>0.21</real>
         </value>
       </performance>
       <performance>
         <criterionID>geq h9</criterionID>
         <value>
-          <real>0.323</real>
+          <real>0.286</real>
         </value>
       </performance>
       <performance>
@@ -1173,13 +1173,13 @@
       <performance>
         <criterionID>geq h11</criterionID>
         <value>
-          <real>0.003</real>
+          <real>0.001</real>
         </value>
       </performance>
       <performance>
         <criterionID>geq h12</criterionID>
         <value>
-          <real>0.709</real>
+          <real>0.676</real>
         </value>
       </performance>
       <performance>
@@ -1191,7 +1191,7 @@
       <performance>
         <criterionID>geq h14</criterionID>
         <value>
-          <real>0.607</real>
+          <real>0.55</real>
         </value>
       </performance>
       <performance>
@@ -1203,13 +1203,13 @@
       <performance>
         <criterionID>geq h16</criterionID>
         <value>
-          <real>0.294</real>
+          <real>0.286</real>
         </value>
       </performance>
       <performance>
         <criterionID>geq h17</criterionID>
         <value>
-          <real>0.322</real>
+          <real>0.294</real>
         </value>
       </performance>
       <performance>
@@ -1266,7 +1266,7 @@
       <performance>
         <criterionID>geq h6</criterionID>
         <value>
-          <real>0.034</real>
+          <real>0.045</real>
         </value>
       </performance>
       <performance>
@@ -1290,7 +1290,7 @@
       <performance>
         <criterionID>geq h10</criterionID>
         <value>
-          <real>0.997</real>
+          <real>0.999</real>
         </value>
       </performance>
       <performance>
@@ -1308,7 +1308,7 @@
       <performance>
         <criterionID>geq h13</criterionID>
         <value>
-          <real>0.635</real>
+          <real>0.666</real>
         </value>
       </performance>
       <performance>
@@ -1320,31 +1320,31 @@
       <performance>
         <criterionID>geq h15</criterionID>
         <value>
-          <real>0.239</real>
+          <real>0.269</real>
         </value>
       </performance>
       <performance>
         <criterionID>geq h16</criterionID>
         <value>
-          <real>0.77</real>
+          <real>0.771</real>
         </value>
       </performance>
       <performance>
         <criterionID>geq h17</criterionID>
         <value>
-          <real>0.999</real>
+          <real>0.998</real>
         </value>
       </performance>
       <performance>
         <criterionID>geq h18</criterionID>
         <value>
-          <real>0.978</real>
+          <real>0.99</real>
         </value>
       </performance>
       <performance>
         <criterionID>geq h19</criterionID>
         <value>
-          <real>0.268</real>
+          <real>0.292</real>
         </value>
       </performance>
       <performance>
@@ -1359,13 +1359,13 @@
       <performance>
         <criterionID>geq h1</criterionID>
         <value>
-          <real>0.897</real>
+          <real>0.889</real>
         </value>
       </performance>
       <performance>
         <criterionID>geq h2</criterionID>
         <value>
-          <real>0.834</real>
+          <real>0.823</real>
         </value>
       </performance>
       <performance>
@@ -1377,7 +1377,7 @@
       <performance>
         <criterionID>geq h4</criterionID>
         <value>
-          <real>0.124</real>
+          <real>0.122</real>
         </value>
       </performance>
       <performance>
@@ -1389,31 +1389,31 @@
       <performance>
         <criterionID>geq h6</criterionID>
         <value>
-          <real>0.001</real>
+          <real>0.002</real>
         </value>
       </performance>
       <performance>
         <criterionID>geq h7</criterionID>
         <value>
-          <real>0.07</real>
+          <real>0.054</real>
         </value>
       </performance>
       <performance>
         <criterionID>geq h8</criterionID>
         <value>
-          <real>0.079</real>
+          <real>0.081</real>
         </value>
       </performance>
       <performance>
         <criterionID>geq h9</criterionID>
         <value>
-          <real>0.173</real>
+          <real>0.157</real>
         </value>
       </performance>
       <performance>
         <criterionID>geq h10</criterionID>
         <value>
-          <real>0.291</real>
+          <real>0.324</real>
         </value>
       </performance>
       <performance>
@@ -1431,13 +1431,13 @@
       <performance>
         <criterionID>geq h13</criterionID>
         <value>
-          <real>0.061</real>
+          <real>0.078</real>
         </value>
       </performance>
       <performance>
         <criterionID>geq h14</criterionID>
         <value>
-          <real>0.59</real>
+          <real>0.576</real>
         </value>
       </performance>
       <performance>
@@ -1449,7 +1449,7 @@
       <performance>
         <criterionID>geq h16</criterionID>
         <value>
-          <real>0.107</real>
+          <real>0.114</real>
         </value>
       </performance>
       <performance>
@@ -1461,7 +1461,7 @@
       <performance>
         <criterionID>geq h18</criterionID>
         <value>
-          <real>0.044</real>
+          <real>0.062</real>
         </value>
       </performance>
       <performance>
@@ -1494,13 +1494,13 @@
       <performance>
         <criterionID>geq h3</criterionID>
         <value>
-          <real>0.997</real>
+          <real>0.994</real>
         </value>
       </performance>
       <performance>
         <criterionID>geq h4</criterionID>
         <value>
-          <real>0.946</real>
+          <real>0.929</real>
         </value>
       </performance>
       <performance>
@@ -1518,19 +1518,19 @@
       <performance>
         <criterionID>geq h7</criterionID>
         <value>
-          <real>0.905</real>
+          <real>0.88</real>
         </value>
       </performance>
       <performance>
         <criterionID>geq h8</criterionID>
         <value>
-          <real>0.929</real>
+          <real>0.904</real>
         </value>
       </performance>
       <performance>
         <criterionID>geq h9</criterionID>
         <value>
-          <real>0.894</real>
+          <real>0.86</real>
         </value>
       </performance>
       <performance>
@@ -1542,13 +1542,13 @@
       <performance>
         <criterionID>geq h11</criterionID>
         <value>
-          <real>0.365</real>
+          <real>0.334</real>
         </value>
       </performance>
       <performance>
         <criterionID>geq h12</criterionID>
         <value>
-          <real>0.939</real>
+          <real>0.922</real>
         </value>
       </performance>
       <performance>
@@ -1560,37 +1560,37 @@
       <performance>
         <criterionID>geq h14</criterionID>
         <value>
-          <real>0.999</real>
+          <real>0.997</real>
         </value>
       </performance>
       <performance>
         <criterionID>geq h15</criterionID>
         <value>
-          <real>0.233</real>
+          <real>0.192</real>
         </value>
       </performance>
       <performance>
         <criterionID>geq h16</criterionID>
         <value>
-          <real>0.713</real>
+          <real>0.704</real>
         </value>
       </performance>
       <performance>
         <criterionID>geq h17</criterionID>
         <value>
-          <real>0.858</real>
+          <real>0.846</real>
         </value>
       </performance>
       <performance>
         <criterionID>geq h18</criterionID>
         <value>
-          <real>0.869</real>
+          <real>0.865</real>
         </value>
       </performance>
       <performance>
         <criterionID>geq h19</criterionID>
         <value>
-          <real>0.116</real>
+          <real>0.097</real>
         </value>
       </performance>
       <performance>
@@ -1617,13 +1617,13 @@
       <performance>
         <criterionID>geq h3</criterionID>
         <value>
-          <real>0.987</real>
+          <real>0.977</real>
         </value>
       </performance>
       <performance>
         <criterionID>geq h4</criterionID>
         <value>
-          <real>0.167</real>
+          <real>0.179</real>
         </value>
       </performance>
       <performance>
@@ -1641,7 +1641,7 @@
       <performance>
         <criterionID>geq h7</criterionID>
         <value>
-          <real>0.157</real>
+          <real>0.163</real>
         </value>
       </performance>
       <performance>
@@ -1659,7 +1659,7 @@
       <performance>
         <criterionID>geq h10</criterionID>
         <value>
-          <real>0.393</real>
+          <real>0.45</real>
         </value>
       </performance>
       <performance>
@@ -1671,13 +1671,13 @@
       <performance>
         <criterionID>geq h12</criterionID>
         <value>
-          <real>0.41</real>
+          <real>0.424</real>
         </value>
       </performance>
       <performance>
         <criterionID>geq h13</criterionID>
         <value>
-          <real>0.001</real>
+          <real>0.003</real>
         </value>
       </performance>
       <performance>
@@ -1695,13 +1695,13 @@
       <performance>
         <criterionID>geq h16</criterionID>
         <value>
-          <real>0.272</real>
+          <real>0.279</real>
         </value>
       </performance>
       <performance>
         <criterionID>geq h17</criterionID>
         <value>
-          <real>0.19</real>
+          <real>0.191</real>
         </value>
       </performance>
       <performance>
@@ -1758,7 +1758,7 @@
       <performance>
         <criterionID>geq h6</criterionID>
         <value>
-          <real>0.014</real>
+          <real>0.02</real>
         </value>
       </performance>
       <performance>
@@ -1788,7 +1788,7 @@
       <performance>
         <criterionID>geq h11</criterionID>
         <value>
-          <real>0.761</real>
+          <real>0.731</real>
         </value>
       </performance>
       <performance>
@@ -1800,7 +1800,7 @@
       <performance>
         <criterionID>geq h13</criterionID>
         <value>
-          <real>0.767</real>
+          <real>0.808</real>
         </value>
       </performance>
       <performance>
@@ -1818,13 +1818,13 @@
       <performance>
         <criterionID>geq h16</criterionID>
         <value>
-          <real>0.781</real>
+          <real>0.785</real>
         </value>
       </performance>
       <performance>
         <criterionID>geq h17</criterionID>
         <value>
-          <real>0.994</real>
+          <real>0.982</real>
         </value>
       </performance>
       <performance>
@@ -1836,7 +1836,7 @@
       <performance>
         <criterionID>geq h19</criterionID>
         <value>
-          <real>0.399</real>
+          <real>0.433</real>
         </value>
       </performance>
       <performance>
@@ -1851,13 +1851,13 @@
       <performance>
         <criterionID>geq h1</criterionID>
         <value>
-          <real>0.896</real>
+          <real>0.889</real>
         </value>
       </performance>
       <performance>
         <criterionID>geq h2</criterionID>
         <value>
-          <real>0.861</real>
+          <real>0.852</real>
         </value>
       </performance>
       <performance>
@@ -1869,73 +1869,73 @@
       <performance>
         <criterionID>geq h4</criterionID>
         <value>
-          <real>0.658</real>
+          <real>0.648</real>
         </value>
       </performance>
       <performance>
         <criterionID>geq h5</criterionID>
         <value>
-          <real>0.001</real>
+          <real>0.002</real>
         </value>
       </performance>
       <performance>
         <criterionID>geq h6</criterionID>
         <value>
-          <real>0.078</real>
+          <real>0.08</real>
         </value>
       </performance>
       <performance>
         <criterionID>geq h7</criterionID>
         <value>
-          <real>0.639</real>
+          <real>0.626</real>
         </value>
       </performance>
       <performance>
         <criterionID>geq h8</criterionID>
         <value>
-          <real>0.523</real>
+          <real>0.514</real>
         </value>
       </performance>
       <performance>
         <criterionID>geq h9</criterionID>
         <value>
-          <real>0.562</real>
+          <real>0.543</real>
         </value>
       </performance>
       <performance>
         <criterionID>geq h10</criterionID>
         <value>
-          <real>0.706</real>
+          <real>0.714</real>
         </value>
       </performance>
       <performance>
         <criterionID>geq h11</criterionID>
         <value>
-          <real>0.23</real>
+          <real>0.229</real>
         </value>
       </performance>
       <performance>
         <criterionID>geq h12</criterionID>
         <value>
-          <real>0.893</real>
+          <real>0.886</real>
         </value>
       </performance>
       <performance>
         <criterionID>geq h13</criterionID>
         <value>
-          <real>0.287</real>
+          <real>0.296</real>
         </value>
       </performance>
       <performance>
         <criterionID>geq h14</criterionID>
         <value>
-          <real>0.728</real>
+          <real>0.721</real>
         </value>
       </performance>
       <performance>
         <criterionID>geq h15</criterionID>
         <value>
-          <real>0.219</real>
+          <real>0.215</real>
         </value>
       </performance>
       <performance>
@@ -1947,25 +1947,25 @@
       <performance>
         <criterionID>geq h17</criterionID>
         <value>
-          <real>0.614</real>
+          <real>0.599</real>
         </value>
       </performance>
       <performance>
         <criterionID>geq h18</criterionID>
         <value>
-          <real>0.366</real>
+          <real>0.367</real>
         </value>
       </performance>
       <performance>
         <criterionID>geq h19</criterionID>
         <value>
-          <real>0.201</real>
+          <real>0.198</real>
         </value>
       </performance>
       <performance>
         <criterionID>geq h20</criterionID>
         <value>
-          <real>0.023</real>
+          <real>0.03</real>
         </value>
       </performance>
     </alternativePerformances>
@@ -1974,13 +1974,13 @@
       <performance>
         <criterionID>geq h1</criterionID>
         <value>
-          <real>1</real>
+          <real>0.988</real>
         </value>
       </performance>
       <performance>
         <criterionID>geq h2</criterionID>
         <value>
-          <real>0.999</real>
+          <real>0.987</real>
         </value>
       </performance>
       <performance>
@@ -1992,7 +1992,7 @@
       <performance>
         <criterionID>geq h4</criterionID>
         <value>
-          <real>0.736</real>
+          <real>0.735</real>
         </value>
       </performance>
       <performance>
@@ -2004,37 +2004,37 @@
       <performance>
         <criterionID>geq h6</criterionID>
         <value>
-          <real>0.009</real>
+          <real>0.016</real>
         </value>
       </performance>
       <performance>
         <criterionID>geq h7</criterionID>
         <value>
-          <real>0.73</real>
+          <real>0.721</real>
         </value>
       </performance>
       <performance>
         <criterionID>geq h8</criterionID>
         <value>
-          <real>0.321</real>
+          <real>0.323</real>
         </value>
       </performance>
       <performance>
         <criterionID>geq h9</criterionID>
         <value>
-          <real>0.484</real>
+          <real>0.462</real>
         </value>
       </performance>
       <performance>
         <criterionID>geq h10</criterionID>
         <value>
-          <real>0.678</real>
+          <real>0.706</real>
         </value>
       </performance>
       <performance>
         <criterionID>geq h11</criterionID>
         <value>
-          <real>0.001</real>
+          <real>0.002</real>
         </value>
       </performance>
       <performance>
@@ -2046,25 +2046,25 @@
       <performance>
         <criterionID>geq h13</criterionID>
         <value>
-          <real>0.142</real>
+          <real>0.154</real>
         </value>
       </performance>
       <performance>
         <criterionID>geq h14</criterionID>
         <value>
-          <real>0.81</real>
+          <real>0.809</real>
         </value>
       </performance>
       <performance>
         <criterionID>geq h15</criterionID>
         <value>
-          <real>0.006</real>
+          <real>0.018</real>
         </value>
       </performance>
       <performance>
         <criterionID>geq h16</criterionID>
         <value>
-          <real>0.386</real>
+          <real>0.401</real>
         </value>
       </performance>
       <performance>
@@ -2076,13 +2076,13 @@
       <performance>
         <criterionID>geq h18</criterionID>
         <value>
-          <real>0.161</real>
+          <real>0.166</real>
         </value>
       </performance>
       <performance>
         <criterionID>geq h19</criterionID>
         <value>
-          <real>0.015</real>
+          <real>0.025</real>
         </value>
       </performance>
       <performance>
@@ -2109,13 +2109,13 @@
       <performance>
         <criterionID>geq h3</criterionID>
         <value>
-          <real>1</real>
+          <real>0.998</real>
         </value>
       </performance>
       <performance>
         <criterionID>geq h4</criterionID>
         <value>
-          <real>0.971</real>
+          <real>0.959</real>
         </value>
       </performance>
       <performance>
@@ -2133,19 +2133,19 @@
       <performance>
         <criterionID>geq h7</criterionID>
         <value>
-          <real>0.905</real>
+          <real>0.881</real>
         </value>
       </performance>
       <performance>
         <criterionID>geq h8</criterionID>
         <value>
-          <real>0.815</real>
+          <real>0.783</real>
         </value>
       </performance>
       <performance>
         <criterionID>geq h9</criterionID>
         <value>
-          <real>0.724</real>
+          <real>0.668</real>
         </value>
       </performance>
       <performance>
@@ -2157,19 +2157,19 @@
       <performance>
         <criterionID>geq h11</criterionID>
         <value>
-          <real>0.022</real>
+          <real>0.01</real>
         </value>
       </performance>
       <performance>
         <criterionID>geq h12</criterionID>
         <value>
-          <real>0.956</real>
+          <real>0.938</real>
         </value>
       </performance>
       <performance>
         <criterionID>geq h13</criterionID>
         <value>
-          <real>0.131</real>
+          <real>0.135</real>
         </value>
       </performance>
       <performance>
@@ -2187,13 +2187,13 @@
       <performance>
         <criterionID>geq h16</criterionID>
         <value>
-          <real>0.634</real>
+          <real>0.633</real>
         </value>
       </performance>
       <performance>
         <criterionID>geq h17</criterionID>
         <value>
-          <real>0.839</real>
+          <real>0.834</real>
         </value>
       </performance>
       <performance>
@@ -2250,13 +2250,13 @@
       <performance>
         <criterionID>geq h6</criterionID>
         <value>
-          <real>0.003</real>
+          <real>0.006</real>
         </value>
       </performance>
       <performance>
         <criterionID>geq h7</criterionID>
         <value>
-          <real>0.999</real>
+          <real>0.998</real>
         </value>
       </performance>
       <performance>
@@ -2280,7 +2280,7 @@
       <performance>
         <criterionID>geq h11</criterionID>
         <value>
-          <real>0.732</real>
+          <real>0.708</real>
         </value>
       </performance>
       <performance>
@@ -2292,7 +2292,7 @@
       <performance>
         <criterionID>geq h13</criterionID>
         <value>
-          <real>0.884</real>
+          <real>0.903</real>
         </value>
       </performance>
       <performance>
@@ -2304,19 +2304,19 @@
       <performance>
         <criterionID>geq h15</criterionID>
         <value>
-          <real>0.601</real>
+          <real>0.567</real>
         </value>
       </performance>
       <performance>
         <criterionID>geq h16</criterionID>
         <value>
-          <real>0.799</real>
+          <real>0.802</real>
         </value>
       </performance>
       <performance>
         <criterionID>geq h17</criterionID>
         <value>
-          <real>0.985</real>
+          <real>0.975</real>
         </value>
       </performance>
       <performance>
@@ -2367,7 +2367,7 @@
       <performance>
         <criterionID>geq h5</criterionID>
         <value>
-          <real>0.146</real>
+          <real>0.156</real>
         </value>
       </performance>
       <performance>
@@ -2433,7 +2433,7 @@
       <performance>
         <criterionID>geq h16</criterionID>
         <value>
-          <real>0.977</real>
+          <real>0.97</real>
         </value>
       </performance>
       <performance>
