@@ -84,7 +84,7 @@
       <performance>
         <criterionID>Rank 14</criterionID>
         <value>
-          <real>0</real>
+          <real>0.002</real>
         </value>
       </performance>
       <performance>
@@ -96,31 +96,31 @@
       <performance>
         <criterionID>Rank 16</criterionID>
         <value>
-          <real>0.057</real>
+          <real>0.054</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 17</criterionID>
         <value>
-          <real>0.04</real>
+          <real>0.032</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 18</criterionID>
         <value>
-          <real>0.019</real>
+          <real>0.028</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 19</criterionID>
         <value>
-          <real>0.366</real>
+          <real>0.389</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 20</criterionID>
         <value>
-          <real>0.518</real>
+          <real>0.495</real>
         </value>
       </performance>
     </alternativePerformances>
@@ -207,7 +207,7 @@
       <performance>
         <criterionID>Rank 14</criterionID>
         <value>
-          <real>0.001</real>
+          <real>0</real>
         </value>
       </performance>
       <performance>
@@ -219,25 +219,25 @@
       <performance>
         <criterionID>Rank 16</criterionID>
         <value>
-          <real>0.064</real>
+          <real>0.063</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 17</criterionID>
         <value>
-          <real>0.083</real>
+          <real>0.097</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 18</criterionID>
         <value>
-          <real>0.71</real>
+          <real>0.69</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 19</criterionID>
         <value>
-          <real>0.058</real>
+          <real>0.066</real>
         </value>
       </performance>
       <performance>
@@ -330,43 +330,43 @@
       <performance>
         <criterionID>Rank 14</criterionID>
         <value>
-          <real>0</real>
+          <real>0.002</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 15</criterionID>
         <value>
-          <real>0.008</real>
+          <real>0.007</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 16</criterionID>
         <value>
-          <real>0.006</real>
+          <real>0.015</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 17</criterionID>
         <value>
-          <real>0.035</real>
+          <real>0.019</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 18</criterionID>
         <value>
-          <real>0.071</real>
+          <real>0.072</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 19</criterionID>
         <value>
-          <real>0.4</real>
+          <real>0.385</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 20</criterionID>
         <value>
-          <real>0.48</real>
+          <real>0.5</real>
         </value>
       </performance>
     </alternativePerformances>
@@ -435,31 +435,31 @@
       <performance>
         <criterionID>Rank 11</criterionID>
         <value>
-          <real>0.064</real>
+          <real>0.059</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 12</criterionID>
         <value>
-          <real>0.184</real>
+          <real>0.172</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 13</criterionID>
         <value>
-          <real>0.285</real>
+          <real>0.314</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 14</criterionID>
         <value>
-          <real>0.395</real>
+          <real>0.398</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 15</criterionID>
         <value>
-          <real>0.072</real>
+          <real>0.057</real>
         </value>
       </performance>
       <performance>
@@ -498,19 +498,19 @@
       <performance>
         <criterionID>Rank 1</criterionID>
         <value>
-          <real>0.857</real>
+          <real>0.855</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 2</criterionID>
         <value>
-          <real>0.071</real>
+          <real>0.081</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 3</criterionID>
         <value>
-          <real>0.072</real>
+          <real>0.064</real>
         </value>
       </performance>
       <performance>
@@ -627,55 +627,55 @@
       <performance>
         <criterionID>Rank 2</criterionID>
         <value>
-          <real>0.072</real>
+          <real>0.064</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 3</criterionID>
         <value>
-          <real>0.833</real>
+          <real>0.85</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 4</criterionID>
         <value>
-          <real>0.052</real>
+          <real>0.047</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 5</criterionID>
         <value>
-          <real>0.02</real>
+          <real>0.019</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 6</criterionID>
         <value>
-          <real>0.01</real>
+          <real>0.002</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 7</criterionID>
         <value>
-          <real>0.005</real>
+          <real>0.009</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 8</criterionID>
         <value>
-          <real>0.004</real>
+          <real>0.005</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 9</criterionID>
         <value>
-          <real>0.004</real>
+          <real>0.001</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 10</criterionID>
         <value>
-          <real>0</real>
+          <real>0.003</real>
         </value>
       </performance>
       <performance>
@@ -780,55 +780,55 @@
       <performance>
         <criterionID>Rank 7</criterionID>
         <value>
-          <real>0</real>
+          <real>0.003</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 8</criterionID>
         <value>
-          <real>0.006</real>
+          <real>0.003</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 9</criterionID>
         <value>
-          <real>0.085</real>
+          <real>0.077</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 10</criterionID>
         <value>
-          <real>0.039</real>
+          <real>0.046</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 11</criterionID>
         <value>
-          <real>0.125</real>
+          <real>0.128</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 12</criterionID>
         <value>
-          <real>0.156</real>
+          <real>0.167</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 13</criterionID>
         <value>
-          <real>0.255</real>
+          <real>0.237</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 14</criterionID>
         <value>
-          <real>0.098</real>
+          <real>0.097</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 15</criterionID>
         <value>
-          <real>0.236</real>
+          <real>0.242</real>
         </value>
       </performance>
       <performance>
@@ -915,37 +915,37 @@
       <performance>
         <criterionID>Rank 9</criterionID>
         <value>
-          <real>0.334</real>
+          <real>0.352</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 10</criterionID>
         <value>
-          <real>0.228</real>
+          <real>0.209</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 11</criterionID>
         <value>
-          <real>0.203</real>
+          <real>0.2</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 12</criterionID>
         <value>
-          <real>0.132</real>
+          <real>0.133</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 13</criterionID>
         <value>
-          <real>0.081</real>
+          <real>0.078</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 14</criterionID>
         <value>
-          <real>0.022</real>
+          <real>0.028</real>
         </value>
       </performance>
       <performance>
@@ -1026,61 +1026,61 @@
       <performance>
         <criterionID>Rank 7</criterionID>
         <value>
-          <real>0.04</real>
+          <real>0.049</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 8</criterionID>
         <value>
-          <real>0.191</real>
+          <real>0.177</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 9</criterionID>
         <value>
-          <real>0.088</real>
+          <real>0.105</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 10</criterionID>
         <value>
-          <real>0.195</real>
+          <real>0.182</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 11</criterionID>
         <value>
-          <real>0.082</real>
+          <real>0.08</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 12</criterionID>
         <value>
-          <real>0.111</real>
+          <real>0.105</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 13</criterionID>
         <value>
-          <real>0.1</real>
+          <real>0.08</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 14</criterionID>
         <value>
-          <real>0.056</real>
+          <real>0.072</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 15</criterionID>
         <value>
-          <real>0.05</real>
+          <real>0.062</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 16</criterionID>
         <value>
-          <real>0.087</real>
+          <real>0.088</real>
         </value>
       </performance>
       <performance>
@@ -1161,73 +1161,73 @@
       <performance>
         <criterionID>Rank 9</criterionID>
         <value>
-          <real>0.024</real>
+          <real>0.016</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 10</criterionID>
         <value>
-          <real>0.168</real>
+          <real>0.177</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 11</criterionID>
         <value>
-          <real>0.079</real>
+          <real>0.091</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 12</criterionID>
         <value>
-          <real>0.039</real>
+          <real>0.047</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 13</criterionID>
         <value>
-          <real>0.035</real>
+          <real>0.031</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 14</criterionID>
         <value>
-          <real>0.039</real>
+          <real>0.023</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 15</criterionID>
         <value>
-          <real>0.179</real>
+          <real>0.178</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 16</criterionID>
         <value>
-          <real>0.158</real>
+          <real>0.157</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 17</criterionID>
         <value>
-          <real>0.124</real>
+          <real>0.123</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 18</criterionID>
         <value>
-          <real>0.071</real>
+          <real>0.077</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 19</criterionID>
         <value>
-          <real>0.082</real>
+          <real>0.075</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 20</criterionID>
         <value>
-          <real>0.002</real>
+          <real>0.005</real>
         </value>
       </performance>
     </alternativePerformances>
@@ -1248,49 +1248,49 @@
       <performance>
         <criterionID>Rank 3</criterionID>
         <value>
-          <real>0.01</real>
+          <real>0.002</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 4</criterionID>
         <value>
-          <real>0.182</real>
+          <real>0.173</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 5</criterionID>
         <value>
-          <real>0.122</real>
+          <real>0.138</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 6</criterionID>
         <value>
-          <real>0.317</real>
+          <real>0.313</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 7</criterionID>
         <value>
-          <real>0.321</real>
+          <real>0.326</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 8</criterionID>
         <value>
-          <real>0.033</real>
+          <real>0.031</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 9</criterionID>
         <value>
-          <real>0.012</real>
+          <real>0.015</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 10</criterionID>
         <value>
-          <real>0.003</real>
+          <real>0.002</real>
         </value>
       </performance>
       <performance>
@@ -1407,31 +1407,31 @@
       <performance>
         <criterionID>Rank 9</criterionID>
         <value>
-          <real>0</real>
+          <real>0.003</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 10</criterionID>
         <value>
-          <real>0.031</real>
+          <real>0.041</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 11</criterionID>
         <value>
-          <real>0.036</real>
+          <real>0.021</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 12</criterionID>
         <value>
-          <real>0.022</real>
+          <real>0.02</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 13</criterionID>
         <value>
-          <real>0.026</real>
+          <real>0.025</real>
         </value>
       </performance>
       <performance>
@@ -1449,19 +1449,19 @@
       <performance>
         <criterionID>Rank 16</criterionID>
         <value>
-          <real>0.353</real>
+          <real>0.363</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 17</criterionID>
         <value>
-          <real>0.22</real>
+          <real>0.216</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 18</criterionID>
         <value>
-          <real>0.12</real>
+          <real>0.119</real>
         </value>
       </performance>
       <performance>
@@ -1500,85 +1500,85 @@
       <performance>
         <criterionID>Rank 4</criterionID>
         <value>
-          <real>0.091</real>
+          <real>0.097</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 5</criterionID>
         <value>
-          <real>0.09</real>
+          <real>0.098</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 6</criterionID>
         <value>
-          <real>0.123</real>
+          <real>0.104</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 7</criterionID>
         <value>
-          <real>0.38</real>
+          <real>0.378</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 8</criterionID>
         <value>
-          <real>0.143</real>
+          <real>0.156</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 9</criterionID>
         <value>
-          <real>0.012</real>
+          <real>0.006</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 10</criterionID>
         <value>
-          <real>0.034</real>
+          <real>0.04</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 11</criterionID>
         <value>
-          <real>0.02</real>
+          <real>0.022</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 12</criterionID>
         <value>
-          <real>0.025</real>
+          <real>0.017</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 13</criterionID>
         <value>
-          <real>0.011</real>
+          <real>0.015</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 14</criterionID>
         <value>
-          <real>0.005</real>
+          <real>0.006</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 15</criterionID>
         <value>
-          <real>0.058</real>
+          <real>0.052</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 16</criterionID>
         <value>
-          <real>0.005</real>
+          <real>0.004</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 17</criterionID>
         <value>
-          <real>0.003</real>
+          <real>0.005</real>
         </value>
       </performance>
       <performance>
@@ -1665,13 +1665,13 @@
       <performance>
         <criterionID>Rank 11</criterionID>
         <value>
-          <real>0.136</real>
+          <real>0.137</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 12</criterionID>
         <value>
-          <real>0.029</real>
+          <real>0.031</real>
         </value>
       </performance>
       <performance>
@@ -1683,31 +1683,31 @@
       <performance>
         <criterionID>Rank 14</criterionID>
         <value>
-          <real>0.062</real>
+          <real>0.067</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 15</criterionID>
         <value>
-          <real>0.095</real>
+          <real>0.09</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 16</criterionID>
         <value>
-          <real>0.18</real>
+          <real>0.168</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 17</criterionID>
         <value>
-          <real>0.475</real>
+          <real>0.481</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 18</criterionID>
         <value>
-          <real>0.001</real>
+          <real>0.004</real>
         </value>
       </performance>
       <performance>
@@ -1746,13 +1746,13 @@
       <performance>
         <criterionID>Rank 4</criterionID>
         <value>
-          <real>0.189</real>
+          <real>0.201</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 5</criterionID>
         <value>
-          <real>0.441</real>
+          <real>0.417</real>
         </value>
       </performance>
       <performance>
@@ -1764,7 +1764,7 @@
       <performance>
         <criterionID>Rank 7</criterionID>
         <value>
-          <real>0.046</real>
+          <real>0.058</real>
         </value>
       </performance>
       <performance>
@@ -1851,115 +1851,115 @@
       <performance>
         <criterionID>Rank 1</criterionID>
         <value>
-          <real>0.001</real>
+          <real>0.003</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 2</criterionID>
         <value>
-          <real>0.027</real>
+          <real>0.032</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 3</criterionID>
         <value>
-          <real>0.057</real>
+          <real>0.049</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 4</criterionID>
         <value>
-          <real>0.1</real>
+          <real>0.095</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 5</criterionID>
         <value>
-          <real>0.023</real>
+          <real>0.019</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 6</criterionID>
         <value>
-          <real>0.009</real>
+          <real>0.023</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 7</criterionID>
         <value>
-          <real>0.107</real>
+          <real>0.1</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 8</criterionID>
         <value>
-          <real>0.053</real>
+          <real>0.05</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 9</criterionID>
         <value>
-          <real>0.119</real>
+          <real>0.12</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 10</criterionID>
         <value>
-          <real>0.04</real>
+          <real>0.038</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 11</criterionID>
         <value>
-          <real>0.055</real>
+          <real>0.061</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 12</criterionID>
         <value>
-          <real>0.041</real>
+          <real>0.029</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 13</criterionID>
         <value>
-          <real>0.029</real>
+          <real>0.032</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 14</criterionID>
         <value>
-          <real>0.042</real>
+          <real>0.045</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 15</criterionID>
         <value>
-          <real>0.085</real>
+          <real>0.096</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 16</criterionID>
         <value>
-          <real>0.09</real>
+          <real>0.086</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 17</criterionID>
         <value>
-          <real>0.02</real>
+          <real>0.027</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 18</criterionID>
         <value>
-          <real>0.008</real>
+          <real>0.01</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 19</criterionID>
         <value>
-          <real>0.094</real>
+          <real>0.085</real>
         </value>
       </performance>
       <performance>
@@ -1992,7 +1992,7 @@
       <performance>
         <criterionID>Rank 4</criterionID>
         <value>
-          <real>0.001</real>
+          <real>0.003</real>
         </value>
       </performance>
       <performance>
@@ -2004,49 +2004,49 @@
       <performance>
         <criterionID>Rank 6</criterionID>
         <value>
-          <real>0.001</real>
+          <real>0.005</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 7</criterionID>
         <value>
-          <real>0.007</real>
+          <real>0.006</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 8</criterionID>
         <value>
-          <real>0.129</real>
+          <real>0.122</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 9</criterionID>
         <value>
-          <real>0.025</real>
+          <real>0.023</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 10</criterionID>
         <value>
-          <real>0.101</real>
+          <real>0.109</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 11</criterionID>
         <value>
-          <real>0.179</real>
+          <real>0.162</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 12</criterionID>
         <value>
-          <real>0.237</real>
+          <real>0.241</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 13</criterionID>
         <value>
-          <real>0.129</real>
+          <real>0.139</real>
         </value>
       </performance>
       <performance>
@@ -2058,13 +2058,13 @@
       <performance>
         <criterionID>Rank 15</criterionID>
         <value>
-          <real>0.005</real>
+          <real>0.002</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 16</criterionID>
         <value>
-          <real>0</real>
+          <real>0.002</real>
         </value>
       </performance>
       <performance>
@@ -2133,37 +2133,37 @@
       <performance>
         <criterionID>Rank 7</criterionID>
         <value>
-          <real>0</real>
+          <real>0.001</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 8</criterionID>
         <value>
-          <real>0.429</real>
+          <real>0.437</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 9</criterionID>
         <value>
-          <real>0.297</real>
+          <real>0.282</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 10</criterionID>
         <value>
-          <real>0.161</real>
+          <real>0.153</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 11</criterionID>
         <value>
-          <real>0.021</real>
+          <real>0.039</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 12</criterionID>
         <value>
-          <real>0.024</real>
+          <real>0.038</real>
         </value>
       </performance>
       <performance>
@@ -2175,13 +2175,13 @@
       <performance>
         <criterionID>Rank 14</criterionID>
         <value>
-          <real>0.041</real>
+          <real>0.021</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 15</criterionID>
         <value>
-          <real>0</real>
+          <real>0.002</real>
         </value>
       </performance>
       <performance>
@@ -2238,31 +2238,31 @@
       <performance>
         <criterionID>Rank 4</criterionID>
         <value>
-          <real>0.385</real>
+          <real>0.384</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 5</criterionID>
         <value>
-          <real>0.293</real>
+          <real>0.298</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 6</criterionID>
         <value>
-          <real>0.216</real>
+          <real>0.229</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 7</criterionID>
         <value>
-          <real>0.094</real>
+          <real>0.07</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 8</criterionID>
         <value>
-          <real>0.012</real>
+          <real>0.019</real>
         </value>
       </performance>
       <performance>
@@ -2349,13 +2349,13 @@
       <performance>
         <criterionID>Rank 2</criterionID>
         <value>
-          <real>0.83</real>
+          <real>0.823</real>
         </value>
       </performance>
       <performance>
         <criterionID>Rank 3</criterionID>
         <value>
-          <real>0.028</real>
+          <real>0.035</real>
         </value>
       </performance>
       <performance>

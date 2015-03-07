@@ -81,28 +81,12 @@
             <description>First parameter, "withConstraints", determines if criteria linear constraints will be taken under consideration. "samplesNo" represents the number of samples to generate.</description>
          </documentation>
          <xmcda tag="methodParameters"><![CDATA[<methodParameters>
-							<parameter name="withConstraints">
-								<value><integer>%1</integer></value>
-							</parameter>
 							<parameter name="samplesNo">
-								<value><integer>%2</integer></value>
+								<value><integer>%1</integer></value>
 							</parameter>
 					</methodParameters>]]></xmcda>
          <gui status="preferGUI">
-            <entry id="%1" type="int" displayName="withConstraints">
-               <defaultValue>0</defaultValue>
-               <items>
-                  <item id="0">
-                     <description>Disactivated</description>
-                     <value>0</value>
-                  </item>
-                  <item id="not0">
-                     <description>Activated</description>
-                     <value>other than 0</value>
-                  </item>
-               </items>
-            </entry>
-            <entry id="%2" type="int" displayName="samplesNo">
+            <entry id="%1" type="int" displayName="samplesNo">
                <constraint>
                   <description>The value should be a positive integer.</description>
                   <code><![CDATA[%2 > 0]]></code>
