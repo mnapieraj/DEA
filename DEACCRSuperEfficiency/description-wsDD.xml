@@ -75,31 +75,6 @@
 						[...]
 					</criteriaLinearConstraints>]]></xmcda>
       </input>
-      <input id="methodParameters" name="methodParameters" displayName="methodParameters" isoptional="defaultFalse">
-         <documentation>
-            <description>Determines if criteria linear constraints will be taken under consideration. Value other than 0 activates this parameter.</description>
-         </documentation>
-         <xmcda tag="methodParameters"><![CDATA[<methodParameters>
-							<parameter name="withConstraints">
-								<value><integer>%1</integer></value>
-							</parameter>
-					</methodParameters>]]></xmcda>
-         <gui status="preferGUI">
-            <entry id="%1" type="int" displayName="withConstraints">
-               <defaultValue>0</defaultValue>
-               <items>
-                  <item id="0">
-                     <description>Disactivated</description>
-                     <value>0</value>
-                  </item>
-                  <item id="not0">
-                     <description>Activated</description>
-                     <value>other than 0</value>
-                  </item>
-               </items>
-            </entry>
-         </gui>
-      </input>
       <output id="superEfficiency" name="superEfficiency" displayName="superEfficiency">
          <documentation>
             <description>A list of alternatives with computed super-efficiency scores..</description>
