@@ -48,19 +48,19 @@
       <performance>
         <criterionID>(0.7 - 0.8]</criterionID>
         <value>
-          <real>0.175</real>
+          <real>0.123</real>
         </value>
       </performance>
       <performance>
         <criterionID>(0.8 - 0.9]</criterionID>
         <value>
-          <real>0.712</real>
+          <real>0.793</real>
         </value>
       </performance>
       <performance>
         <criterionID>(0.9 - 1]</criterionID>
         <value>
-          <real>0.113</real>
+          <real>0.084</real>
         </value>
       </performance>
     </alternativePerformances>
@@ -111,19 +111,19 @@
       <performance>
         <criterionID>(0.7 - 0.8]</criterionID>
         <value>
-          <real>0.005</real>
+          <real>0</real>
         </value>
       </performance>
       <performance>
         <criterionID>(0.8 - 0.9]</criterionID>
         <value>
-          <real>0.431</real>
+          <real>0.367</real>
         </value>
       </performance>
       <performance>
         <criterionID>(0.9 - 1]</criterionID>
         <value>
-          <real>0.564</real>
+          <real>0.633</real>
         </value>
       </performance>
     </alternativePerformances>
@@ -213,25 +213,25 @@
       <performance>
         <criterionID>(0.3 - 0.4]</criterionID>
         <value>
-          <real>0.132</real>
+          <real>0.148</real>
         </value>
       </performance>
       <performance>
         <criterionID>(0.4 - 0.5]</criterionID>
         <value>
-          <real>0.332</real>
+          <real>0.38</real>
         </value>
       </performance>
       <performance>
         <criterionID>(0.5 - 0.6]</criterionID>
         <value>
-          <real>0.359</real>
+          <real>0.441</real>
         </value>
       </performance>
       <performance>
         <criterionID>(0.6 - 0.7]</criterionID>
         <value>
-          <real>0.177</real>
+          <real>0.031</real>
         </value>
       </performance>
       <performance>
@@ -288,25 +288,25 @@
       <performance>
         <criterionID>(0.5 - 0.6]</criterionID>
         <value>
-          <real>0.004</real>
+          <real>0</real>
         </value>
       </performance>
       <performance>
         <criterionID>(0.6 - 0.7]</criterionID>
         <value>
-          <real>0.085</real>
+          <real>0</real>
         </value>
       </performance>
       <performance>
         <criterionID>(0.7 - 0.8]</criterionID>
         <value>
-          <real>0.458</real>
+          <real>0.472</real>
         </value>
       </performance>
       <performance>
         <criterionID>(0.8 - 0.9]</criterionID>
         <value>
-          <real>0.453</real>
+          <real>0.528</real>
         </value>
       </performance>
       <performance>
@@ -414,25 +414,25 @@
       <performance>
         <criterionID>(0.5 - 0.6]</criterionID>
         <value>
-          <real>0.098</real>
+          <real>0.102</real>
         </value>
       </performance>
       <performance>
         <criterionID>(0.6 - 0.7]</criterionID>
         <value>
-          <real>0.392</real>
+          <real>0.444</real>
         </value>
       </performance>
       <performance>
         <criterionID>(0.7 - 0.8]</criterionID>
         <value>
-          <real>0.437</real>
+          <real>0.454</real>
         </value>
       </performance>
       <performance>
         <criterionID>(0.8 - 0.9]</criterionID>
         <value>
-          <real>0.073</real>
+          <real>0</real>
         </value>
       </performance>
       <performance>
@@ -483,25 +483,25 @@
       <performance>
         <criterionID>(0.6 - 0.7]</criterionID>
         <value>
-          <real>0.118</real>
+          <real>0.129</real>
         </value>
       </performance>
       <performance>
         <criterionID>(0.7 - 0.8]</criterionID>
         <value>
-          <real>0.621</real>
+          <real>0.746</real>
         </value>
       </performance>
       <performance>
         <criterionID>(0.8 - 0.9]</criterionID>
         <value>
-          <real>0.219</real>
+          <real>0.125</real>
         </value>
       </performance>
       <performance>
         <criterionID>(0.9 - 1]</criterionID>
         <value>
-          <real>0.042</real>
+          <real>0</real>
         </value>
       </performance>
     </alternativePerformances>
@@ -558,13 +558,13 @@
       <performance>
         <criterionID>(0.8 - 0.9]</criterionID>
         <value>
-          <real>0.1</real>
+          <real>0</real>
         </value>
       </performance>
       <performance>
         <criterionID>(0.9 - 1]</criterionID>
         <value>
-          <real>0.9</real>
+          <real>1</real>
         </value>
       </performance>
     </alternativePerformances>
@@ -621,13 +621,13 @@
       <performance>
         <criterionID>(0.8 - 0.9]</criterionID>
         <value>
-          <real>0.006</real>
+          <real>0</real>
         </value>
       </performance>
       <performance>
         <criterionID>(0.9 - 1]</criterionID>
         <value>
-          <real>0.994</real>
+          <real>1</real>
         </value>
       </performance>
     </alternativePerformances>
@@ -672,19 +672,19 @@
       <performance>
         <criterionID>(0.6 - 0.7]</criterionID>
         <value>
-          <real>0.023</real>
+          <real>0.026</real>
         </value>
       </performance>
       <performance>
         <criterionID>(0.7 - 0.8]</criterionID>
         <value>
-          <real>0.726</real>
+          <real>0.863</real>
         </value>
       </performance>
       <performance>
         <criterionID>(0.8 - 0.9]</criterionID>
         <value>
-          <real>0.251</real>
+          <real>0.111</real>
         </value>
       </performance>
       <performance>
@@ -735,25 +735,25 @@
       <performance>
         <criterionID>(0.6 - 0.7]</criterionID>
         <value>
-          <real>0.002</real>
+          <real>0.001</real>
         </value>
       </performance>
       <performance>
         <criterionID>(0.7 - 0.8]</criterionID>
         <value>
-          <real>0.331</real>
+          <real>0.394</real>
         </value>
       </performance>
       <performance>
         <criterionID>(0.8 - 0.9]</criterionID>
         <value>
-          <real>0.482</real>
+          <real>0.56</real>
         </value>
       </performance>
       <performance>
         <criterionID>(0.9 - 1]</criterionID>
         <value>
-          <real>0.185</real>
+          <real>0.045</real>
         </value>
       </performance>
     </alternativePerformances>
@@ -786,25 +786,25 @@
       <performance>
         <criterionID>(0.4 - 0.5]</criterionID>
         <value>
-          <real>0.1</real>
+          <real>0.095</real>
         </value>
       </performance>
       <performance>
         <criterionID>(0.5 - 0.6]</criterionID>
         <value>
-          <real>0.321</real>
+          <real>0.333</real>
         </value>
       </performance>
       <performance>
         <criterionID>(0.6 - 0.7]</criterionID>
         <value>
-          <real>0.347</real>
+          <real>0.413</real>
         </value>
       </performance>
       <performance>
         <criterionID>(0.7 - 0.8]</criterionID>
         <value>
-          <real>0.232</real>
+          <real>0.159</real>
         </value>
       </performance>
       <performance>
@@ -849,37 +849,37 @@
       <performance>
         <criterionID>(0.4 - 0.5]</criterionID>
         <value>
-          <real>0.011</real>
+          <real>0</real>
         </value>
       </performance>
       <performance>
         <criterionID>(0.5 - 0.6]</criterionID>
         <value>
-          <real>0.057</real>
+          <real>0.004</real>
         </value>
       </performance>
       <performance>
         <criterionID>(0.6 - 0.7]</criterionID>
         <value>
-          <real>0.133</real>
+          <real>0.088</real>
         </value>
       </performance>
       <performance>
         <criterionID>(0.7 - 0.8]</criterionID>
         <value>
-          <real>0.309</real>
+          <real>0.371</real>
         </value>
       </performance>
       <performance>
         <criterionID>(0.8 - 0.9]</criterionID>
         <value>
-          <real>0.377</real>
+          <real>0.444</real>
         </value>
       </performance>
       <performance>
         <criterionID>(0.9 - 1]</criterionID>
         <value>
-          <real>0.113</real>
+          <real>0.093</real>
         </value>
       </performance>
     </alternativePerformances>
