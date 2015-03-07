@@ -179,8 +179,14 @@ parseTrees <- function (dataTree) {
     typeNode <- getParameters(dataTree$methodParametersTree, "type")
     if (typeNode$status == "OK"  ) {
       type <- typeNode$type
-      # ....and check that it is either "aggressive" or "benevolent"
-    }
+	  if(type != "aggressive" && type != "benevolent") {
+		  msg <- paste("Unknown type: ", type, ".", sep="")
+		  msg <- paste(msg, "Valid types are: {benevolent, aggressive}.")
+		  setwd(outDirectory)
+		  saveMessages(msg, "Error", "messages")
+		  stop(msg)
+	  }
+	}
   }
 
   result <- list(data=performance, 
