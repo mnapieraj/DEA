@@ -92,14 +92,14 @@
             <entry id="%1" type="int" displayName="samplesNo">
                <constraint>
                   <description>The value should be a positive integer.</description>
-                  <code><![CDATA[%2 > 0]]></code>
+                  <code><![CDATA[%1 > 0]]></code>
                </constraint>
                <defaultValue>100</defaultValue>
             </entry>
             <entry id="%2" type="int" displayName="intervalsNo">
                <constraint>
                   <description>The value should be a positive integer.</description>
-                  <code><![CDATA[%3 > 0]]></code>
+                  <code><![CDATA[%2 > 0]]></code>
                </constraint>
                <defaultValue>10</defaultValue>
             </entry>
