@@ -77,61 +77,24 @@
 						[...]
 					</criteriaLinearConstraints>]]></xmcda>
       </input>
-      <input id="methodParameters" name="methodParameters" displayName="methodParameters" isoptional="defaultFalse">
+      <input id="methodParameters" name="methodParameters" displayName="methodParameters">
          <documentation>
-            <description>There are two possible method parameters -- "boundariesProvided" and "withConstraints". First one indicates if criteria values boundaries are given in criteria input or they have to be computed based on alternatives performances.   
-				Second paramterer determines if criteria linear constraints will be taken under consideration.</description>
+            <description>"boundariesProvided" indicates if criteria values boundaries are given in criteria input or they have to be computed based on alternatives performances. "transformToUtilites" indicates if given alternatives values are utilities or if they have to be firstly transformed to utilities.</description>
          </documentation>
          <xmcda tag="methodParameters"><![CDATA[<methodParameters>
-							<parameter name="withConstraints">
-								<value><integer>%1</integer></value>
-							</parameter>
 							<parameter name="boundariesProvided">
-								<value><integer>%2</integer></value>
+								<value><boolean>%1</boolean></value>
 							</parameter>
 							<parameter name="transformToUtilities">
-								<value><integer>%3</integer></value>
+								<value><boolean>%2</boolean></value>
 							</parameter>
 					</methodParameters>]]></xmcda>
          <gui status="preferGUI">
-            <entry id="%1" type="int" displayName="withConstraints">
-               <defaultValue>0</defaultValue>
-               <items>
-                  <item id="0">
-                     <description>Disactivated</description>
-                     <value>0</value>
-                  </item>
-                  <item id="not0">
-                     <description>Activated</description>
-                     <value>other than 0</value>
-                  </item>
-               </items>
+            <entry id="%1" type="boolean" displayName="boundariesProvided">
+               <defaultValue>false</defaultValue>
             </entry>
-            <entry id="%2" type="int" displayName="boundariesProvided">
-               <defaultValue>0</defaultValue>
-               <items>
-                  <item id="0">
-                     <description>Boundaries will be computed from alternatives performances.</description>
-                     <value>0</value>
-                  </item>
-                  <item id="not0">
-                     <description>Boundaries are given in criteria input</description>
-                     <value>other than 0</value>
-                  </item>
-               </items>
-            </entry>
-            <entry id="%3" type="int" displayName="transformToUtilities">
-               <defaultValue>1</defaultValue>
-               <items>
-                  <item id="0">
-                     <description>Utilities will be computed from alternatives performances.</description>
-                     <value>0</value>
-                  </item>
-                  <item id="not0">
-                     <description>Alternatives performances are given as utility values.</description>
-                     <value>other than 0</value>
-                  </item>
-               </items>
+			<entry id="%2" type="boolean" displayName="transformToUtilities">
+               <defaultValue>true</defaultValue>
             </entry>
          </gui>
       </input>

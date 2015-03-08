@@ -78,7 +78,7 @@
       </input>
       <input id="methodParameters" name="methodParameters" displayName="methodParameters">
          <documentation>
-            <description>First parameter, "withConstraints", determines if criteria linear constraints will be taken under consideration. Second one indicates if criteria values boundaries are given in criteria input or they have to be computed based on alternatives performances. "samplesNo" represents the number of samples to generate.</description>
+            <description>"boundariesProvided" indicates if criteria values boundaries are given in criteria input or they have to be computed based on alternatives performances. "samplesNo" represents the number of samples to generate. "transformToUtilites" indicates if given alternatives values are utilities or if they have to be firstly transformed to utilities.</description>
          </documentation>
          <xmcda tag="methodParameters"><![CDATA[<methodParameters>
 							<parameter name="boundariesProvided">
