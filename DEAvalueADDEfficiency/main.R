@@ -162,27 +162,26 @@ parseTrees <- function (dataTree) {
   performance <- orderByCriteria(performance, orderedCriteria$critIDs)
   
   weightConstraints <- NULL
+  withWeightConstraints <- FALSE
   if(!is.null(dataTree$weightsConstraintsTree)) {
     weightConstraints <- getWeightConstraints(dataTree$weightsConstraintsTree,
                                                 orderedCriteria$critIDs)
+	withWeightConstraints <- TRUE
   }
   
-  withWeightConstraints <- FALSE
+  
   boundariesProvided <- FALSE 
   transformToUtilities <- TRUE
   
   if(!is.null(dataTree$methodParametersTree)) {
-    withConsNode <- getParameters(dataTree$methodParametersTree, "withConstraints")
-    if (withConsNode$status == "OK" && withConsNode$withConstraints != 0) {
-      withWeightConstraints <- TRUE
-    }
+    
 	boundariesProvidedNode <- getParameters(dataTree$methodParametersTree, "boundariesProvided")
-	if (boundariesProvidedNode$status == "OK" && boundariesProvidedNode$boundariesProvided != 0) {
-      boundariesProvided <- TRUE
+	if (boundariesProvidedNode$status == "OK") {
+      boundariesProvided <- boundariesProvidedNode$boundariesProvided
     } 
 	transformToUtilitiesNode <- getParameters(dataTree$methodParametersTree, "transformToUtilities")
-	if (transformToUtilitiesNode$status == "OK" && transformToUtilitiesNode$transformToUtilities == 0) {
-      transformToUtilities <- FALSE
+	if (transformToUtilitiesNode$status == "OK") {
+      transformToUtilities <- transformToUtilitiesNode$transformToUtilities
     } 
   }
   result <- list(data=performance, 
