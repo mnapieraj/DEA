@@ -24,7 +24,6 @@ readFiles <- function() {
   performanceData <- readFile("performanceTable.xml")
   #optional files
   methodParametersData <- readFile("methodParameters.xml")
-  weightsConstraintsData <- readFile("weightsLinearConstraints.xml")
   errMsg <- ""
   
   if(!is.null(altData$errMsg)) {
@@ -35,6 +34,10 @@ readFiles <- function() {
   }
   if(!is.null(performanceData$errMsg)) {
     errMsg <- paste(errMsg,performanceData$errMsg)
+  }
+  #optional file
+  if(!is.null(methodParametersData$errMsg)){
+    methodParametersData$data <- NULL
   }
   result <- list(altTree = altData$data, 
                  criteriaTree = criteriaData$data, 
@@ -60,7 +63,6 @@ checkXSDValid <- function(dataTree) {
   if (!is.null(dataTree$methodParametersTree) && checkXSD(dataTree$methodParametersTree)==0) {
     err <- paste(err,"Method parameters file is not XMCDA valid.")  
   }  
-  
   return (err)
 }
 
@@ -140,8 +142,8 @@ parseTrees <- function (dataTree) {
   boundariesProvided <- FALSE 
   if(!is.null(dataTree$methodParametersTree)) {
 	boundariesProvidedNode <- getParameters(dataTree$methodParametersTree, "boundariesProvided")
-	if (boundariesProvidedNode$status == "OK" && boundariesProvidedNode$boundariesProvided != 0) {
-      boundariesProvided <- TRUE
+	if (boundariesProvidedNode$status == "OK") {
+      boundariesProvided <- boundariesProvidedNode$boundariesProvided
     } 
   }
   result <- list(data=performance, 

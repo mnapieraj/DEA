@@ -65,29 +65,18 @@
 						[...]
 					</performanceTable>]]></xmcda>
       </input>
-      <input id="methodParameters" name="methodParameters" displayName="methodParameters" isoptional="defaultFalse">
+      <input id="methodParameters" name="methodParameters" displayName="methodParameters">
          <documentation>
-            <description>There are two possible method parameters -- "boundariesProvided" and "withConstraints". First one indicates if criteria values boundaries are given in criteria input or they have to be computed based on alternatives performances.   
-				Second paramterer determines if criteria linear constraints will be taken under consideration.</description>
+            <description>"boundariesProvided" indicates if criteria values boundaries are given in criteria input or they have to be computed based on alternatives performances.</description>
          </documentation>
          <xmcda tag="methodParameters"><![CDATA[<methodParameters>
 							<parameter name="boundariesProvided">
-								<value><integer>%1</integer></value>
+								<value><boolean>%1</boolean></value>
 							</parameter>
 					</methodParameters>]]></xmcda>
          <gui status="preferGUI">
-            <entry id="%1" type="int" displayName="boundariesProvided">
-               <defaultValue>0</defaultValue>
-               <items>
-                  <item id="0">
-                     <description>Boundaries will be computed from alternatives performances.</description>
-                     <value>0</value>
-                  </item>
-                  <item id="not0">
-                     <description>Boundaries are given in criteria input</description>
-                     <value>other than 0</value>
-                  </item>
-               </items>
+            <entry id="%1" type="boolean" displayName="boundariesProvided">
+               <defaultValue>false</defaultValue>
             </entry>
          </gui>
       </input>
