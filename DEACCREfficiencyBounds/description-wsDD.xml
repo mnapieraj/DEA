@@ -75,7 +75,7 @@
 						[...]
 					</criteriaLinearConstraints>]]></xmcda>
       </input>
-      <input id="methodParameters" name="methodParameters" displayName="methodParameters" isoptional="defaultFalse">
+      <input id="methodParameters" name="methodParameters" displayName="methodParameters">
          <documentation>
             <description>Determines if the subject alternative should be in the relative group.</description>
          </documentation>
