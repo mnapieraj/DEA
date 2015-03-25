@@ -323,7 +323,7 @@ if(dataTree$errMsg == "") {
 	saveResult(dmuData$altIDs, effSMAA$avgEff, "avgEfficiency")
 	saveResult(dmuData$altIDs, effSMAA$minEff, "minEfficiency")
 	saveResult(dmuData$altIDs, effSMAA$maxEff, "maxEfficiency")
-    #saveMessages("OK", "executionStatus", "messages")
+        saveMessages("OK", "executionStatus", "messages")
   
   } else {
     setwd(outDirectory)
